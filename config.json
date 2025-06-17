@@ -37,7 +37,7 @@
   },
   {
     "id": "CAAB",
-    "name": "সরকারি কর্ম কমিশন (BPSC)",
+    "name": "বাংলাদেশ বেসামরিক বিমান চলাচল কর্তৃপক্ষ (CAAB)",
     "url": "https://caab.portal.gov.bd/",
     "base_url": "https://caab.portal.gov.bd",
     "selector": "div.notice-board-bg li a",
