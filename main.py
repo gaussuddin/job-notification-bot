@@ -27,6 +27,8 @@ threading.Thread(target=run_flask).start()
 import json
 import os
 import requests
+import pytz
+from apscheduler.schedulers.background import BackgroundScheduler
 import logging
 from bs4 import BeautifulSoup
 from typing import List, Tuple, Dict, Any
@@ -190,7 +192,7 @@ def check_all_sites():
         logging.info(f"Updated last seen ID for {site_name} to: {latest_id}")
 
 # === Scheduler: Run every 2 minutes ===
-scheduler = BackgroundScheduler()
+scheduler = BackgroundScheduler(timezone=pytz.timezone("Asia/Dhaka"))
 scheduler.add_job(check_all_sites, 'interval', minutes=2)
 scheduler.start()
 
