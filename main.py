@@ -193,7 +193,7 @@ def check_all_sites():
 
 # === Scheduler: Run every 2 minutes ===
 scheduler = BackgroundScheduler(timezone=pytz.timezone("Asia/Dhaka"))
-scheduler.add_job(check_all_sites, 'interval', minutes=2)
+scheduler.add_job(check_all_sites, 'interval', minutes=1)
 scheduler.start()
 
 # Prevent exit
