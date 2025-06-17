@@ -620,7 +620,7 @@
     "name": "মৎস্য ও প্রাণিসম্পদ মন্ত্রণালয়",
     "url": "https://mofl.gov.bd/",
     "base_url": "https://mofl.gov.bd",
-    "selector": "div.notice-board-bg li a",
+    "selector": "div #latest_news li a",
     "selenium_enabled": false
   },
 {
@@ -644,7 +644,7 @@
     "name": "রেলপথ মন্ত্রণালয় (MoR)",
     "url": "https://mor.gov.bd/",
     "base_url": "https://mor.gov.bd",
-    "selector": "div.notice-board-bg li a",
+    "selector": "div.scrolling_notices #latest_news li a",
     "selenium_enabled": false
   },
 {
@@ -1052,7 +1052,7 @@
     "name": "বাংলাদেশ প্রাণিসম্পদ গবেষণা ইনস্টিটিউট (BLRI)",
     "url": "https://blri.gov.bd/",
     "base_url": "https://blri.gov.bd",
-    "selector": "div.notice-board-bg li a",
+    "selector": "div.scrolling_notices #latest_news li a",
     "selenium_enabled": false
   },
 {
@@ -1084,7 +1084,7 @@
     "name": "বাখরাবাদ গ্যাস ডিস্ট্রিবিউশন কোম্পানি লিমিটেড (BGDCL)",
     "url": "https://www.bgdcl.gov.bd/",
     "base_url": "https://www.bgdcl.gov.bd",
-    "selector": "div.notice-board-bg li a",
+    "selector": "div.scrolling_notices #latest_news li a",
     "selenium_enabled": false
   },
 {
