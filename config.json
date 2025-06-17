@@ -1,0 +1,50 @@
+[
+  {
+    "id": "BPDB",
+    "name": "বিদ্যুৎ উন্নয়ন বোর্ড (BPDB)",
+    "url": "http://bpdb.gov.bd/",
+    "base_url": "http://bpdb.gov.bd",
+    "selector": "div.notice-board-bg li a",
+    "selenium_enabled": false
+  },
+  {
+    "id": "ERD",
+    "name": "অর্থনৈতিক সম্পর্ক বিভাগ (ERD)",
+    "url": "https://erd.gov.bd/",
+    "base_url": "https://erd.gov.bd/",
+    "selector": "div.notice-board-bg li a",
+    "selenium_enabled": false
+  },
+  {
+    "id": "MOWCA",
+    "name": "MOWCA",
+    "url": "https://mowca.gov.bd/",
+    "base_url": "https://mowca.gov.bd",
+	"selector": "div.notice-board-bg #notice-board-ticker ul li a",
+    "selenium_enabled": false
+  },
+  {
+    "id": "MOR",
+    "name": "রেলপথ মন্ত্রণালয় (MOR)",
+    "url": "https://mor.gov.bd/site/view/latest_news",
+    "base_url": "https://mor.gov.bd",
+    "selector": "td a",
+    "selenium_enabled": false,
+    "browser": "chrome",
+    "headless": false,
+    "wait_time": 5,
+    "parent_selector": "#example1 tbody"
+  },
+  {
+    "id": "BPSC",
+    "name": "সরকারি কর্ম কমিশন (BPSC)",
+    "url": "https://bpsc.gov.bd/site/view/psc_exam/Non-Cadre_Examination/%E0%A6%A8%E0%A6%A8-%E0%A6%95%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A1%E0%A6%BE%E0%A6%B0-%E0%A6%AA%E0%A6%B0%E0%A7%80%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%BE",
+    "base_url": "https://bpsc.gov.bd",
+    "selector": "td",
+    "selenium_enabled": false,
+    "browser": "chrome",
+    "headless": false,
+    "wait_time": 5,
+    "parent_selector": "div.overflow-auto table.table-striped tbody"
+  }
+]
