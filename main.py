@@ -51,9 +51,7 @@ init_db()
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 KEYWORDS = [
-    "নিয়োগ", "বিজ্ঞপ্তি", "চাকরি", "recruitment", "job", "circular",
-    "exam", "admit", "entry card", "প্রবেশপত্র", "ফলাফল", "result",
-    "সংশোধনী", "corrigendum", "interview", "সাক্ষাৎকার", "seat plan", "যোগদান", "আসন বিন্যাস"
+    "নিয়োগ", "চাকরি", "recruitment", "job", "নিয়োগে" "পদ", "পদে"
 ]
 
 HEADERS = {
@@ -193,7 +191,7 @@ def check_all_sites():
 
 # === Scheduler: Run every 2 minutes ===
 scheduler = BackgroundScheduler(timezone=pytz.timezone("Asia/Dhaka"))
-scheduler.add_job(check_all_sites, 'interval', minutes=20)
+scheduler.add_job(check_all_sites, 'interval', minutes=60)
 scheduler.start()
 
 # Prevent exit
