@@ -1,46 +1,1250 @@
 [
-  {
-    "id": "BPDB",
-    "name": "বিদ্যুৎ উন্নয়ন বোর্ড (BPDB)",
-    "url": "http://bpdb.gov.bd/",
-    "base_url": "http://bpdb.gov.bd",
+{
+    "id": "ACC",
+    "name": "দুর্নীতি দমন কমিশন (ACC)",
+    "url": "https://acc.org.bd/",
+    "base_url": "https://acc.org.bd",
     "selector": "div.notice-board-bg li a",
     "selenium_enabled": false
   },
-  {
-    "id": "ERD",
-    "name": "অর্থনৈতিক সম্পর্ক বিভাগ (ERD)",
-    "url": "https://erd.gov.bd/",
-    "base_url": "https://erd.gov.bd/",
-    "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false
+{
+    "id": "Ansar VDP",
+    "name": "বাংলাদেশ আনসার ও গ্রাম প্রতিরক্ষা বাহিনী (Ansar VDP)",
+    "url": "https://ansarvdp.gov.bd/",
+    "base_url": "https://ansarvdp.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
   },
-  {
-    "id": "MOWCA",
-    "name": "MOWCA",
-    "url": "https://mowca.gov.bd/",
-    "base_url": "https://mowca.gov.bd",
-	"selector": "div.notice-board-bg #notice-board-ticker ul li a",
-    "selenium_enabled": false
+{
+    "id": "Architecture",
+    "name": "স্থাপত্য অধিদপ্তর (Architecture)",
+    "url": "https://architecture.gov.bd/",
+    "base_url": "https://architecture.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
   },
-  {
-    "id": "MOR",
-    "name": "রেলপথ মন্ত্রণালয় (MOR)",
-    "url": "https://mor.gov.bd/site/view/latest_news",
+{
+    "id": "Bangla Academy",
+    "name": "বাংলা একাডেমি (Bangla Academy)",
+    "url": "https://banglaacademy.gov.bd/",
+    "base_url": "https://banglaacademy.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Bangladesh ADC",
+    "name": "বাংলাদেশ কৃষি উন্নয়ন কর্পোরেশন (Bangladesh ADC)",
+    "url": "https://www.badc.gov.bd/",
+    "base_url": "https://www.badc.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "BEPCL",
+    "name": "বাংলাদেশ পেট্রোলিয়াম অনুসন্ধান ও উৎপাদন কোম্পানি লি.",
+    "url": "https://bapex.com.bd/",
+    "base_url": "https://bapex.com.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Biman Bangladesh",
+    "name": "বিমান বাংলাদেশ এয়ারলাইন্স",
+    "url": "https://biman.gov.bd/",
+    "base_url": "https://biman.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "BBS",
+    "name": "বাংলাদেশ পরিসংখ্যান ব্যুরো (BBS)",
+    "url": "https://bbs.gov.bd/",
+    "base_url": "https://bbs.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Benapole Customs",
+    "name": "বেনাপোল কাস্টম হাউস",
+    "url": "https://benapolecustoms.portal.gov.bd/",
+    "base_url": "https://benapolecustoms.portal.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Bangladesh Chemical Industries Corporation",
+    "name": "বাংলাদেশ কেমিক্যাল ইন্ডাস্ট্রিজ কর্পোরেশন (BCIC)",
+    "url": "http://www.bcic.gov.bd/",
+    "base_url": "http://www.bcic.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Bangladesh Council of Scientific and Industrial Research",
+    "name": "বাংলাদেশ বিজ্ঞান ও শিল্প গবেষণা পরিষদ (BCSIR)",
+    "url": "http://www.bcsir.gov.bd/",
+    "base_url": "http://www.bcsir.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Bangladesh Post Office",
+    "name": "বাংলাদেশ ডাক বিভাগ (Bangladesh Post Office)",
+    "url": "https://www.bdpost.gov.bd/",
+    "base_url": "https://www.bdpost.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Bangladesh Forest Department Chattogram",
+    "name": "বাংলাদেশ বন বিভাগ চট্টগ্রাম (Forest Department)",
+    "url": "https://forest.chittagongdiv.gov.bd/",
+    "base_url": "https://forest.chittagongdiv.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Bangladesh Hi Tech Park Authority",
+    "name": "বাংলাদেশ হাই-টেক পার্ক কর্তৃপক্ষ (Hi-Tech Park)",
+    "url": "https://www.bhtpa.gov.bd/",
+    "base_url": "https://www.bhtpa.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Bangladesh Institute of Research And Training on Applied Nutrition",
+    "name": "বাংলাদেশ ফলিত পুষ্টি গবেষণা ও প্রশিক্ষণ ইনস্টিটিউট (BIRTAN)",
+    "url": "https://birtan.gov.bd/",
+    "base_url": "https://birtan.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Bangladesh Inland Water Transport Corporation",
+    "name": "বাংলাদেশ অভ্যন্তরীণ নৌপরিবহন কর্পোরেশন (BIWTC)",
+    "url": "http://www.biwtc.gov.bd/",
+    "base_url": "http://www.biwtc.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Bangladesh Jute Research Institute",
+    "name": "বাংলাদেশ পাট গবেষণা ইনস্টিটিউট (BJRI)",
+    "url": "http://www.bjri.gov.bd/",
+    "base_url": "http://www.bjri.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Bureau of Manpower Employment and Training",
+    "name": "জনশক্তি, কর্মসংস্থান ও প্রশিক্ষণ ব্যুরো (BMET)",
+    "url": "http://www.bmet.gov.bd/",
+    "base_url": "http://www.bmet.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Bangladesh Oil, Gas & Mineral Corporation BOGMC",
+    "name": "বাংলাদেশ তেল, গ্যাস ও খনিজ সম্পদ কর্পোরেশন (BOGMC)",
+    "url": "https://www.petrobangla.org.bd/",
+    "base_url": "https://www.petrobangla.org.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Office of The Chief Inspector of Boilers",
+    "name": "বয়লার প্রধান পরিদর্শকের কার্যালয়",
+    "url": "http://www.boiler.gov.bd/",
+    "base_url": "http://www.boiler.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Bangladesh Power Development Board",
+    "name": "বাংলাদেশ বিদ্যুৎ উন্নয়ন বোর্ড (BPDB)",
+    "url": "https://www.bpdb.gov.bd/",
+    "base_url": "https://www.bpdb.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Bangladesh Railway",
+    "name": "বাংলাদেশ রেলওয়ে (Bangladesh Railway)",
+    "url": "https://railway.gov.bd/",
+    "base_url": "https://railway.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Bangladesh Rural Development Board",
+    "name": "বাংলাদেশ পল্লী উন্নয়ন বোর্ড (BRDB)",
+    "url": "http://www.brdb.gov.bd/",
+    "base_url": "http://www.brdb.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Bangladesh Rural Electrification Board",
+    "name": "বাংলাদেশ পল্লী বিদ্যুতায়ন বোর্ড (BREB)",
+    "url": "http://www.reb.gov.bd/",
+    "base_url": "http://www.reb.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Bangladesh Road Transport Authority",
+    "name": "বাংলাদেশ সড়ক পরিবহন কর্তৃপক্ষ (BRTA)",
+    "url": "https://brta.gov.bd/",
+    "base_url": "https://brta.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Bangladesh Road Transport Corporation",
+    "name": "বাংলাদেশ সড়ক পরিবহন কর্পোরেশন (BRTC)",
+    "url": "http://www.brtc.gov.bd/",
+    "base_url": "http://www.brtc.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Bangladesh Shilpakala Academy",
+    "name": "বাংলাদেশ শিল্পকলা একাডেমি (Shilpakala Academy)",
+    "url": "http://shilpakala.gov.bd/",
+    "base_url": "http://shilpakala.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Bangladesh Land Port Authority",
+    "name": "বাংলাদেশ স্থলবন্দর কর্তৃপক্ষ (BSBK)",
+    "url": "https://blpa.gov.bd/",
+    "base_url": "https://blpa.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Bangladesh Telecommunications Company Limited",
+    "name": "বাংলাদেশ টেলিকমিউনিকেশন্স কোম্পানি লিমিটেড (BTCL)",
+    "url": "http://www.btcl.gov.bd/",
+    "base_url": "http://www.btcl.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Cabinet Division",
+    "name": "মন্ত্রিপরিষদ বিভাগ (Cabinet Division)",
+    "url": "https://cabinet.gov.bd/",
+    "base_url": "https://cabinet.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Northern Electricity Supply Company Limited",
+    "name": "নর্দান ইলেকট্রিসিটি সাপ্লাই কোম্পানি লিমিটেড (NESCO)",
+    "url": "https://www.nesco.gov.bd/",
+    "base_url": "https://www.nesco.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Customs, Excise and VAT (Appeals) Commissionerate Dhaka – 1",
+    "name": "কাস্টমস, এক্সাইজ ও ভ্যাট (আপিল) কমিশনারেট ঢাকা-১",
+    "url": "https://cevt.gov.bd/",
+    "base_url": "https://cevt.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Conservator of Forests Bogra",
+    "name": "বন সংরক্ষক, বগুড়া (Forest Department Bogura)",
+    "url": "https://forest.bogra.gov.bd/",
+    "base_url": "https://forest.bogra.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Office of the Controller General of Accounts",
+    "name": "নিয়ন্ত্রক ও মহা হিসাবরক্ষক কার্যালয় (CGA)",
+    "url": "https://www.cga.gov.bd/",
+    "base_url": "https://www.cga.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Controller General of Defence Finance",
+    "name": "প্রতিরক্ষা অর্থ নিয়ন্ত্রকের কার্যালয় (CGDF)",
+    "url": "https://www.cgdf.gov.bd/",
+    "base_url": "https://www.cgdf.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Office Of The Controller of Accounts (Revenue)",
+    "name": "হিসাব নিয়ন্ত্রক (রাজস্ব) এর কার্যালয়",
+    "url": "https://coa-revenue.gov.bd/",
+    "base_url": "https://coa-revenue.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Cox’s Bazar Development Authority",
+    "name": "কক্সবাজার উন্নয়ন কর্তৃপক্ষ (CoxDA)",
+    "url": "http://www.coxda.gov.bd/",
+    "base_url": "http://www.coxda.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Department of Agricultural Marketing",
+    "name": "কৃষি বিপণন অধিদপ্তর (DAM)",
+    "url": "http://www.dam.gov.bd/",
+    "base_url": "http://www.dam.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Office of the Chief Administrative Officer",
+    "name": "প্রধান প্রশাসনিক কর্মকর্তার কার্যালয় (DCD)",
+    "url": "https://dcd.gov.bd/",
+    "base_url": "https://dcd.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Ministry of Defence",
+    "name": "প্রতিরক্ষা মন্ত্রণালয় (MOD)",
+    "url": "https://mod.gov.bd/",
+    "base_url": "https://mod.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Department of Disaster Management",
+    "name": "দুর্যোগ ব্যবস্থাপনা অধিদপ্তর (DDM)",
+    "url": "https://www.ddm.gov.bd/",
+    "base_url": "https://www.ddm.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Dhaka Electric Supply Company Limited",
+    "name": "ঢাকা ইলেকট্রিক সাপ্লাই কোম্পানি লিমিটেড (DESCO)",
+    "url": "https://desco.org.bd/",
+    "base_url": "https://desco.org.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Directorate General of Family Planning",
+    "name": "পরিবার পরিকল্পনা অধিদপ্তর (DGFP)",
+    "url": "http://www.dgfp.gov.bd/",
+    "base_url": "http://www.dgfp.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Directorate General of Health Services",
+    "name": "স্বাস্থ্য অধিদপ্তর (DGHS)",
+    "url": "https://dghs.gov.bd/",
+    "base_url": "https://dghs.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Chittagong Division",
+    "name": "চট্টগ্রাম বিভাগ (Chittagong Division)",
+    "url": "https://chittagongdiv.gov.bd/",
+    "base_url": "https://chittagongdiv.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Department of Narcotics Control",
+    "name": "মাদকদ্রব্য নিয়ন্ত্রণ অধিদপ্তর (DNC)",
+    "url": "http://www.dnc.gov.bd/",
+    "base_url": "http://www.dnc.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Dhaka North City Corporation",
+    "name": "ঢাকা উত্তর সিটি কর্পোরেশন (DNCC)",
+    "url": "https://dncc.gov.bd/",
+    "base_url": "https://dncc.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Department of Shipping",
+    "name": "নৌপরিবহন অধিদপ্তর (DoS)",
+    "url": "http://dos.gov.bd/",
+    "base_url": "http://dos.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Dhaka South City Corporation",
+    "name": "ঢাকা দক্ষিণ সিটি কর্পোরেশন (DSCC)",
+    "url": "https://dscc.gov.bd/",
+    "base_url": "https://dscc.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Directorate of Secondary and Higher Education",
+    "name": "মাধ্যমিক ও উচ্চ শিক্ষা অধিদপ্তর (DSHE)",
+    "url": "https://dshe.gov.bd/",
+    "base_url": "https://dshe.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Department of Social Services",
+    "name": "সমাজসেবা অধিদপ্তর (DSS)",
+    "url": "http://www.dss.gov.bd/",
+    "base_url": "http://www.dss.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Department of Youth Development",
+    "name": "যুব উন্নয়ন অধিদপ্তর (DYD)",
+    "url": "http://www.dyd.gov.bd/",
+    "base_url": "http://www.dyd.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Electricity Generation Company of Bangladesh",
+    "name": "ইলেকট্রিসিটি জেনারেশন কোম্পানি অব বাংলাদেশ (EGCB)",
+    "url": "https://www.egcb.com.bd/",
+    "base_url": "https://www.egcb.com.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Export Promotion Bureau",
+    "name": "রপ্তানি উন্নয়ন ব্যুরো (EPB)",
+    "url": "http://www.epb.gov.bd/",
+    "base_url": "http://www.epb.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Bangladesh Computer Council",
+    "name": "বাংলাদেশ কম্পিউটার কাউন্সিল (BCC)",
+    "url": "https://bcc.gov.bd/",
+    "base_url": "https://bcc.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Bangladesh Data Center Company Limited",
+    "name": "বাংলাদেশ ডাটা সেন্টার কোম্পানি লিমিটেড (BDCCL)",
+    "url": "https://bdccl.gov.bd/",
+    "base_url": "https://bdccl.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Information and Communication Technology Division",
+    "name": "তথ্য ও যোগাযোগ প্রযুক্তি বিভাগ (ICT Division)",
+    "url": "https://ictd.gov.bd/",
+    "base_url": "https://ictd.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Eastern Refinery Limited",
+    "name": "ইস্টার্ন রিফাইনারি লিমিটেড (ERL)",
+    "url": "https://erl.com.bd/",
+    "base_url": "https://erl.com.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Bangladesh Bridge Authority",
+    "name": "বাংলাদেশ সেতু কর্তৃপক্ষ (BBA)",
+    "url": "https://www.bba.gov.bd/",
+    "base_url": "https://www.bba.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Bangladesh Fire Service and Civil Defence FSCD",
+    "name": "বাংলাদেশ ফায়ার সার্ভিস ও সিভিল ডিফেন্স (FSCD)",
+    "url": "https://fireservice.gov.bd/",
+    "base_url": "https://fireservice.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Geological Survey of Bangladesh",
+    "name": "বাংলাদেশ ভূতাত্ত্বিক জরিপ অধিদপ্তর (GSB)",
+    "url": "http://www.gsb.gov.bd/",
+    "base_url": "http://www.gsb.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Health Services Division",
+    "name": "স্বাস্থ্য সেবা বিভাগ (Health Services Division)",
+    "url": "https://hsd.gov.bd/",
+    "base_url": "https://hsd.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Jiban Bima Corporation",
+    "name": "জীবন বীমা কর্পোরেশন (JBC)",
+    "url": "https://www.jbc.gov.bd/",
+    "base_url": "https://www.jbc.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Department of Livestock Services",
+    "name": "প্রাণিসম্পদ অধিদপ্তর (DLS)",
+    "url": "http://www.dls.gov.bd/",
+    "base_url": "http://www.dls.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "West Zone Power Distribution Company",
+    "name": "ওয়েস্ট জোন পাওয়ার ডিস্ট্রিবিউশন কোম্পানি (WZPDCL)",
+    "url": "https://wzpdcl.gov.bd/",
+    "base_url": "https://wzpdcl.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Bangladesh Inland Water Transport Authority",
+    "name": "বাংলাদেশ অভ্যন্তরীণ নৌপরিবহন কর্তৃপক্ষ (BIWTA)",
+    "url": "http://www.biwta.gov.bd/",
+    "base_url": "http://www.biwta.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Chittagong Port Authority",
+    "name": "চট্টগ্রাম বন্দর কর্তৃপক্ষ (CPA)",
+    "url": "http://www.cpa.gov.bd/",
+    "base_url": "http://www.cpa.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Khulna Development Authority",
+    "name": "খুলনা উন্নয়ন কর্তৃপক্ষ (KDA)",
+    "url": "http://www.kda.gov.bd/",
+    "base_url": "http://www.kda.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Customs, Excise & VAT Commissionerate Khulna",
+    "name": "কাস্টমস, এক্সাইজ ও ভ্যাট কমিশনারেট খুলনা",
+    "url": "https://customs.khulnadiv.gov.bd",
+    "base_url": "https://customs.khulnadiv.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Mass Communication Department",
+    "name": "গণযোগাযোগ অধিদপ্তর (MCD)",
+    "url": "https://masscommunication.gov.bd/",
+    "base_url": "https://masscommunication.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Mongla Custom House",
+    "name": "মোংলা কাস্টম হাউস",
+    "url": "https://mch.portal.gov.bd/",
+    "base_url": "https://mch.portal.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Ministry of Home Affairs, Public Security Division",
+    "name": "স্বরাষ্ট্র মন্ত্রণালয়, জননিরাপত্তা বিভাগ",
+    "url": "https://mhapsd.gov.bd/",
+    "base_url": "https://mhapsd.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Bangladesh Milk Producer’s Co-Operative Union Ltd",
+    "name": "বাংলাদেশ দুগ্ধ উৎপাদক সমবায় ইউনিয়ন লিমিটেড (Milk Vita)",
+    "url": "https://www.milkvita.org.bd/",
+    "base_url": "https://www.milkvita.org.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Ministry of Agriculture",
+    "name": "কৃষি মন্ত্রণালয় (MoA)",
+    "url": "https://moa.gov.bd/",
+    "base_url": "https://moa.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Ministry of Defence Constabulary",
+    "name": "প্রতিরক্ষা মন্ত্রণালয় কনস্টাবুলারি",
+    "url": "https://modc.portal.gov.bd/",
+    "base_url": "https://modc.portal.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Ministry of Environment, Forest and Climate Change",
+    "name": "পরিবেশ, বন ও জলবায়ু পরিবর্তন মন্ত্রণালয়",
+    "url": "https://moefcc.gov.bd/",
+    "base_url": "https://moefcc.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Ministry of Finance",
+    "name": "অর্থ মন্ত্রণালয় (MoF)",
+    "url": "https://mof.gov.bd/",
+    "base_url": "https://mof.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Ministry of Fisheries and Livestock",
+    "name": "মৎস্য ও প্রাণিসম্পদ মন্ত্রণালয়",
+    "url": "https://mofl.gov.bd/",
+    "base_url": "https://mofl.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Ministry of Land",
+    "name": "ভূমি মন্ত্রণালয় (Minland)",
+    "url": "https://minland.gov.bd/",
+    "base_url": "https://minland.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Ministry of Primary and Mass Education",
+    "name": "প্রাথমিক ও গণশিক্ষা মন্ত্রণালয় (MoPME)",
+    "url": "https://mopme.gov.bd/",
+    "base_url": "https://mopme.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Ministry of Railway",
+    "name": "রেলপথ মন্ত্রণালয় (MoR)",
+    "url": "https://mor.gov.bd/",
     "base_url": "https://mor.gov.bd",
-    "selector": "td a",
-    "selenium_enabled": false,
-    "browser": "chrome",
-    "headless": false,
-    "wait_time": 5,
-    "parent_selector": "#example1 tbody"
+    "selector": "",
+    "selenium_enabled": 
   },
-  {
-    "id": "CAAB",
+{
+    "id": "Mongla Port Authority",
+    "name": "মোংলা বন্দর কর্তৃপক্ষ (MPA)",
+    "url": "http://www.mpa.gov.bd/",
+    "base_url": "http://www.mpa.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "National Computer Training and Research Academy",
+    "name": "জাতীয় কম্পিউটার প্রশিক্ষণ ও গবেষণা একাডেমি (NACTAR)",
+    "url": "http://www.nactar.gov.bd/",
+    "base_url": "http://www.nactar.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "National Institute of Mass Communication",
+    "name": "জাতীয় গণমাধ্যম ইনস্টিটিউট (NIMC)",
+    "url": "http://nimc.gov.bd/",
+    "base_url": "http://nimc.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Nuclear Power Plant Company Bangladesh Limited",
+    "name": "নিউক্লিয়ার পাওয়ার প্লান্ট কোম্পানি বাংলাদেশ লিমিটেড (NPCBL)",
+    "url": "https://npcbl.portal.gov.bd/",
+    "base_url": "https://npcbl.portal.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Non-Government Teacher’s Registration and Certificate Authority",
+    "name": "বেসরকারি শিক্ষক নিবন্ধন ও প্রত্যয়ন কর্তৃপক্ষ (NTRCA)",
+    "url": "http://www.ntrca.gov.bd/",
+    "base_url": "http://www.ntrca.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Planning Division",
+    "name": "পরিকল্পনা বিভাগ (Planning Division)",
+    "url": "https://plandiv.gov.bd/",
+    "base_url": "https://plandiv.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Office of the Postmaster General, Northern, Rajshahi",
+    "name": "ডাক মহাপরিচালকের কার্যালয়, উত্তরাঞ্চল, রাজশাহী",
+    "url": "https://pmgraj.bdpost.gov.bd/",
+    "base_url": "https://pmgraj.bdpost.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Payra Port Authority",
+    "name": "পায়রা বন্দর কর্তৃপক্ষ (PPA)",
+    "url": "http://ppa.gov.bd/",
+    "base_url": "http://ppa.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Bangladesh Jail Police",
+    "name": "বাংলাদেশ কারা পুলিশ (Prison Authority)",
+    "url": "http://prison.gov.bd/",
+    "base_url": "http://prison.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Customs, Excise & VAT Commissionerate Rangpur",
+    "name": "কাস্টমস, এক্সাইজ ও ভ্যাট কমিশনারেট, রংপুর",
+    "url": "https://www.rangpurvat.gov.bd/",
+    "base_url": "https://www.rangpurvat.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Roads and Highways Department",
+    "name": "সড়ক ও জনপথ অধিদপ্তর (RHD)",
+    "url": "http://www.rhd.gov.bd/",
+    "base_url": "http://www.rhd.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Bangladesh Water Development Board",
+    "name": "বাংলাদেশ পানি উন্নয়ন বোর্ড (BWDB)",
+    "url": "http://www.bwdb.gov.bd/",
+    "base_url": "http://www.bwdb.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Rural Power Company Limited",
+    "name": "রুরাল পাওয়ার কোম্পানি লিমিটেড (RPCL)",
+    "url": "https://rpcl.gov.bd/",
+    "base_url": "https://rpcl.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Sundarban Gas Company Limited",
+    "name": "সুন্দরবন গ্যাস কোম্পানি লিমিটেড (SGCL)",
+    "url": "https://sgcl.org.bd/",
+    "base_url": "https://sgcl.org.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Titas Gas Transmission and Distribution Company Limited",
+    "name": "তিতাস গ্যাস ট্রান্সমিশন অ্যান্ড ডিস্ট্রিবিউশন কোম্পানি লিমিটেড (TGTDCL)",
+    "url": "https://www.titasgas.org.bd/",
+    "base_url": "https://www.titasgas.org.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Technical and Madrasah Education Division",
+    "name": "কারিগরি ও মাদ্রাসা শিক্ষা বিভাগ (TMED)",
+    "url": "https://tmed.gov.bd/",
+    "base_url": "https://tmed.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Audit, Intelligence & Investigation Directorate, VAT Dhaka",
+    "name": "অডিট, গোয়েন্দা ও তদন্ত অধিদপ্তর (ভ্যাট), ঢাকা",
+    "url": "https://vatintelligence.gov.bd/",
+    "base_url": "https://vatintelligence.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "BCS (Tax) Academy",
+    "name": "বিসিএস (কর) একাডেমি",
+    "url": "https://bcstaxacademy.gov.bd/",
+    "base_url": "https://bcstaxacademy.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Islamic Foundation Bangladesh",
+    "name": "ইসলামিক ফাউন্ডেশন বাংলাদেশ",
+    "url": "http://www.islamicfoundation.gov.bd/",
+    "base_url": "http://www.islamicfoundation.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Ministry of Religious Affairs",
+    "name": "ধর্ম বিষয়ক মন্ত্রণালয় (MoRA)",
+    "url": "https://mora.gov.bd/",
+    "base_url": "https://mora.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Department of Military Lands & Cantonments",
+    "name": "সামরিক ভূমি ও ক্যান্টনমেন্ট অধিদপ্তর (DMLC)",
+    "url": "https://dmlc.gov.bd/",
+    "base_url": "https://dmlc.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Bangladesh Copyright Office",
+    "name": "বাংলাদেশ কপিরাইট অফিস",
+    "url": "https://copyrightoffice.gov.bd/",
+    "base_url": "https://copyrightoffice.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Ministry of Cultural Affairs",
+    "name": "সংস্কৃতি বিষয়ক মন্ত্রণালয় (MoCA)",
+    "url": "https://moca.gov.bd/",
+    "base_url": "https://moca.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Directorate General of Drug Administration",
+    "name": "ঔষধ প্রশাসন অধিদপ্তর (DGDA)",
+    "url": "https://dgda.gov.bd/",
+    "base_url": "https://dgda.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "North-West Power Generation Company Limited",
+    "name": "নর্থ-ওয়েস্ট পাওয়ার জেনারেশন কোম্পানি লিমিটেড (NWPGCL)",
+    "url": "https://nwpgcl.gov.bd/",
+    "base_url": "https://nwpgcl.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Press Information Department",
+    "name": "প্রেস ইনফরমেশন বিভাগ (PID)",
+    "url": "https://pressinform.gov.bd/",
+    "base_url": "https://pressinform.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Ministry of Commerce",
+    "name": "বাণিজ্য মন্ত্রণালয় (Mincom)",
+    "url": "https://mincom.gov.bd/",
+    "base_url": "https://mincom.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Bangladesh Atomic Energy Commission",
+    "name": "বাংলাদেশ পরমাণু শক্তি কমিশন (BAEC)",
+    "url": "https://baec.gov.bd/",
+    "base_url": "https://baec.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "National Academy for Planning and Development",
+    "name": "জাতীয় পরিকল্পনা ও উন্নয়ন একাডেমি (NAPD)",
+    "url": "https://napd.gov.bd/",
+    "base_url": "https://napd.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Taxes Appellate Tribunal",
+    "name": "কর আপিল ট্রাইবুনাল",
+    "url": "https://tat.gov.bd/",
+    "base_url": "https://tat.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Directorate of Primary Education (DPE)",
+    "name": "প্রাথমিক শিক্ষা অধিদপ্তর (DPE)",
+    "url": "https://www.dpe.gov.bd/",
+    "base_url": "https://www.dpe.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Sustainable and Renewable Energy Development Authority",
+    "name": "টেকসই ও নবায়নযোগ্য জ্বালানি উন্নয়ন কর্তৃপক্ষ (SREDA)",
+    "url": "https://www.sreda.gov.bd/",
+    "base_url": "https://www.sreda.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Narayanganj City Corporation",
+    "name": "নারায়ণগঞ্জ সিটি কর্পোরেশন (NCC)",
+    "url": "https://www.ncc.gov.bd/",
+    "base_url": "https://www.ncc.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "National Telecommunication Monitoring Center",
+    "name": "জাতীয় টেলিযোগাযোগ মনিটরিং কেন্দ্র (NTMC)",
+    "url": "https://ntmc.gov.bd/",
+    "base_url": "https://ntmc.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Department of Inspection for Factories and Establishments",
+    "name": "কারখানা ও প্রতিষ্ঠান পরিদর্শন অধিদপ্তর (DIFE)",
+    "url": "http://www.dife.gov.bd/",
+    "base_url": "http://www.dife.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Microcredit Regulatory Authority",
+    "name": "মাইক্রোক্রেডিট রেগুলেটরি অথরিটি (MRA)",
+    "url": "https://mra.gov.bd/",
+    "base_url": "https://mra.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Financial Institutions Division",
+    "name": "আর্থিক প্রতিষ্ঠান বিভাগ (FID)",
+    "url": "https://fid.gov.bd/",
+    "base_url": "https://fid.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Civil Aviation Authority of Bangladesh",
     "name": "বাংলাদেশ বেসামরিক বিমান চলাচল কর্তৃপক্ষ (CAAB)",
-    "url": "https://caab.portal.gov.bd/",
-    "base_url": "https://caab.portal.gov.bd",
-    "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false
+    "url": "https://www.caab.gov.bd/",
+    "base_url": "https://www.caab.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Bangladesh Agricultural Research Council",
+    "name": "বাংলাদেশ কৃষি গবেষণা কাউন্সিল (BARC)",
+    "url": "https://barc.gov.bd/",
+    "base_url": "https://barc.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Bangladesh Wheat and Maize Research Institute",
+    "name": "বাংলাদেশ গম ও ভুট্টা গবেষণা ইনস্টিটিউট (BWMRI)",
+    "url": "https://bwmri.gov.bd/",
+    "base_url": "https://bwmri.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Bangladesh Handloom Board",
+    "name": "বাংলাদেশ তাঁত বোর্ড (BHB)",
+    "url": "http://www.bhb.gov.bd/",
+    "base_url": "http://www.bhb.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Land Administration Training Centre",
+    "name": "ভূমি প্রশাসন প্রশিক্ষণ কেন্দ্র (LATC)",
+    "url": "https://latc.gov.bd/",
+    "base_url": "https://latc.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Gas Transmission Company Limited",
+    "name": "গ্যাস ট্রান্সমিশন কোম্পানি লিমিটেড (GTCL)",
+    "url": "https://gtcl.gov.bd/",
+    "base_url": "https://gtcl.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Department of Archives and Library",
+    "name": "আর্কাইভস ও গ্রন্থাগার অধিদপ্তর",
+    "url": "http://www.nanl.gov.bd/",
+    "base_url": "http://www.nanl.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Health Engineering Department",
+    "name": "স্বাস্থ্য প্রকৌশল অধিদপ্তর (HED)",
+    "url": "https://hed.gov.bd/",
+    "base_url": "https://hed.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Ministry of Science and Technology",
+    "name": "বিজ্ঞান ও প্রযুক্তি মন্ত্রণালয় (MoST)",
+    "url": "https://most.gov.bd/",
+    "base_url": "https://most.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Department of Patents, Designs and Trademarks",
+    "name": "পেটেন্ট, ডিজাইন ও ট্রেডমার্ক অধিদপ্তর (DPDT)",
+    "url": "https://dpdt.gov.bd/",
+    "base_url": "https://dpdt.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Ministry of Industries",
+    "name": "শিল্প মন্ত্রণালয় (MoInd)",
+    "url": "https://moind.gov.bd/",
+    "base_url": "https://moind.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Bangladesh Industrial Technical Assistance Center",
+    "name": "বাংলাদেশ শিল্প কারিগরি সহায়তা কেন্দ্র (BITAC)",
+    "url": "https://bitac.gov.bd/",
+    "base_url": "https://bitac.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Security Service Division",
+    "name": "সুরক্ষা সেবা বিভাগ (SSD)",
+    "url": "https://ssd.gov.bd/",
+    "base_url": "https://ssd.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Bangladesh Livestock Research Institute",
+    "name": "বাংলাদেশ প্রাণিসম্পদ গবেষণা ইনস্টিটিউট (BLRI)",
+    "url": "https://blri.gov.bd/",
+    "base_url": "https://blri.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Directorate of National Consumers Right Protection",
+    "name": "জাতীয় ভোক্তা অধিকার সংরক্ষণ অধিদপ্তর (DNCRP)",
+    "url": "https://dncrp.gov.bd/",
+    "base_url": "https://dncrp.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Bangladesh National Museum",
+    "name": "বাংলাদেশ জাতীয় জাদুঘর (BNM)",
+    "url": "https://bangladeshmuseum.gov.bd/",
+    "base_url": "https://bangladeshmuseum.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Bangladesh Television",
+    "name": "বাংলাদেশ টেলিভিশন (BTV)",
+    "url": "https://www.btv.gov.bd/",
+    "base_url": "https://www.btv.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Bakhrabad Gas Distribution Company Limited",
+    "name": "বাখরাবাদ গ্যাস ডিস্ট্রিবিউশন কোম্পানি লিমিটেড (BGDCL)",
+    "url": "https://www.bgdcl.gov.bd/",
+    "base_url": "https://www.bgdcl.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Bureau of Non Formal Education",
+    "name": "অপ্রাতিষ্ঠানিক শিক্ষা ব্যুরো (BNFE)",
+    "url": "https://bnfe.gov.bd/",
+    "base_url": "https://bnfe.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Department of Textiles",
+    "name": "বস্ত্র অধিদপ্তর (DoT)",
+    "url": "https://dot.gov.bd/",
+    "base_url": "https://dot.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Ministry of Textiles & Jute",
+    "name": "বস্ত্র ও পাট মন্ত্রণালয় (MoTJ)",
+    "url": "https://motj.gov.bd/",
+    "base_url": "https://motj.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "National Human Rights Commission Bangladesh",
+    "name": "জাতীয় মানবাধিকার কমিশন বাংলাদেশ (NHRC)",
+    "url": "https://nhrc.org.bd/",
+    "base_url": "https://nhrc.org.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Office of the Chief Electric Inspector",
+    "name": "প্রধান বৈদ্যুতিক পরিদর্শকের কার্যালয় (OCEI)",
+    "url": "https://ocei.gov.bd/",
+    "base_url": "https://ocei.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Ministry of Liberation War Affairs",
+    "name": "মুক্তিযুদ্ধ বিষয়ক মন্ত্রণালয় (MoLWA)",
+    "url": "https://molwa.gov.bd/",
+    "base_url": "https://molwa.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Padma Oil Company Limited",
+    "name": "পদ্মা অয়েল কোম্পানি লিমিটেড (POCL)",
+    "url": "https://www.pocl.gov.bd/",
+    "base_url": "https://www.pocl.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Directorate of Inspection and Audit",
+    "name": "পরিদর্শন ও নিরীক্ষা অধিদপ্তর (DIA)",
+    "url": "https://dia.gov.bd/",
+    "base_url": "https://dia.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Bangladesh Forest Industries Development Corporation",
+    "name": "বাংলাদেশ বন শিল্প উন্নয়ন কর্পোরেশন (BFIDC)",
+    "url": "http://www.bfidc.gov.bd/",
+    "base_url": "http://www.bfidc.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "BRDB Integrated Rural Employment Support Project For The Poor Women",
+    "name": "পল্লী উন্নয়ন বোর্ডের দরিদ্র মহিলাদের কর্মসংস্থান সহায়তা প্রকল্প (IRESPPW)",
+    "url": "https://www.brdb.gov.bd/",
+    "base_url": "https://www.brdb.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Bangladesh Karmachari Kallyan Board",
+    "name": "বাংলাদেশ কর্মচারী কল্যাণ বোর্ড (BKKB)",
+    "url": "https://bkkb.gov.bd/",
+    "base_url": "https://bkkb.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "NGO Affairs Bureau",
+    "name": "এনজিও বিষয়ক ব্যুরো (NGOAB)",
+    "url": "http://www.ngoab.gov.bd/",
+    "base_url": "http://www.ngoab.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Bangladesh Shipping Corporation",
+    "name": "বাংলাদেশ শিপিং কর্পোরেশন (BSC)",
+    "url": "https://bsc.portal.gov.bd/",
+    "base_url": "https://bsc.portal.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Department of Labour",
+    "name": "শ্রম অধিদপ্তর (DoL)",
+    "url": "https://dol.gov.bd/",
+    "base_url": "https://dol.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Statistics and Informatics Division",
+    "name": "পরিসংখ্যান ও তথ্য ব্যবস্থাপনা বিভাগ (SID)",
+    "url": "https://sid.gov.bd/",
+    "base_url": "https://sid.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Palli Sanchay Bank",
+    "name": "পল্লী সঞ্চয় ব্যাংক (PSB)",
+    "url": "https://www.pallisanchaybank.gov.bd/",
+    "base_url": "https://www.pallisanchaybank.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Trading Corporation of Bangladesh",
+    "name": "ট্রেডিং কর্পোরেশন অব বাংলাদেশ (TCB)",
+    "url": "https://www.tcb.gov.bd/",
+    "base_url": "https://www.tcb.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Bangladesh House Building Finance Corporation",
+    "name": "বাংলাদেশ হাউজ বিল্ডিং ফাইন্যান্স কর্পোরেশন (BHBFC)",
+    "url": "https://www.bhbfc.gov.bd/",
+    "base_url": "https://www.bhbfc.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Directorate of Primary Education",
+    "name": "প্রাথমিক শিক্ষা অধিদপ্তর (DPE)",
+    "url": "https://www.dpe.gov.bd/",
+    "base_url": "https://www.dpe.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
+  },
+{
+    "id": "Directorate of Internal Audit",
+    "name": "অভ্যন্তরীণ নিরীক্ষা অধিদপ্তর",
+    "url": "https://doia.gov.bd/",
+    "base_url": "https://doia.gov.bd",
+    "selector": "",
+    "selenium_enabled": 
   }
 ]
