@@ -1246,5 +1246,5 @@
     "base_url": "https://doia.gov.bd",
     "selector": "div.notice-board-bg li a",
     "selenium_enabled": false
-  },
+  }
 ]
