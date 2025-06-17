@@ -29,7 +29,7 @@ from selenium.common.exceptions import TimeoutException, WebDriverException
 # Suppress only the InsecureRequestWarning from requests
 requests.packages.urllib3.disable_warnings(category=InsecureRequestWarning)
 
-from helpers import init_db, load_last_link, set_last_link, send_telegram_message, get_webdriver, close_webdriver
+from helpers_postgres import init_db, load_last_link, set_last_link, send_telegram_message, get_webdriver, close_webdriver
 
 init_db()
 
