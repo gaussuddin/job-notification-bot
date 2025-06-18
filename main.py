@@ -189,10 +189,13 @@ def check_all_sites():
         set_last_link(site_id, latest_id)
         logging.info(f"Updated last seen ID for {site_name} to: {latest_id}")
 
-# === Scheduler: Run every 2 minutes ===
+# === Scheduler: Run every 1 hour ===
 scheduler = BackgroundScheduler(timezone=pytz.timezone("Asia/Dhaka"))
 scheduler.add_job(check_all_sites, 'interval', minutes=60)
 scheduler.start()
+
+# ✅ Run once after deploy
+check_all_sites()
 
 # Prevent exit
 import time
