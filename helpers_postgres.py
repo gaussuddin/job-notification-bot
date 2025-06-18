@@ -31,7 +31,10 @@ def load_last_link(site):
 def set_last_link(site, link):
     with get_connection() as conn:
         with conn.cursor() as cur:
-            cur.execute("INSERT INTO last_seen (site, link) VALUES (%s, %s) ON CONFLICT (site) DO UPDATE SET link = EXCLUDED.link", (site, link))
+            cur.execute(
+                "INSERT INTO last_seen (site, link) VALUES (%s, %s) ON CONFLICT (site) DO UPDATE SET link = EXCLUDED.link",
+                (site, link)
+            )
             conn.commit()
 
 # Telegram
@@ -41,7 +44,8 @@ CHAT_ID = os.getenv("CHAT_ID")
 bot = Bot(token=BOT_TOKEN)
 
 def send_telegram_message(message: str):
-    bot.send_message(chat_id=CHAT_ID, text=message, parse_mode="Markdown")
+    # Markdown বাদ দিয়ে সোজা টেক্সট পাঠানো হচ্ছে
+    bot.send_message(chat_id=CHAT_ID, text=message)
 
 # Selenium WebDriver
 def get_webdriver() -> webdriver.Chrome:
