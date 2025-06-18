@@ -538,8 +538,8 @@
 {
     "id": "Customs, Excise & VAT Commissionerate Khulna",
     "name": "কাস্টমস, এক্সাইজ ও ভ্যাট কমিশনারেট খুলনা",
-    "url": "https://customs.khulnadiv.gov.bd",
-    "base_url": "https://customs.khulnadiv.gov.bd",
+    "url": "https://customs.khulna.gov.bd/",
+    "base_url": "https://customs.khulna.gov.bd",
     "selector": "div.notice-board-bg li a",
     "selenium_enabled": false
   },
