@@ -330,8 +330,8 @@
 {
     "id": "Dhaka Electric Supply Company Limited",
     "name": "ঢাকা ইলেকট্রিক সাপ্লাই কোম্পানি লিমিটেড (DESCO)",
-    "url": "https://desco.org.bd/",
-    "base_url": "https://desco.org.bd",
+    "url": "https://desco.gov.bd/",
+    "base_url": "https://desco.gov.bd",
     "selector": "div.notice-board-bg li a",
     "selenium_enabled": false
   },
