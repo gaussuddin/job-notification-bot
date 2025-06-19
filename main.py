@@ -194,7 +194,7 @@ def check_all_sites():
 
 # === Scheduler: Run every 40 minute ===
 scheduler = BackgroundScheduler(timezone=pytz.timezone("Asia/Dhaka"))
-scheduler.add_job(check_all_sites, 'interval', minutes=40)
+scheduler.add_job(check_all_sites, 'interval', minutes=35)
 scheduler.start()
 
 # ✅ Run once after deploy
