@@ -37,6 +37,13 @@ def set_last_link(site, link):
             )
             conn.commit()
 
+def clear_all_last_links():
+    """🧹 Clear all saved last_seen links."""
+    with get_connection() as conn:
+        with conn.cursor() as cur:
+            cur.execute("DELETE FROM last_seen")
+            conn.commit()
+
 # Telegram
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 CHAT_ID = os.getenv("CHAT_ID")
