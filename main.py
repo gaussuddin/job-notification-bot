@@ -192,9 +192,9 @@ def check_all_sites():
         set_last_link(site_id, latest_id)
         logging.info(f"Updated last seen ID for {site_name} to: {latest_id}")
 
-# === Scheduler: Run every 1 minute ===
+# === Scheduler: Run every 40 minute ===
 scheduler = BackgroundScheduler(timezone=pytz.timezone("Asia/Dhaka"))
-scheduler.add_job(check_all_sites, 'interval', minutes=1)
+scheduler.add_job(check_all_sites, 'interval', minutes=40)
 scheduler.start()
 
 # ✅ Run once after deploy
