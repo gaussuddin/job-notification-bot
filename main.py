@@ -1,17 +1,9 @@
-from flask import jsonify
-from helpers_postgres import clear_all_last_links
-
-@app.route('/clear-last-seen')
-def clear_last_seen_api():
-    clear_all_last_links()
-    return jsonify({"status": "success", "message": "✅ All last_seen data cleared."})
-
-# === Flask Server for Render Keep-Alive & Status ===
 import threading
-from flask import Flask
+from flask import Flask, jsonify
 from datetime import datetime
 import pytz  # ✅ For timezone conversion
 
+# === Flask App ===
 app = Flask(__name__)
 last_check_time = None  # Track last check time
 
@@ -23,24 +15,29 @@ def home():
 def show_last_check():
     global last_check_time
     if last_check_time:
-        # ✅ Convert UTC to Asia/Dhaka
         dhaka_tz = pytz.timezone('Asia/Dhaka')
         local_time = last_check_time.astimezone(dhaka_tz)
         return f"🕒 Last check: {local_time.strftime('%Y-%m-%d %H:%M:%S')} (Asia/Dhaka)"
     return "❌ No check performed yet."
+
+@app.route('/clear-last-seen')
+def clear_last_seen_api():
+    from helpers_postgres import clear_all_last_links
+    clear_all_last_links()
+    return jsonify({"status": "success", "message": "✅ All last_seen data cleared."})
 
 def run_flask():
     app.run(host='0.0.0.0', port=10000)
 
 threading.Thread(target=run_flask).start()
 
-# === Rest of Your Bot Code ===
-
+# === Main Bot Logic ===
 import json
 import os
+import time
 import requests
-from apscheduler.schedulers.background import BackgroundScheduler
 import logging
+from apscheduler.schedulers.background import BackgroundScheduler
 from bs4 import BeautifulSoup
 from typing import List, Tuple, Dict, Any
 from urllib.parse import urljoin
@@ -49,20 +46,16 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
-
 from helpers_postgres import init_db, load_last_link, set_last_link, send_telegram_message, get_webdriver, close_webdriver
 
-# Suppress insecure request warnings
+# Suppress warnings
 requests.packages.urllib3.disable_warnings(category=InsecureRequestWarning)
 
 init_db()
 
-# Logging setup
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-KEYWORDS = [
-    "নিয়োগ", " নিয়োগ বিজ্ঞপ্তি", "চাকরি", "recruitment", "job", "নিয়োগে", "career", "opportunity"
-]
+KEYWORDS = ["নিয়োগ", " নিয়োগ বিজ্ঞপ্তি", "চাকরি", "recruitment", "job", "নিয়োগে", "career", "opportunity"]
 
 HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
@@ -73,17 +66,15 @@ def is_relevant(text: str) -> bool:
     return any(keyword in text_no_case for keyword in KEYWORDS)
 
 def extract_text_and_link(element: BeautifulSoup, base_url: str) -> Tuple[str, str]:
-    text, link = "", ""
     a_tag = element if element.name == 'a' else element.find("a")
-
+    text, link = "", ""
     if a_tag and a_tag.has_attr('href'):
         text = a_tag.get_text(strip=True)
         raw_link = a_tag.get("href")
         link = urljoin(base_url, raw_link) if raw_link and not raw_link.startswith(("http://", "https://", "javascript:")) else raw_link
     else:
         text = element.get_text(strip=True)
-
-    return text.strip(), link if link else ""
+    return text.strip(), link
 
 def fetch_site_data(site: Dict[str, Any]) -> List[Tuple[str, str]]:
     notices = []
@@ -118,7 +109,6 @@ def fetch_site_data(site: Dict[str, Any]) -> List[Tuple[str, str]]:
             soup = BeautifulSoup(response.text, "html.parser")
 
         elements = soup.select(site_selector)
-
         if not elements:
             logging.warning(f"No elements found for selector '{site_selector}' on {site_name}.")
             return []
@@ -138,7 +128,7 @@ def fetch_site_data(site: Dict[str, Any]) -> List[Tuple[str, str]]:
 
 def check_all_sites():
     global last_check_time
-    last_check_time = datetime.now(pytz.utc)  # ✅ Save in UTC
+    last_check_time = datetime.now(pytz.utc)
     print(f"\n🕒 Checking all sites at {last_check_time.strftime('%Y-%m-%d %H:%M:%S')} UTC")
 
     config_path = "config.json"
@@ -193,15 +183,14 @@ def check_all_sites():
         set_last_link(site_id, latest_id)
         logging.info(f"Updated last seen ID for {site_name} to: {latest_id}")
 
-# === Scheduler: Run every 40 minute ===
+# === Scheduler ===
 scheduler = BackgroundScheduler(timezone=pytz.timezone("Asia/Dhaka"))
 scheduler.add_job(check_all_sites, 'interval', minutes=40)
 scheduler.start()
 
-# ✅ Run once after deploy
+# Run once immediately
 check_all_sites()
 
-# Prevent exit
-import time
+# Keep alive
 while True:
     time.sleep(60)
