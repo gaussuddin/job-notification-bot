@@ -1,20 +1,20 @@
 [
 {
-  "id": "ACC",
-  "name": "দুর্নীতি দমন কমিশন (ACC)",
-  "url": "https://acc.org.bd/",
-  "base_url": "https://bpatc.gov.bd",
-  "selector": "div.notice-board-bg li a",
-  "selenium_enabled": true,
-  "wait_time": 5
-},
+    "id": "ACC",
+    "name": "দুর্নীতি দমন কমিশন (ACC)",
+    "url": "https://acc.org.bd/",
+    "base_url": "https://acc.org.bd",
+    "selector": "div.notice-board-bg li a",
+    "selenium_enabled": true,
+    "wait_time": 10
+  },
 {
     "id": "Ansar VDP",
     "name": "বাংলাদেশ আনসার ও গ্রাম প্রতিরক্ষা বাহিনী (Ansar VDP)",
     "url": "https://ansarvdp.gov.bd/",
     "base_url": "https://ansarvdp.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -23,7 +23,7 @@
     "url": "https://architecture.gov.bd/",
     "base_url": "https://architecture.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -32,7 +32,7 @@
     "url": "https://banglaacademy.gov.bd/",
     "base_url": "https://banglaacademy.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -41,7 +41,7 @@
     "url": "https://badc.gov.bd/",
     "base_url": "https://badc.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -50,7 +50,7 @@
     "url": "https://bapex.com.bd/",
     "base_url": "https://bapex.com.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -59,7 +59,7 @@
     "url": "https://biman.gov.bd/",
     "base_url": "https://biman.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -68,7 +68,7 @@
     "url": "https://bbs.gov.bd/",
     "base_url": "https://bbs.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -77,7 +77,7 @@
     "url": "https://benapolecustoms.portal.gov.bd/",
     "base_url": "https://benapolecustoms.portal.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -86,7 +86,7 @@
     "url": "https://bcic.gov.bd/",
     "base_url": "https://bcic.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -95,7 +95,7 @@
     "url": "https://www.bcsir.gov.bd/",
     "base_url": "https://www.bcsir.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -104,7 +104,7 @@
     "url": "https://bdpost.gov.bd/",
     "base_url": "https://bdpost.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -113,7 +113,7 @@
     "url": "https://forest.chittagongdiv.gov.bd/",
     "base_url": "https://forest.chittagongdiv.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -122,7 +122,7 @@
     "url": "https://bhtpa.gov.bd/",
     "base_url": "https://bhtpa.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -131,7 +131,7 @@
     "url": "https://birtan.gov.bd/",
     "base_url": "https://birtan.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -140,7 +140,7 @@
     "url": "https://biwtc.gov.bd/",
     "base_url": "https://biwtc.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -149,7 +149,7 @@
     "url": "https://bjri.gov.bd/",
     "base_url": "https://bjri.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -158,7 +158,7 @@
     "url": "https://bmet.gov.bd/",
     "base_url": "https://bmet.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -167,7 +167,7 @@
     "url": "https://petrobangla.org.bd/",
     "base_url": "https://petrobangla.org.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -176,7 +176,7 @@
     "url": "https://boiler.gov.bd/",
     "base_url": "https://boiler.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -185,7 +185,7 @@
     "url": "https://bpdb.gov.bd/",
     "base_url": "https://bpdb.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -194,7 +194,7 @@
     "url": "https://railway.gov.bd/",
     "base_url": "https://railway.gov.bd",
     "selector": "div.scrolling_notices #latest_news li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -203,7 +203,7 @@
     "url": "https://brdb.gov.bd/",
     "base_url": "https://brdb.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -212,7 +212,7 @@
     "url": "https://reb.gov.bd/",
     "base_url": "https://reb.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -221,7 +221,7 @@
     "url": "https://brta.gov.bd/",
     "base_url": "https://brta.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -230,7 +230,7 @@
     "url": "https://brtc.gov.bd/",
     "base_url": "https://brtc.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -239,7 +239,7 @@
     "url": "http://shilpakala.gov.bd/",
     "base_url": "http://shilpakala.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -248,7 +248,7 @@
     "url": "https://blpa.gov.bd/",
     "base_url": "https://blpa.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -257,7 +257,7 @@
     "url": "https://btcl.portal.gov.bd/",
     "base_url": "https://btcl.portal.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -266,7 +266,7 @@
     "url": "https://cabinet.gov.bd/",
     "base_url": "https://cabinet.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -275,7 +275,7 @@
     "url": "https://nesco.gov.bd/",
     "base_url": "https://nesco.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -284,7 +284,7 @@
     "url": "https://forest.bogra.gov.bd/",
     "base_url": "https://forest.bogra.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -293,7 +293,7 @@
     "url": "https://cga.gov.bd/",
     "base_url": "https://cga.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -302,7 +302,7 @@
     "url": "https://cgdf.gov.bd/",
     "base_url": "https://cgdf.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -311,7 +311,7 @@
     "url": "https://coa-revenue.gov.bd/",
     "base_url": "https://coa-revenue.gov.bd",
     "selector": "div.scrolling_notices #latest_news li a, div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -320,7 +320,7 @@
     "url": "https://coxda.gov.bd/",
     "base_url": "https://coxda.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -329,7 +329,7 @@
     "url": "https://dam.gov.bd/",
     "base_url": "https://dam.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -338,7 +338,7 @@
     "url": "https://dcd.gov.bd/",
     "base_url": "https://dcd.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -347,7 +347,7 @@
     "url": "https://mod.gov.bd/",
     "base_url": "https://mod.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -356,7 +356,7 @@
     "url": "https://ddm.gov.bd/",
     "base_url": "https://ddm.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -365,7 +365,7 @@
     "url": "https://desco.gov.bd/",
     "base_url": "https://desco.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -374,7 +374,7 @@
     "url": "https://dgfp.gov.bd/",
     "base_url": "https://dgfp.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -383,7 +383,7 @@
     "url": "https://dghs.gov.bd/",
     "base_url": "https://dghs.gov.bd",
     "selector": "div.scrolling_notices #latest_news li a, div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -392,7 +392,7 @@
     "url": "https://chittagongdiv.gov.bd/",
     "base_url": "https://chittagongdiv.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -401,7 +401,7 @@
     "url": "https://dnc.gov.bd/",
     "base_url": "https://dnc.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -410,7 +410,7 @@
     "url": "https://dncc.gov.bd/",
     "base_url": "https://dncc.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -419,7 +419,7 @@
     "url": "http://dos.gov.bd/",
     "base_url": "http://dos.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -428,7 +428,7 @@
     "url": "https://dscc.gov.bd/",
     "base_url": "https://dscc.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -437,7 +437,7 @@
     "url": "https://dshe.gov.bd/",
     "base_url": "https://dshe.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -446,7 +446,7 @@
     "url": "https://dss.gov.bd/",
     "base_url": "https://dss.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -455,7 +455,7 @@
     "url": "https://dyd.gov.bd/",
     "base_url": "https://dyd.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -464,7 +464,7 @@
     "url": "https://egcb.gov.bd/",
     "base_url": "https://egcb.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -473,7 +473,7 @@
     "url": "https://epb.gov.bd/",
     "base_url": "https://epb.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -482,7 +482,7 @@
     "url": "https://bcc.gov.bd/",
     "base_url": "https://bcc.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -491,7 +491,7 @@
     "url": "https://bdccl.gov.bd/",
     "base_url": "https://bdccl.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -500,7 +500,7 @@
     "url": "https://ictd.gov.bd/",
     "base_url": "https://ictd.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -509,7 +509,7 @@
     "url": "https://erl.com.bd/",
     "base_url": "https://erl.com.bd",
     "selector": "div.scrolling_notices #latest_news li a, div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -518,7 +518,7 @@
     "url": "https://bba.gov.bd/",
     "base_url": "https://bba.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -527,7 +527,7 @@
     "url": "https://fireservice.gov.bd/",
     "base_url": "https://fireservice.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -536,7 +536,7 @@
     "url": "https://gsb.gov.bd/",
     "base_url": "https://gsb.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -545,7 +545,7 @@
     "url": "https://hsd.gov.bd/",
     "base_url": "https://hsd.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -554,7 +554,7 @@
     "url": "https://jbc.gov.bd/",
     "base_url": "https://jbc.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -563,7 +563,7 @@
     "url": "https://dls.gov.bd/",
     "base_url": "https://dls.gov.bd",
     "selector": "div.scrolling_notices #latest_news li a, div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -572,7 +572,7 @@
     "url": "https://wzpdcl.gov.bd/",
     "base_url": "https://wzpdcl.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -581,7 +581,7 @@
     "url": "https://biwta.gov.bd/",
     "base_url": "https://biwta.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -590,7 +590,7 @@
     "url": "https://cpa.gov.bd/",
     "base_url": "https://cpa.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -599,7 +599,7 @@
     "url": "https://kda.gov.bd/",
     "base_url": "https://kda.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -608,7 +608,7 @@
     "url": "https://customs.khulna.gov.bd/",
     "base_url": "https://customs.khulna.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -617,7 +617,7 @@
     "url": "https://masscommunication.gov.bd/",
     "base_url": "https://masscommunication.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -626,7 +626,7 @@
     "url": "https://mch.portal.gov.bd/",
     "base_url": "https://mch.portal.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -635,7 +635,7 @@
     "url": "https://mhapsd.gov.bd/",
     "base_url": "https://mhapsd.gov.bd",
     "selector": "div.scrolling_notices #latest_news li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -644,7 +644,7 @@
     "url": "https://milkvita.org.bd/",
     "base_url": "https://milkvita.org.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -653,7 +653,7 @@
     "url": "https://moa.gov.bd/",
     "base_url": "https://moa.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -662,7 +662,7 @@
     "url": "https://modc.portal.gov.bd/",
     "base_url": "https://modc.portal.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -671,7 +671,7 @@
     "url": "https://moefcc.gov.bd/",
     "base_url": "https://moefcc.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -680,7 +680,7 @@
     "url": "https://mof.gov.bd/",
     "base_url": "https://mof.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -689,7 +689,7 @@
     "url": "https://mofl.gov.bd/",
     "base_url": "https://mofl.gov.bd",
     "selector": "div.scrolling_notices #latest_news li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -698,7 +698,7 @@
     "url": "https://minland.gov.bd/",
     "base_url": "https://minland.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -707,7 +707,7 @@
     "url": "https://mopme.gov.bd/",
     "base_url": "https://mopme.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -716,7 +716,7 @@
     "url": "https://mor.gov.bd/",
     "base_url": "https://mor.gov.bd",
     "selector": "div.scrolling_notices #latest_news li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -725,7 +725,7 @@
     "url": "https://mpa.gov.bd/",
     "base_url": "https://mpa.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -734,7 +734,7 @@
     "url": "https://nactar.gov.bd/",
     "base_url": "https://nactar.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -743,7 +743,7 @@
     "url": "http://nimc.gov.bd/",
     "base_url": "http://nimc.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -752,7 +752,7 @@
     "url": "https://npcbl.portal.gov.bd/",
     "base_url": "https://npcbl.portal.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -761,7 +761,7 @@
     "url": "https://ntrca.gov.bd/",
     "base_url": "https://ntrca.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -770,7 +770,7 @@
     "url": "https://plandiv.gov.bd/",
     "base_url": "https://plandiv.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -779,7 +779,7 @@
     "url": "https://pmgraj.bdpost.gov.bd/",
     "base_url": "https://pmgraj.bdpost.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -788,7 +788,7 @@
     "url": "http://ppa.gov.bd/",
     "base_url": "http://ppa.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -797,7 +797,7 @@
     "url": "http://prison.gov.bd/",
     "base_url": "http://prison.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -806,7 +806,7 @@
     "url": "https://www.rangpurvat.gov.bd/",
     "base_url": "https://www.rangpurvat.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -815,7 +815,7 @@
     "url": "https://rhd.portal.gov.bd/",
     "base_url": "https://rhd.portal.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -824,7 +824,7 @@
     "url": "https://www.bwdb.gov.bd/",
     "base_url": "https://www.bwdb.gov.bd",
     "selector": "div.content_notice li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -833,7 +833,7 @@
     "url": "https://rpcl.gov.bd/",
     "base_url": "https://rpcl.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -842,7 +842,7 @@
     "url": "https://sgcl.org.bd/",
     "base_url": "https://sgcl.org.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -851,7 +851,7 @@
     "url": "https://titasgas.gov.bd/",
     "base_url": "https://titasgas.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -860,7 +860,7 @@
     "url": "https://tmed.gov.bd/",
     "base_url": "https://tmed.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -869,7 +869,7 @@
     "url": "https://vatintelligence.gov.bd/",
     "base_url": "https://vatintelligence.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -878,7 +878,7 @@
     "url": "https://bcstaxacademy.gov.bd/",
     "base_url": "https://bcstaxacademy.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -887,7 +887,7 @@
     "url": "https://islamicfoundation.gov.bd/",
     "base_url": "https://islamicfoundation.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -896,7 +896,7 @@
     "url": "https://mora.gov.bd/",
     "base_url": "https://mora.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -905,7 +905,7 @@
     "url": "https://dmlc.gov.bd/",
     "base_url": "https://dmlc.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -914,7 +914,7 @@
     "url": "https://copyrightoffice.gov.bd/",
     "base_url": "https://copyrightoffice.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -923,7 +923,7 @@
     "url": "https://moca.gov.bd/",
     "base_url": "https://moca.gov.bd",
     "selector": "div.scrolling_notices #latest_news li a, div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -932,7 +932,7 @@
     "url": "https://dgda.gov.bd/",
     "base_url": "https://dgda.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -941,7 +941,7 @@
     "url": "https://nwpgcl.gov.bd/",
     "base_url": "https://nwpgcl.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -950,7 +950,7 @@
     "url": "https://pressinform.gov.bd/",
     "base_url": "https://pressinform.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -959,7 +959,7 @@
     "url": "https://mincom.gov.bd/",
     "base_url": "https://mincom.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -968,7 +968,7 @@
     "url": "https://baec.gov.bd/",
     "base_url": "https://baec.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -977,7 +977,7 @@
     "url": "https://napd.gov.bd/",
     "base_url": "https://napd.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -986,7 +986,7 @@
     "url": "https://tat.gov.bd/",
     "base_url": "https://tat.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -995,7 +995,7 @@
     "url": "https://www.dpe.gov.bd/",
     "base_url": "https://www.dpe.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1004,7 +1004,7 @@
     "url": "https://sreda.gov.bd/",
     "base_url": "https://sreda.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1013,7 +1013,7 @@
     "url": "https://ncc.gov.bd/",
     "base_url": "https://ncc.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1022,7 +1022,7 @@
     "url": "https://ntmc.gov.bd/",
     "base_url": "https://ntmc.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1031,7 +1031,7 @@
     "url": "https://dife.gov.bd/",
     "base_url": "https://dife.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1040,7 +1040,7 @@
     "url": "https://mra.gov.bd/",
     "base_url": "https://mra.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1049,7 +1049,7 @@
     "url": "https://fid.gov.bd/",
     "base_url": "https://fid.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1058,7 +1058,7 @@
     "url": "https://caab.portal.gov.bd/",
     "base_url": "https://caab.portal.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1067,7 +1067,7 @@
     "url": "https://barc.gov.bd/",
     "base_url": "https://barc.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1076,7 +1076,7 @@
     "url": "https://bwmri.gov.bd/",
     "base_url": "https://bwmri.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1085,7 +1085,7 @@
     "url": "https://bhb.gov.bd/",
     "base_url": "https://bhb.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1094,7 +1094,7 @@
     "url": "https://latc.gov.bd/",
     "base_url": "https://latc.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1103,7 +1103,7 @@
     "url": "https://gtcl.gov.bd/",
     "base_url": "https://gtcl.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1112,7 +1112,7 @@
     "url": "https://nanl.gov.bd/",
     "base_url": "https://nanl.gov.bd",
     "selector": "div.scrolling_notices #latest_news li a, div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1121,7 +1121,7 @@
     "url": "https://hed.gov.bd/",
     "base_url": "https://hed.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1130,7 +1130,7 @@
     "url": "https://most.gov.bd/",
     "base_url": "https://most.gov.bd",
     "selector": "div.scrolling_notices #latest_news li a, div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1139,7 +1139,7 @@
     "url": "https://dpdt.gov.bd/",
     "base_url": "https://dpdt.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1148,7 +1148,7 @@
     "url": "https://moind.gov.bd/",
     "base_url": "https://moind.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1157,7 +1157,7 @@
     "url": "https://bitac.gov.bd/",
     "base_url": "https://bitac.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1166,7 +1166,7 @@
     "url": "https://ssd.gov.bd/",
     "base_url": "https://ssd.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1175,7 +1175,7 @@
     "url": "https://blri.gov.bd/",
     "base_url": "https://blri.gov.bd",
     "selector": "div.scrolling_notices #latest_news li a, div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1184,7 +1184,7 @@
     "url": "https://dncrp.gov.bd/",
     "base_url": "https://dncrp.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1193,7 +1193,7 @@
     "url": "https://bangladeshmuseum.gov.bd/",
     "base_url": "https://bangladeshmuseum.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1202,7 +1202,7 @@
     "url": "https://btv.gov.bd/",
     "base_url": "https://btv.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1211,7 +1211,7 @@
     "url": "https://bgdcl.gov.bd/",
     "base_url": "https://bgdcl.gov.bd",
     "selector": "div.scrolling_notices #latest_news li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1220,7 +1220,7 @@
     "url": "https://bnfe.gov.bd/",
     "base_url": "https://bnfe.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1229,7 +1229,7 @@
     "url": "https://dot.gov.bd/",
     "base_url": "https://dot.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1238,7 +1238,7 @@
     "url": "https://motj.gov.bd/",
     "base_url": "https://motj.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1247,7 +1247,7 @@
     "url": "https://nhrc.org.bd/",
     "base_url": "https://nhrc.org.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1256,7 +1256,7 @@
     "url": "https://ocei.gov.bd/",
     "base_url": "https://ocei.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1265,7 +1265,7 @@
     "url": "https://molwa.gov.bd/",
     "base_url": "https://molwa.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1274,7 +1274,7 @@
     "url": "https://pocl.gov.bd/",
     "base_url": "https://pocl.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1283,7 +1283,7 @@
     "url": "https://dia.gov.bd/",
     "base_url": "https://dia.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1292,7 +1292,7 @@
     "url": "https://bfidc.gov.bd/",
     "base_url": "https://bfidc.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1301,7 +1301,7 @@
     "url": "https://brdb.gov.bd/",
     "base_url": "https://brdb.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1310,7 +1310,7 @@
     "url": "https://bkkb.gov.bd/",
     "base_url": "https://bkkb.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1319,7 +1319,7 @@
     "url": "https://ngoab.gov.bd/",
     "base_url": "https://ngoab.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1328,7 +1328,7 @@
     "url": "https://bsc.portal.gov.bd/",
     "base_url": "https://bsc.portal.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1337,7 +1337,7 @@
     "url": "https://dol.gov.bd/",
     "base_url": "https://dol.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1346,7 +1346,7 @@
     "url": "https://sid.gov.bd/",
     "base_url": "https://sid.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1355,7 +1355,7 @@
     "url": "https://pallisanchaybank.gov.bd/",
     "base_url": "https://pallisanchaybank.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1364,7 +1364,7 @@
     "url": "https://tcb.gov.bd/",
     "base_url": "https://tcb.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1373,7 +1373,7 @@
     "url": "https://bhbfc.gov.bd/",
     "base_url": "https://bhbfc.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1382,7 +1382,7 @@
     "url": "https://www.dpe.gov.bd/",
     "base_url": "https://www.dpe.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1391,7 +1391,7 @@
     "url": "https://doia.gov.bd/",
     "base_url": "https://doia.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1400,7 +1400,7 @@
     "url": "https://cs.narayanganj.gov.bd/",
     "base_url": "https://cs.narayanganj.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1409,7 +1409,7 @@
     "url": "https://bsti.gov.bd/",
     "base_url": "https://bsti.gov.bd",
     "selector": "div.scrolling_notices #latest_news li a, div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1418,7 +1418,7 @@
     "url": "https://hbri.gov.bd/",
     "base_url": "https://hbri.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1427,7 +1427,7 @@
     "url": "https://sbc.gov.bd/",
     "base_url": "https://sbc.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1436,7 +1436,7 @@
     "url": "https://rajshahidiv.gov.bd/",
     "base_url": "https://rajshahidiv.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1445,7 +1445,7 @@
     "url": "https://bricm.gov.bd/",
     "base_url": "https://bricm.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1454,7 +1454,7 @@
     "url": "https://niport.gov.bd/",
     "base_url": "https://niport.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1463,7 +1463,7 @@
     "url": "https://coastguard.gov.bd/",
     "base_url": "https://coastguard.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1472,7 +1472,7 @@
     "url": "https://baera.gov.bd/",
     "base_url": "https://baera.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1481,7 +1481,7 @@
     "url": "https://nrcc.gov.bd/",
     "base_url": "https://nrcc.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1490,7 +1490,7 @@
     "url": "https://mopa.gov.bd/",
     "base_url": "https://mopa.gov.bd",
     "selector": "div.scrolling_notices #latest_news li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1499,7 +1499,7 @@
     "url": "https://dgme.gov.bd/",
     "base_url": "https://dgme.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1508,7 +1508,7 @@
     "url": "https://cs.sylhet.gov.bd/",
     "base_url": "https://cs.sylhet.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1517,7 +1517,7 @@
     "url": "https://cs.habiganj.gov.bd/",
     "base_url": "https://cs.habiganj.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1526,7 +1526,7 @@
     "url": "https://bscic.gov.bd/",
     "base_url": "https://bscic.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1535,7 +1535,7 @@
     "url": "https://dtca.gov.bd/",
     "base_url": "https://dtca.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1544,7 +1544,7 @@
     "url": "https://erd.gov.bd/",
     "base_url": "https://erd.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1553,7 +1553,7 @@
     "url": "https://cpgcbl.gov.bd/",
     "base_url": "https://cpgcbl.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1562,7 +1562,7 @@
     "url": "https://bina.gov.bd/",
     "base_url": "https://bina.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1571,7 +1571,7 @@
     "url": "https://bmtti.gov.bd/",
     "base_url": "https://bmtti.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1580,7 +1580,7 @@
     "url": "https://rangpurdiv.gov.bd/",
     "base_url": "https://rangpurdiv.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1589,7 +1589,7 @@
     "url": "https://nib.gov.bd/",
     "base_url": "https://nib.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1598,7 +1598,7 @@
     "url": "https://cdb.gov.bd/",
     "base_url": "https://cdb.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1607,7 +1607,7 @@
     "url": "https://bsri.gov.bd/",
     "base_url": "https://bsri.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1616,7 +1616,7 @@
     "url": "https://nazrulinstitute.gov.bd/",
     "base_url": "https://nazrulinstitute.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1625,7 +1625,7 @@
     "url": "https://kgdcl.gov.bd/",
     "base_url": "https://kgdcl.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1634,7 +1634,7 @@
     "url": "https://www.barisaldiv.gov.bd/",
     "base_url": "https://www.barisaldiv.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1643,7 +1643,7 @@
     "url": "https://cs.moulvibazar.gov.bd/",
     "base_url": "https://cs.moulvibazar.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1652,7 +1652,7 @@
     "url": "https://cs.sunamganj.gov.bd/",
     "base_url": "https://cs.sunamganj.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1661,7 +1661,7 @@
     "url": "https://fisheries.gov.bd/",
     "base_url": "https://fisheries.gov.bd",
     "selector": "div.scrolling_notices #latest_news li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1670,7 +1670,7 @@
     "url": "https://cs.comilla.gov.bd/",
     "base_url": "https://cs.comilla.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1679,7 +1679,7 @@
     "url": "https://dgfood.gov.bd/",
     "base_url": "https://dgfood.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1688,7 +1688,7 @@
     "url": "https://bari.gov.bd/",
     "base_url": "https://bari.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1697,7 +1697,7 @@
     "url": "https://cs.rajbari.gov.bd/",
     "base_url": "https://cs.rajbari.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1706,7 +1706,7 @@
     "url": "https://dwasa.org.bd/",
     "base_url": "https://dwasa.org.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1715,7 +1715,7 @@
     "url": "https://tourismboard.gov.bd/",
     "base_url": "https://tourismboard.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1724,7 +1724,7 @@
     "url": "https://cbc.gov.bd/",
     "base_url": "https://cbc.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1733,7 +1733,7 @@
     "url": "https://heu.gov.bd/",
     "base_url": "https://heu.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1742,7 +1742,7 @@
     "url": "https://bhdc.gov.bd/",
     "base_url": "https://bhdc.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1751,7 +1751,7 @@
     "url": "https://cs.chittagong.gov.bd/",
     "base_url": "https://cs.chittagong.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1760,7 +1760,7 @@
     "url": "https://brri.gov.bd/",
     "base_url": "https://brri.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1769,7 +1769,7 @@
     "url": "https://mos.gov.bd/",
     "base_url": "https://mos.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1778,7 +1778,7 @@
     "url": "https://bcsadminacademy.gov.bd/",
     "base_url": "https://bcsadminacademy.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1787,7 +1787,7 @@
     "url": "https://moi.gov.bd/",
     "base_url": "https://moi.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1796,7 +1796,7 @@
     "url": "https://banbeis.gov.bd/",
     "base_url": "https://banbeis.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1805,7 +1805,7 @@
     "url": "https://bsfic.gov.bd/",
     "base_url": "https://bsfic.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1814,7 +1814,7 @@
     "url": "https://wewb.gov.bd/",
     "base_url": "https://wewb.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1823,7 +1823,7 @@
     "url": "https://pgcl.org.bd/",
     "base_url": "https://pgcl.org.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1832,7 +1832,7 @@
     "url": "https://sylhetdiv.gov.bd/",
     "base_url": "https://sylhetdiv.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1841,7 +1841,7 @@
     "url": "https://sfdf.gov.bd/",
     "base_url": "https://sfdf.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1850,7 +1850,7 @@
     "url": "https://tax.barisal.gov.bd/",
     "base_url": "https://tax.barisal.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1859,7 +1859,7 @@
     "url": "https://mowca.gov.bd/",
     "base_url": "https://mowca.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1868,7 +1868,7 @@
     "url": "https://techedu.gov.bd/",
     "base_url": "https://techedu.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1877,7 +1877,7 @@
     "url": "https://bcc.gov.bd/",
     "base_url": "https://bcc.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1886,7 +1886,7 @@
     "url": "https://pliwc.bdpost.gov.bd/",
     "base_url": "https://pliwc.bdpost.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1895,7 +1895,7 @@
     "url": "https://rpgcl.org.bd/",
     "base_url": "https://rpgcl.org.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1904,7 +1904,7 @@
     "url": "https://rajuk.gov.bd/",
     "base_url": "https://rajuk.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1913,7 +1913,7 @@
     "url": "https://www.dnbc.gov.bd/",
     "base_url": "https://www.dnbc.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1922,7 +1922,7 @@
     "url": "https://dwa.gov.bd/",
     "base_url": "https://dwa.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1931,7 +1931,7 @@
     "url": "https://explosives.gov.bd/",
     "base_url": "https://explosives.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1940,7 +1940,7 @@
     "url": "https://frc.gov.bd/",
     "base_url": "https://frc.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1949,7 +1949,7 @@
     "url": "https://biam.gov.bd/",
     "base_url": "https://biam.gov.bd",
     "selector": "div.scrolling_notices #latest_news li a, div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1958,7 +1958,7 @@
     "url": "https://cevccumilla.gov.bd/",
     "base_url": "https://cevccumilla.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1967,7 +1967,7 @@
     "url": "https://btrc.gov.bd/",
     "base_url": "https://btrc.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1976,7 +1976,7 @@
     "url": "https://rda.gov.bd/",
     "base_url": "https://rda.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1985,7 +1985,7 @@
     "url": "https://mochta.gov.bd/",
     "base_url": "https://mochta.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -1994,7 +1994,7 @@
     "url": "https://pib.gov.bd/",
     "base_url": "https://pib.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2003,7 +2003,7 @@
     "url": "https://sunamganj.gov.bd/",
     "base_url": "https://sunamganj.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2012,7 +2012,7 @@
     "url": "https://lakshmipur.gov.bd/",
     "base_url": "https://lakshmipur.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2021,7 +2021,7 @@
     "url": "https://lged.gov.bd/",
     "base_url": "https://lged.gov.bd",
     "selector": "div.scrolling_notices #latest_news li a, div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2030,7 +2030,7 @@
     "url": "https://novotheatre.gov.bd/",
     "base_url": "https://novotheatre.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2039,7 +2039,7 @@
     "url": "https://kumch.kushtia.gov.bd/",
     "base_url": "https://kumch.kushtia.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2048,7 +2048,7 @@
     "url": "https://apscl.gov.bd/",
     "base_url": "https://apscl.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2057,7 +2057,7 @@
     "url": "https://brpowergen.gov.bd/",
     "base_url": "https://brpowergen.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2066,7 +2066,7 @@
     "url": "https://rri.gov.bd/",
     "base_url": "https://rri.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2075,7 +2075,7 @@
     "url": "https://cpa.gov.bd/",
     "base_url": "https://cpa.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2084,7 +2084,7 @@
     "url": "https://www.rajshahi.gov.bd/",
     "base_url": "https://www.rajshahi.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2093,7 +2093,7 @@
     "url": "https://idra.org.bd/",
     "base_url": "https://idra.org.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2102,7 +2102,7 @@
     "url": "https://comilla.gov.bd/",
     "base_url": "https://comilla.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2111,7 +2111,7 @@
     "url": "https://bpatc.gov.bd/",
     "base_url": "https://bpatc.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2120,7 +2120,7 @@
     "url": "https://pkb.gov.bd/",
     "base_url": "https://pkb.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2129,7 +2129,7 @@
     "url": "https://netrokona.gov.bd/",
     "base_url": "https://netrokona.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2138,7 +2138,7 @@
     "url": "https://cs.jamalpur.gov.bd/",
     "base_url": "https://cs.jamalpur.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2147,7 +2147,7 @@
     "url": "https://archaeology.gov.bd/",
     "base_url": "https://archaeology.gov.bd",
     "selector": "div.scrolling_notices #latest_news li a, div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2156,7 +2156,7 @@
     "url": "https://shed.gov.bd/",
     "base_url": "https://shed.gov.bd",
     "selector": "div.scrolling_notices #latest_news li a, div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2165,7 +2165,7 @@
     "url": "https://nsda.gov.bd/",
     "base_url": "https://nsda.gov.bd",
     "selector": "div.scrolling_notices #latest_news li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2174,7 +2174,7 @@
     "url": "https://cs.magura.gov.bd/",
     "base_url": "https://cs.magura.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2183,7 +2183,7 @@
     "url": "https://cs.madaripur.gov.bd/",
     "base_url": "https://cs.madaripur.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2192,7 +2192,7 @@
     "url": "https://hsd.gov.bd/",
     "base_url": "https://hsd.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2201,7 +2201,7 @@
     "url": "https://mofood.gov.bd/",
     "base_url": "https://mofood.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2210,7 +2210,7 @@
     "url": "https://customs.sylhetdiv.gov.bd/",
     "base_url": "https://customs.sylhetdiv.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2219,7 +2219,7 @@
     "url": "https://cs.naogaon.gov.bd/",
     "base_url": "https://cs.naogaon.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2228,7 +2228,7 @@
     "url": "https://bac.gov.bd/",
     "base_url": "https://bac.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2237,7 +2237,7 @@
     "url": "https://landzoning.gov.bd/",
     "base_url": "https://landzoning.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2246,7 +2246,7 @@
     "url": "https://skh.gov.bd/",
     "base_url": "https://skh.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2255,7 +2255,7 @@
     "url": "https://tax.mymensingh.gov.bd/",
     "base_url": "https://tax.mymensingh.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2264,7 +2264,7 @@
     "url": "https://mocat.gov.bd/",
     "base_url": "https://mocat.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2273,7 +2273,7 @@
     "url": "https://mymensinghdiv.gov.bd/",
     "base_url": "https://mymensinghdiv.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2282,7 +2282,7 @@
     "url": "https://dlrs.gov.bd/",
     "base_url": "https://dlrs.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2291,7 +2291,7 @@
     "url": "https://cs.gopalganj.gov.bd/",
     "base_url": "https://cs.gopalganj.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2300,7 +2300,7 @@
     "url": "https://coxsbazar.gov.bd/",
     "base_url": "https://coxsbazar.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2309,7 +2309,7 @@
     "url": "https://cs.bhola.gov.bd/",
     "base_url": "https://cs.bhola.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2318,7 +2318,7 @@
     "url": "https://cs.pabna.gov.bd/",
     "base_url": "https://cs.pabna.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2327,7 +2327,7 @@
     "url": "https://cs.satkhira.gov.bd/",
     "base_url": "https://cs.satkhira.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2336,7 +2336,7 @@
     "url": "https://bpi.gov.bd/",
     "base_url": "https://bpi.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2345,7 +2345,7 @@
     "url": "https://cs.dhaka.gov.bd/",
     "base_url": "https://cs.dhaka.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2354,7 +2354,7 @@
     "url": "https://bansdoc.gov.bd/",
     "base_url": "https://bansdoc.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2363,7 +2363,7 @@
     "url": "https://customsbond.chittagongdiv.gov.bd/",
     "base_url": "https://customsbond.chittagongdiv.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2372,7 +2372,7 @@
     "url": "https://cs.bagerhat.gov.bd/",
     "base_url": "https://cs.bagerhat.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2381,7 +2381,7 @@
     "url": "https://iedcr.gov.bd/",
     "base_url": "https://iedcr.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2390,7 +2390,7 @@
     "url": "https://mpl.gov.bd/",
     "base_url": "https://mpl.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2399,7 +2399,7 @@
     "url": "https://cs.narail.gov.bd/",
     "base_url": "https://cs.narail.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2408,7 +2408,7 @@
     "url": "https://dae.gov.bd/",
     "base_url": "https://dae.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2417,7 +2417,7 @@
     "url": "https://cs.jessore.gov.bd/",
     "base_url": "https://cs.jessore.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2426,7 +2426,7 @@
     "url": "https://rdcd.gov.bd/",
     "base_url": "https://rdcd.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2435,7 +2435,7 @@
     "url": "https://cs.nilphamari.gov.bd/",
     "base_url": "https://cs.nilphamari.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2444,7 +2444,7 @@
     "url": "https://imed.gov.bd/",
     "base_url": "https://imed.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2453,7 +2453,7 @@
     "url": "https://bgb.gov.bd/",
     "base_url": "https://bgb.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2462,7 +2462,7 @@
     "url": "https://cs.barguna.gov.bd/",
     "base_url": "https://cs.barguna.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2471,7 +2471,7 @@
     "url": "https://nata.gov.bd/",
     "base_url": "https://nata.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2480,7 +2480,7 @@
     "url": "https://cs.patuakhali.gov.bd/",
     "base_url": "https://cs.patuakhali.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2489,7 +2489,7 @@
     "url": "https://cs.kishoreganj.gov.bd/",
     "base_url": "https://cs.kishoreganj.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2498,7 +2498,7 @@
     "url": "https://cs.natore.gov.bd/",
     "base_url": "https://cs.natore.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2507,7 +2507,7 @@
     "url": "https://cs.chapainawabganj.gov.bd/",
     "base_url": "https://cs.chapainawabganj.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2516,7 +2516,7 @@
     "url": "https://cs.narsingdi.gov.bd/",
     "base_url": "https://cs.narsingdi.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2525,7 +2525,7 @@
     "url": "https://cs.panchagarh.gov.bd/",
     "base_url": "https://cs.panchagarh.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2534,7 +2534,7 @@
     "url": "https://cs.rangpur.gov.bd/",
     "base_url": "https://cs.rangpur.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2543,7 +2543,7 @@
     "url": "https://bpc.gov.bd/",
     "base_url": "https://bpc.gov.bd",
     "selector": "div.scrolling_notices #latest_news li a, div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2552,7 +2552,7 @@
     "url": "https://imli.gov.bd/",
     "base_url": "https://imli.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2561,7 +2561,7 @@
     "url": "https://cs.chandpur.gov.bd/",
     "base_url": "https://cs.chandpur.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2570,7 +2570,7 @@
     "url": "https://cs.manikganj.gov.bd/",
     "base_url": "https://cs.manikganj.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2579,7 +2579,7 @@
     "url": "https://eedmoe.gov.bd/",
     "base_url": "https://eedmoe.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2588,7 +2588,7 @@
     "url": "https://cs.jhalakathi.gov.bd/",
     "base_url": "https://cs.jhalakathi.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2597,7 +2597,7 @@
     "url": "https://cs.meherpur.gov.bd/",
     "base_url": "https://cs.meherpur.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2606,7 +2606,7 @@
     "url": "https://cs.netrokona.gov.bd/",
     "base_url": "https://cs.netrokona.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2615,7 +2615,7 @@
     "url": "https://modmr.gov.bd/",
     "base_url": "https://modmr.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2624,7 +2624,7 @@
     "url": "https://cs.sherpur.gov.bd/",
     "base_url": "https://cs.sherpur.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2633,7 +2633,7 @@
     "url": "https://cs.feni.gov.bd/",
     "base_url": "https://cs.feni.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2642,7 +2642,7 @@
     "url": "https://cs.barisal.gov.bd/",
     "base_url": "https://cs.barisal.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2651,7 +2651,7 @@
     "url": "https://dhakabrt.gov.bd/",
     "base_url": "https://dhakabrt.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2660,7 +2660,7 @@
     "url": "https://moysports.gov.bd/",
     "base_url": "https://moysports.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2669,7 +2669,7 @@
     "url": "https://cs.lakshmipur.gov.bd/",
     "base_url": "https://cs.lakshmipur.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2678,7 +2678,7 @@
     "url": "https://cs.noakhali.gov.bd/",
     "base_url": "https://cs.noakhali.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2687,7 +2687,7 @@
     "url": "https://cs.faridpur.gov.bd/",
     "base_url": "https://cs.faridpur.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2696,7 +2696,7 @@
     "url": "https://cs.munshiganj.gov.bd/",
     "base_url": "https://cs.munshiganj.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2705,7 +2705,7 @@
     "url": "https://cs.chuadanga.gov.bd/",
     "base_url": "https://cs.chuadanga.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2714,7 +2714,7 @@
     "url": "https://cs.kushtia.gov.bd/",
     "base_url": "https://cs.kushtia.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2723,7 +2723,7 @@
     "url": "https://cs.rajshahi.gov.bd/",
     "base_url": "https://cs.rajshahi.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2732,7 +2732,7 @@
     "url": "https://cs.gazipur.gov.bd/",
     "base_url": "https://cs.gazipur.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2741,7 +2741,7 @@
     "url": "https://cs.jhenaidah.gov.bd/",
     "base_url": "https://cs.jhenaidah.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2750,7 +2750,7 @@
     "url": "https://cs.shariatpur.gov.bd/",
     "base_url": "https://cs.shariatpur.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2759,7 +2759,7 @@
     "url": "https://itiiu.portal.gov.bd/",
     "base_url": "https://itiiu.portal.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2768,7 +2768,7 @@
     "url": "https://www.taxeszone18dhaka.gov.bd/",
     "base_url": "https://www.taxeszone18dhaka.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2777,7 +2777,7 @@
     "url": "https://cs.sirajganj.gov.bd/",
     "base_url": "https://cs.sirajganj.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2786,7 +2786,7 @@
     "url": "https://cs.tangail.gov.bd/",
     "base_url": "https://cs.tangail.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2795,7 +2795,7 @@
     "url": "https://www.taxeszone16dhaka.gov.bd/",
     "base_url": "https://www.taxeszone16dhaka.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2804,7 +2804,7 @@
     "url": "https://cs.lalmonirhat.gov.bd/",
     "base_url": "https://cs.lalmonirhat.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2813,7 +2813,7 @@
     "url": "https://cs.mymensingh.gov.bd/",
     "base_url": "https://cs.mymensingh.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2822,7 +2822,7 @@
     "url": "https://www.cevrajshahi.gov.bd/",
     "base_url": "https://www.cevrajshahi.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2831,7 +2831,7 @@
     "url": "https://cs.pirojpur.gov.bd/",
     "base_url": "https://cs.pirojpur.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2840,7 +2840,7 @@
     "url": "https://taxeszone19.dhaka.gov.bd/",
     "base_url": "https://taxeszone19.dhaka.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2849,7 +2849,7 @@
     "url": "https://cs.brahmanbaria.gov.bd/",
     "base_url": "https://cs.brahmanbaria.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2858,7 +2858,7 @@
     "url": "https://kgh.dhaka.gov.bd/",
     "base_url": "https://kgh.dhaka.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2867,7 +2867,7 @@
     "url": "https://www.taxeszone17.gov.bd/",
     "base_url": "https://www.taxeszone17.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2876,7 +2876,7 @@
     "url": "http://www.taxeszone11dhaka.gov.bd/",
     "base_url": "http://www.taxeszone11dhaka.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2885,7 +2885,7 @@
     "url": "https://ais.gov.bd/",
     "base_url": "https://ais.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2894,7 +2894,7 @@
     "url": "https://mefwd.gov.bd/",
     "base_url": "https://mefwd.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2903,7 +2903,7 @@
     "url": "https://bjwt.gov.bd/",
     "base_url": "https://bjwt.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2912,7 +2912,7 @@
     "url": "https://ntl.gov.bd/",
     "base_url": "https://ntl.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2921,7 +2921,7 @@
     "url": "http://warpo.gov.bd/",
     "base_url": "http://warpo.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2930,7 +2930,7 @@
     "url": "https://powerdivision.gov.bd/",
     "base_url": "https://powerdivision.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2939,7 +2939,7 @@
     "url": "https://emrd.gov.bd/",
     "base_url": "https://emrd.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2948,7 +2948,7 @@
     "url": "http://nape.gov.bd/",
     "base_url": "http://nape.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2957,7 +2957,7 @@
     "url": "https://mopme.gov.bd/",
     "base_url": "https://mopme.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2966,7 +2966,7 @@
     "url": "https://cs.joypurhat.gov.bd/",
     "base_url": "https://cs.joypurhat.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2975,7 +2975,7 @@
     "url": "https://cs.gaibandha.gov.bd/",
     "base_url": "https://cs.gaibandha.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2984,7 +2984,7 @@
     "url": "https://spcbl.org.bd/",
     "base_url": "https://spcbl.org.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -2993,7 +2993,7 @@
     "url": "https://cs.dinajpur.gov.bd/",
     "base_url": "https://cs.dinajpur.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -3002,7 +3002,7 @@
     "url": "https://bcti.gov.bd/",
     "base_url": "https://bcti.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -3011,7 +3011,7 @@
     "url": "https://bsec.gov.bd/",
     "base_url": "https://bsec.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -3020,7 +3020,7 @@
     "url": "https://bncc.portal.gov.bd/",
     "base_url": "https://bncc.portal.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -3029,7 +3029,7 @@
     "url": "https://mes.portal.gov.bd/",
     "base_url": "https://mes.portal.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -3038,7 +3038,7 @@
     "url": "https://mohpw.gov.bd/",
     "base_url": "https://mohpw.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -3047,7 +3047,7 @@
     "url": "http://rda.gov.bd/",
     "base_url": "http://rda.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -3056,7 +3056,7 @@
     "url": "https://dgt.gov.bd/",
     "base_url": "https://dgt.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -3065,7 +3065,7 @@
     "url": "https://pmeat.gov.bd/",
     "base_url": "https://pmeat.gov.bd",
     "selector": "div.scrolling_notices #latest_news li a, div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -3074,7 +3074,7 @@
     "url": "https://parjatan.gov.bd/",
     "base_url": "https://parjatan.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -3083,7 +3083,7 @@
     "url": "https://infocom.gov.bd/",
     "base_url": "https://infocom.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -3092,7 +3092,7 @@
     "url": "https://dbhwd.gov.bd/",
     "base_url": "https://dbhwd.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -3101,7 +3101,7 @@
     "url": "https://mowr.gov.bd/",
     "base_url": "https://mowr.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -3110,7 +3110,7 @@
     "url": "https://pmgctg.bdpost.gov.bd/",
     "base_url": "https://pmgctg.bdpost.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -3119,7 +3119,7 @@
     "url": "https://pkmc.college.gov.bd/",
     "base_url": "https://pkmc.college.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -3128,7 +3128,7 @@
     "url": "https://nilg.gov.bd/",
     "base_url": "https://nilg.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -3137,7 +3137,7 @@
     "url": "https://academy.bdpost.gov.bd/",
     "base_url": "https://academy.bdpost.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -3146,7 +3146,7 @@
     "url": "https://tici.gov.bd/",
     "base_url": "https://tici.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -3155,7 +3155,7 @@
     "url": "https://dphe.gov.bd/",
     "base_url": "https://dphe.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -3164,7 +3164,7 @@
     "url": "https://msw.gov.bd/",
     "base_url": "https://msw.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -3173,7 +3173,7 @@
     "url": "https://pmgctg.bdpost.gov.bd/",
     "base_url": "https://pmgctg.bdpost.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -3182,7 +3182,7 @@
     "url": "https://post.khulnadiv.gov.bd/",
     "base_url": "https://post.khulnadiv.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -3191,7 +3191,7 @@
     "url": "https://nlaso.gov.bd/",
     "base_url": "https://nlaso.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -3200,7 +3200,7 @@
     "url": "https://ird.gov.bd/",
     "base_url": "https://ird.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -3209,7 +3209,7 @@
     "url": "https://temo.gov.bd/",
     "base_url": "https://temo.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -3218,7 +3218,7 @@
     "url": "https://coop.gov.bd/",
     "base_url": "https://coop.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -3227,7 +3227,7 @@
     "url": "http://lrb.gov.bd/",
     "base_url": "http://lrb.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -3236,7 +3236,7 @@
     "url": "http://bfsa.gov.bd/",
     "base_url": "http://bfsa.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -3245,7 +3245,7 @@
     "url": "http://www.bard.gov.bd/",
     "base_url": "http://www.bard.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -3254,7 +3254,7 @@
     "url": "http://ctg-wasa.org.bd/",
     "base_url": "http://ctg-wasa.org.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -3263,7 +3263,7 @@
     "url": "https://krishibank.gov.bd/",
     "base_url": "https://krishibank.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -3272,7 +3272,7 @@
     "url": "https://legislativediv.gov.bd/",
     "base_url": "https://legislativediv.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -3281,7 +3281,7 @@
     "url": "https://pdbf.gov.bd/",
     "base_url": "https://pdbf.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -3290,7 +3290,7 @@
     "url": "https://bsb.gov.bd/",
     "base_url": "https://bsb.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -3299,7 +3299,7 @@
     "url": "https://ccc.gov.bd/",
     "base_url": "https://ccc.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -3308,7 +3308,7 @@
     "url": "https://nha.gov.bd/",
     "base_url": "https://nha.gov.bd",
     "selector": "div.scrolling_notices #latest_news li a, div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -3317,7 +3317,7 @@
     "url": "https://vatdhakawest.gov.bd/",
     "base_url": "https://vatdhakawest.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -3326,7 +3326,7 @@
     "url": "https://pgcb.gov.bd/",
     "base_url": "https://pgcb.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -3335,7 +3335,7 @@
     "url": "https://pgcb.gov.bd/",
     "base_url": "https://pgcb.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -3344,7 +3344,7 @@
     "url": "http://www.cme.gov.bd/",
     "base_url": "http://www.cme.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -3353,7 +3353,7 @@
     "url": "https://bfdc.gov.bd/",
     "base_url": "https://bfdc.gov.bd",
     "selector": "div.scrolling_notices #latest_news li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -3362,7 +3362,7 @@
     "url": "https://dmtcl.gov.bd/",
     "base_url": "https://dmtcl.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -3371,7 +3371,7 @@
     "url": "https://nememw.gov.bd/",
     "base_url": "https://nememw.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -3380,7 +3380,7 @@
     "url": "https://pcb.gov.bd/",
     "base_url": "https://pcb.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -3389,7 +3389,7 @@
     "url": "https://probashi.gov.bd/",
     "base_url": "https://probashi.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -3398,7 +3398,7 @@
     "url": "https://dmc.gov.bd/",
     "base_url": "https://dmc.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -3407,7 +3407,7 @@
     "url": "https://dmc.gov.bd/",
     "base_url": "https://dmc.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   },
 {
@@ -3416,7 +3416,7 @@
     "url": "https://bforest.gov.bd/",
     "base_url": "https://bforest.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
+    "selenium_enabled": true,
     "wait_time": 10
   }
 ]
