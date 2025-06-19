@@ -2,6 +2,7 @@
 import threading
 from flask import Flask
 from datetime import datetime
+import pytz  # ✅ For timezone conversion
 
 app = Flask(__name__)
 last_check_time = None  # Track last check time
@@ -14,7 +15,10 @@ def home():
 def show_last_check():
     global last_check_time
     if last_check_time:
-        return f"🕒 Last check: {last_check_time.strftime('%Y-%m-%d %H:%M:%S')}"
+        # ✅ Convert UTC to Asia/Dhaka
+        dhaka_tz = pytz.timezone('Asia/Dhaka')
+        local_time = last_check_time.astimezone(dhaka_tz)
+        return f"🕒 Last check: {local_time.strftime('%Y-%m-%d %H:%M:%S')} (Asia/Dhaka)"
     return "❌ No check performed yet."
 
 def run_flask():
@@ -22,12 +26,11 @@ def run_flask():
 
 threading.Thread(target=run_flask).start()
 
-# === Rest of Your Code ===
+# === Rest of Your Bot Code ===
 
 import json
 import os
 import requests
-import pytz
 from apscheduler.schedulers.background import BackgroundScheduler
 import logging
 from bs4 import BeautifulSoup
@@ -37,7 +40,7 @@ from urllib3.exceptions import InsecureRequestWarning
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.common.exceptions import TimeoutException, WebDriverException
+from selenium.common.exceptions import TimeoutException
 
 from helpers_postgres import init_db, load_last_link, set_last_link, send_telegram_message, get_webdriver, close_webdriver
 
@@ -50,7 +53,7 @@ init_db()
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 KEYWORDS = [
-    "নিয়োগ", "নিয়োগ বিজ্ঞপ্তি", "চাকরি", "recruitment", "job", "নিয়োগে", "career", "opportunity"
+    "নিয়োগ", " নিয়োগ বিজ্ঞপ্তি", "চাকরি", "recruitment", "job", "নিয়োগে", "career", "opportunity"
 ]
 
 HEADERS = {
@@ -58,11 +61,8 @@ HEADERS = {
 }
 
 def is_relevant(text: str) -> bool:
-    try:
-        text_normalized = text.strip().lower()
-        return any(keyword in text_normalized for keyword in KEYWORDS)
-    except:
-        return False
+    text_no_case = text.lower() if any(c.isalpha() and c.isascii() for c in text) else text
+    return any(keyword in text_no_case for keyword in KEYWORDS)
 
 def extract_text_and_link(element: BeautifulSoup, base_url: str) -> Tuple[str, str]:
     text, link = "", ""
@@ -84,32 +84,26 @@ def fetch_site_data(site: Dict[str, Any]) -> List[Tuple[str, str]]:
     site_selector = site["selector"]
     site_base_url = site.get("base_url", site_url)
     selenium_enabled = site.get("selenium_enabled", False)
+    wait_time = site.get("wait_time", 15)
 
     logging.info(f"Fetching data from {site_name} ({site_url}) using {'Selenium' if selenium_enabled else 'Requests'}")
     driver = None
 
     try:
         if selenium_enabled:
-            driver = get_webdriver(browser=site.get("browser", "chrome"), headless=site.get("headless", True))
+            driver = get_webdriver()
             if not driver:
                 logging.error(f"Could not initialize Selenium WebDriver for {site_name}. Skipping.")
                 return []
 
             driver.get(site_url)
-            wait_time = site.get("wait_time", 15)
-            parent_selector = site.get("parent_selector", site_selector)
-
             try:
                 WebDriverWait(driver, wait_time).until(EC.presence_of_element_located((By.CSS_SELECTOR, site_selector)))
             except TimeoutException:
-                if parent_selector and parent_selector != site_selector:
-                    logging.warning(f"Trying fallback selector: {parent_selector}")
-                    WebDriverWait(driver, wait_time).until(EC.presence_of_element_located((By.CSS_SELECTOR, parent_selector)))
-                else:
-                    raise
+                logging.warning(f"Timeout waiting for selector {site_selector} on {site_name}")
+                return []
 
             soup = BeautifulSoup(driver.page_source, "html.parser")
-
         else:
             response = requests.get(site_url, verify=False, timeout=20, headers=HEADERS)
             response.raise_for_status()
@@ -123,7 +117,6 @@ def fetch_site_data(site: Dict[str, Any]) -> List[Tuple[str, str]]:
 
         for el in elements:
             text, link = extract_text_and_link(el, site_base_url)
-            print(f"DEBUG: {text} → {link}")  # <-- ✅ Debugging line added here
             if text and is_relevant(text):
                 notices.append((text, link))
 
@@ -137,8 +130,8 @@ def fetch_site_data(site: Dict[str, Any]) -> List[Tuple[str, str]]:
 
 def check_all_sites():
     global last_check_time
-    last_check_time = datetime.now()
-    print(f"\n🕒 Checking all sites at {last_check_time.strftime('%Y-%m-%d %H:%M:%S')}")
+    last_check_time = datetime.now(pytz.utc)  # ✅ Save in UTC
+    print(f"\n🕒 Checking all sites at {last_check_time.strftime('%Y-%m-%d %H:%M:%S')} UTC")
 
     config_path = "config.json"
     if not os.path.exists(config_path):
@@ -192,9 +185,9 @@ def check_all_sites():
         set_last_link(site_id, latest_id)
         logging.info(f"Updated last seen ID for {site_name} to: {latest_id}")
 
-# === Scheduler: Run every 40 minute ===
+# === Scheduler: Run every 1 minute ===
 scheduler = BackgroundScheduler(timezone=pytz.timezone("Asia/Dhaka"))
-scheduler.add_job(check_all_sites, 'interval', minutes=35)
+scheduler.add_job(check_all_sites, 'interval', minutes=1)
 scheduler.start()
 
 # ✅ Run once after deploy
