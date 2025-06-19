@@ -6,6 +6,6 @@
     "base_url": "https://bpatc.gov.bd",
     "selector": "div.notice-board-bg li a",
     "selenium_enabled": true,
-  "wait_time": 5
+  "wait_time": 10
   }
 ]
