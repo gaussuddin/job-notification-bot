@@ -59,8 +59,8 @@ HEADERS = {
 }
 
 def is_relevant(text: str) -> bool:
-    text_lower = text.lower()
-    return any(keyword in text_lower for keyword in KEYWORDS)
+    text_no_case = text.lower() if any(c.isalpha() and c.isascii() for c in text) else text
+    return any(keyword in text_no_case for keyword in KEYWORDS)
 
 def extract_text_and_link(element: BeautifulSoup, base_url: str) -> Tuple[str, str]:
     text, link = "", ""
