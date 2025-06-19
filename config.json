@@ -1,13 +1,13 @@
 [
 {
-    "id": "ACC",
-    "name": "দুর্নীতি দমন কমিশন (ACC)",
-    "url": "https://acc.org.bd/",
-    "base_url": "https://acc.org.bd",
-    "selector": "div.notice-board-bg li a",
-    "selenium_enabled": true
-    "wait_time": 10
-  },
+  "id": "ACC",
+  "name": "দুর্নীতি দমন কমিশন (ACC)",
+  "url": "https://acc.org.bd/",
+  "base_url": "https://bpatc.gov.bd",
+  "selector": "div.notice-board-bg li a",
+  "selenium_enabled": true,
+  "wait_time": 5
+},
 {
     "id": "Ansar VDP",
     "name": "বাংলাদেশ আনসার ও গ্রাম প্রতিরক্ষা বাহিনী (Ansar VDP)",
