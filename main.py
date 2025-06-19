@@ -38,7 +38,6 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException, WebDriverException
-from apscheduler.schedulers.background import BackgroundScheduler  # Added
 
 from helpers_postgres import init_db, load_last_link, set_last_link, send_telegram_message, get_webdriver, close_webdriver
 
@@ -51,7 +50,7 @@ init_db()
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 KEYWORDS = [
-    "নিয়োগ", " নিয়োগ বিজ্ঞপ্তি", "চাকরি", "recruitment", "job", "নিয়োগে", "career", "opportunity"
+    "নিয়োগ", "নিয়োগ বিজ্ঞপ্তি", "চাকরি", "recruitment", "job", "নিয়োগে", "career", "opportunity"
 ]
 
 HEADERS = {
@@ -59,8 +58,11 @@ HEADERS = {
 }
 
 def is_relevant(text: str) -> bool:
-    text_no_case = text.lower() if any(c.isalpha() and c.isascii() for c in text) else text
-    return any(keyword in text_no_case for keyword in KEYWORDS)
+    try:
+        text_normalized = text.strip().lower()
+        return any(keyword in text_normalized for keyword in KEYWORDS)
+    except:
+        return False
 
 def extract_text_and_link(element: BeautifulSoup, base_url: str) -> Tuple[str, str]:
     text, link = "", ""
@@ -121,6 +123,7 @@ def fetch_site_data(site: Dict[str, Any]) -> List[Tuple[str, str]]:
 
         for el in elements:
             text, link = extract_text_and_link(el, site_base_url)
+            print(f"DEBUG: {text} → {link}")  # <-- ✅ Debugging line added here
             if text and is_relevant(text):
                 notices.append((text, link))
 
@@ -189,7 +192,7 @@ def check_all_sites():
         set_last_link(site_id, latest_id)
         logging.info(f"Updated last seen ID for {site_name} to: {latest_id}")
 
-# === Scheduler: Run every 1 hour ===
+# === Scheduler: Run every 1 minute ===
 scheduler = BackgroundScheduler(timezone=pytz.timezone("Asia/Dhaka"))
 scheduler.add_job(check_all_sites, 'interval', minutes=1)
 scheduler.start()
