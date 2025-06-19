@@ -5,6 +5,7 @@
     "url": "https://bpatc.gov.bd/",
     "base_url": "https://bpatc.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false
+    "selenium_enabled": true,
+  "wait_time": 10
   }
 ]
