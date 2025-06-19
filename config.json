@@ -5,7 +5,7 @@
     "url": "https://acc.org.bd/",
     "base_url": "https://acc.org.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Ansar VDP",
@@ -13,7 +13,7 @@
     "url": "https://ansarvdp.gov.bd/",
     "base_url": "https://ansarvdp.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Architecture",
@@ -21,7 +21,7 @@
     "url": "https://architecture.gov.bd/",
     "base_url": "https://architecture.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Bangla Academy",
@@ -29,7 +29,7 @@
     "url": "https://banglaacademy.gov.bd/",
     "base_url": "https://banglaacademy.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Bangladesh ADC",
@@ -37,7 +37,7 @@
     "url": "https://badc.gov.bd/",
     "base_url": "https://badc.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "BEPCL",
@@ -45,7 +45,7 @@
     "url": "https://bapex.com.bd/",
     "base_url": "https://bapex.com.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Biman Bangladesh",
@@ -53,7 +53,7 @@
     "url": "https://biman.gov.bd/",
     "base_url": "https://biman.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "BBS",
@@ -61,7 +61,7 @@
     "url": "https://bbs.gov.bd/",
     "base_url": "https://bbs.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Benapole Customs",
@@ -69,7 +69,7 @@
     "url": "https://benapolecustoms.portal.gov.bd/",
     "base_url": "https://benapolecustoms.portal.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Bangladesh Chemical Industries Corporation",
@@ -77,7 +77,7 @@
     "url": "https://bcic.gov.bd/",
     "base_url": "https://bcic.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Bangladesh Council of Scientific and Industrial Research",
@@ -85,7 +85,7 @@
     "url": "https://www.bcsir.gov.bd/",
     "base_url": "https://www.bcsir.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Bangladesh Post Office",
@@ -93,7 +93,7 @@
     "url": "https://bdpost.gov.bd/",
     "base_url": "https://bdpost.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Bangladesh Forest Department Chattogram",
@@ -101,7 +101,7 @@
     "url": "https://forest.chittagongdiv.gov.bd/",
     "base_url": "https://forest.chittagongdiv.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Bangladesh Hi Tech Park Authority",
@@ -109,7 +109,7 @@
     "url": "https://bhtpa.gov.bd/",
     "base_url": "https://bhtpa.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Bangladesh Institute of Research And Training on Applied Nutrition",
@@ -117,7 +117,7 @@
     "url": "https://birtan.gov.bd/",
     "base_url": "https://birtan.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Bangladesh Inland Water Transport Corporation",
@@ -125,7 +125,7 @@
     "url": "https://biwtc.gov.bd/",
     "base_url": "https://biwtc.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Bangladesh Jute Research Institute",
@@ -133,7 +133,7 @@
     "url": "https://bjri.gov.bd/",
     "base_url": "https://bjri.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Bureau of Manpower Employment and Training",
@@ -141,7 +141,7 @@
     "url": "https://bmet.gov.bd/",
     "base_url": "https://bmet.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Bangladesh Oil, Gas & Mineral Corporation BOGMC",
@@ -149,7 +149,7 @@
     "url": "https://petrobangla.org.bd/",
     "base_url": "https://petrobangla.org.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Office of The Chief Inspector of Boilers",
@@ -157,7 +157,7 @@
     "url": "https://boiler.gov.bd/",
     "base_url": "https://boiler.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Bangladesh Power Development Board",
@@ -165,7 +165,7 @@
     "url": "https://bpdb.gov.bd/",
     "base_url": "https://bpdb.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Bangladesh Railway",
@@ -173,7 +173,7 @@
     "url": "https://railway.gov.bd/",
     "base_url": "https://railway.gov.bd",
     "selector": "div.scrolling_notices #latest_news li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Bangladesh Rural Development Board",
@@ -181,7 +181,7 @@
     "url": "https://brdb.gov.bd/",
     "base_url": "https://brdb.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Bangladesh Rural Electrification Board",
@@ -189,7 +189,7 @@
     "url": "https://reb.gov.bd/",
     "base_url": "https://reb.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Bangladesh Road Transport Authority",
@@ -197,7 +197,7 @@
     "url": "https://brta.gov.bd/",
     "base_url": "https://brta.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Bangladesh Road Transport Corporation",
@@ -205,7 +205,7 @@
     "url": "https://brtc.gov.bd/",
     "base_url": "https://brtc.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Bangladesh Shilpakala Academy",
@@ -213,7 +213,7 @@
     "url": "http://shilpakala.gov.bd/",
     "base_url": "http://shilpakala.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Bangladesh Land Port Authority",
@@ -221,7 +221,7 @@
     "url": "https://blpa.gov.bd/",
     "base_url": "https://blpa.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Bangladesh Telecommunications Company Limited",
@@ -229,7 +229,7 @@
     "url": "https://btcl.portal.gov.bd/",
     "base_url": "https://btcl.portal.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Cabinet Division",
@@ -237,7 +237,7 @@
     "url": "https://cabinet.gov.bd/",
     "base_url": "https://cabinet.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Northern Electricity Supply Company Limited",
@@ -245,7 +245,7 @@
     "url": "https://nesco.gov.bd/",
     "base_url": "https://nesco.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Conservator of Forests Bogra",
@@ -253,7 +253,7 @@
     "url": "https://forest.bogra.gov.bd/",
     "base_url": "https://forest.bogra.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Office of the Controller General of Accounts",
@@ -261,7 +261,7 @@
     "url": "https://cga.gov.bd/",
     "base_url": "https://cga.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Controller General of Defence Finance",
@@ -269,7 +269,7 @@
     "url": "https://cgdf.gov.bd/",
     "base_url": "https://cgdf.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Office Of The Controller of Accounts (Revenue)",
@@ -277,7 +277,7 @@
     "url": "https://coa-revenue.gov.bd/",
     "base_url": "https://coa-revenue.gov.bd",
     "selector": "div.scrolling_notices #latest_news li a, div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Cox’s Bazar Development Authority",
@@ -285,7 +285,7 @@
     "url": "https://coxda.gov.bd/",
     "base_url": "https://coxda.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Department of Agricultural Marketing",
@@ -293,7 +293,7 @@
     "url": "https://dam.gov.bd/",
     "base_url": "https://dam.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Office of the Chief Administrative Officer",
@@ -301,7 +301,7 @@
     "url": "https://dcd.gov.bd/",
     "base_url": "https://dcd.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Ministry of Defence",
@@ -309,7 +309,7 @@
     "url": "https://mod.gov.bd/",
     "base_url": "https://mod.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Department of Disaster Management",
@@ -317,7 +317,7 @@
     "url": "https://ddm.gov.bd/",
     "base_url": "https://ddm.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Dhaka Electric Supply Company Limited",
@@ -325,7 +325,7 @@
     "url": "https://desco.gov.bd/",
     "base_url": "https://desco.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Directorate General of Family Planning",
@@ -333,7 +333,7 @@
     "url": "https://dgfp.gov.bd/",
     "base_url": "https://dgfp.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Directorate General of Health Services",
@@ -341,7 +341,7 @@
     "url": "https://dghs.gov.bd/",
     "base_url": "https://dghs.gov.bd",
     "selector": "div.scrolling_notices #latest_news li a, div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Chittagong Division",
@@ -349,7 +349,7 @@
     "url": "https://chittagongdiv.gov.bd/",
     "base_url": "https://chittagongdiv.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Department of Narcotics Control",
@@ -357,7 +357,7 @@
     "url": "https://dnc.gov.bd/",
     "base_url": "https://dnc.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Dhaka North City Corporation",
@@ -365,7 +365,7 @@
     "url": "https://dncc.gov.bd/",
     "base_url": "https://dncc.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Department of Shipping",
@@ -373,7 +373,7 @@
     "url": "http://dos.gov.bd/",
     "base_url": "http://dos.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Dhaka South City Corporation",
@@ -381,7 +381,7 @@
     "url": "https://dscc.gov.bd/",
     "base_url": "https://dscc.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Directorate of Secondary and Higher Education",
@@ -389,7 +389,7 @@
     "url": "https://dshe.gov.bd/",
     "base_url": "https://dshe.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Department of Social Services",
@@ -397,7 +397,7 @@
     "url": "https://dss.gov.bd/",
     "base_url": "https://dss.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Department of Youth Development",
@@ -405,7 +405,7 @@
     "url": "https://dyd.gov.bd/",
     "base_url": "https://dyd.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Electricity Generation Company of Bangladesh",
@@ -413,7 +413,7 @@
     "url": "https://egcb.gov.bd/",
     "base_url": "https://egcb.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Export Promotion Bureau",
@@ -421,7 +421,7 @@
     "url": "https://epb.gov.bd/",
     "base_url": "https://epb.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Bangladesh Computer Council",
@@ -429,7 +429,7 @@
     "url": "https://bcc.gov.bd/",
     "base_url": "https://bcc.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Bangladesh Data Center Company Limited",
@@ -437,7 +437,7 @@
     "url": "https://bdccl.gov.bd/",
     "base_url": "https://bdccl.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Information and Communication Technology Division",
@@ -445,7 +445,7 @@
     "url": "https://ictd.gov.bd/",
     "base_url": "https://ictd.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Eastern Refinery Limited",
@@ -453,7 +453,7 @@
     "url": "https://erl.com.bd/",
     "base_url": "https://erl.com.bd",
     "selector": "div.scrolling_notices #latest_news li a, div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Bangladesh Bridge Authority",
@@ -461,7 +461,7 @@
     "url": "https://bba.gov.bd/",
     "base_url": "https://bba.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Bangladesh Fire Service and Civil Defence FSCD",
@@ -469,7 +469,7 @@
     "url": "https://fireservice.gov.bd/",
     "base_url": "https://fireservice.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Geological Survey of Bangladesh",
@@ -477,7 +477,7 @@
     "url": "https://gsb.gov.bd/",
     "base_url": "https://gsb.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Health Services Division",
@@ -485,7 +485,7 @@
     "url": "https://hsd.gov.bd/",
     "base_url": "https://hsd.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Jiban Bima Corporation",
@@ -493,7 +493,7 @@
     "url": "https://jbc.gov.bd/",
     "base_url": "https://jbc.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Department of Livestock Services",
@@ -501,7 +501,7 @@
     "url": "https://dls.gov.bd/",
     "base_url": "https://dls.gov.bd",
     "selector": "div.scrolling_notices #latest_news li a, div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "West Zone Power Distribution Company",
@@ -509,7 +509,7 @@
     "url": "https://wzpdcl.gov.bd/",
     "base_url": "https://wzpdcl.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Bangladesh Inland Water Transport Authority",
@@ -517,7 +517,7 @@
     "url": "https://biwta.gov.bd/",
     "base_url": "https://biwta.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Chittagong Port Authority",
@@ -525,7 +525,7 @@
     "url": "https://cpa.gov.bd/",
     "base_url": "https://cpa.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Khulna Development Authority",
@@ -533,7 +533,7 @@
     "url": "https://kda.gov.bd/",
     "base_url": "https://kda.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Customs, Excise & VAT Commissionerate Khulna",
@@ -541,7 +541,7 @@
     "url": "https://customs.khulna.gov.bd/",
     "base_url": "https://customs.khulna.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Mass Communication Department",
@@ -549,7 +549,7 @@
     "url": "https://masscommunication.gov.bd/",
     "base_url": "https://masscommunication.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Mongla Custom House",
@@ -557,7 +557,7 @@
     "url": "https://mch.portal.gov.bd/",
     "base_url": "https://mch.portal.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Ministry of Home Affairs, Public Security Division",
@@ -565,7 +565,7 @@
     "url": "https://mhapsd.gov.bd/",
     "base_url": "https://mhapsd.gov.bd",
     "selector": "div.scrolling_notices #latest_news li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Bangladesh Milk Producer’s Co-Operative Union Ltd",
@@ -573,7 +573,7 @@
     "url": "https://milkvita.org.bd/",
     "base_url": "https://milkvita.org.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Ministry of Agriculture",
@@ -581,7 +581,7 @@
     "url": "https://moa.gov.bd/",
     "base_url": "https://moa.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Ministry of Defence Constabulary",
@@ -589,7 +589,7 @@
     "url": "https://modc.portal.gov.bd/",
     "base_url": "https://modc.portal.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Ministry of Environment, Forest and Climate Change",
@@ -597,7 +597,7 @@
     "url": "https://moefcc.gov.bd/",
     "base_url": "https://moefcc.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Ministry of Finance",
@@ -605,7 +605,7 @@
     "url": "https://mof.gov.bd/",
     "base_url": "https://mof.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Ministry of Fisheries and Livestock",
@@ -613,7 +613,7 @@
     "url": "https://mofl.gov.bd/",
     "base_url": "https://mofl.gov.bd",
     "selector": "div.scrolling_notices #latest_news li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Ministry of Land",
@@ -621,7 +621,7 @@
     "url": "https://minland.gov.bd/",
     "base_url": "https://minland.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Ministry of Primary and Mass Education",
@@ -629,7 +629,7 @@
     "url": "https://mopme.gov.bd/",
     "base_url": "https://mopme.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Ministry of Railway",
@@ -637,7 +637,7 @@
     "url": "https://mor.gov.bd/",
     "base_url": "https://mor.gov.bd",
     "selector": "div.scrolling_notices #latest_news li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Mongla Port Authority",
@@ -645,7 +645,7 @@
     "url": "https://mpa.gov.bd/",
     "base_url": "https://mpa.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "National Computer Training and Research Academy",
@@ -653,7 +653,7 @@
     "url": "https://nactar.gov.bd/",
     "base_url": "https://nactar.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "National Institute of Mass Communication",
@@ -661,7 +661,7 @@
     "url": "http://nimc.gov.bd/",
     "base_url": "http://nimc.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Nuclear Power Plant Company Bangladesh Limited",
@@ -669,7 +669,7 @@
     "url": "https://npcbl.portal.gov.bd/",
     "base_url": "https://npcbl.portal.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Non-Government Teacher’s Registration and Certificate Authority",
@@ -677,7 +677,7 @@
     "url": "https://ntrca.gov.bd/",
     "base_url": "https://ntrca.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Planning Division",
@@ -685,7 +685,7 @@
     "url": "https://plandiv.gov.bd/",
     "base_url": "https://plandiv.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Office of the Postmaster General, Northern, Rajshahi",
@@ -693,7 +693,7 @@
     "url": "https://pmgraj.bdpost.gov.bd/",
     "base_url": "https://pmgraj.bdpost.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Payra Port Authority",
@@ -701,7 +701,7 @@
     "url": "http://ppa.gov.bd/",
     "base_url": "http://ppa.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Bangladesh Jail Police",
@@ -709,7 +709,7 @@
     "url": "http://prison.gov.bd/",
     "base_url": "http://prison.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Customs, Excise & VAT Commissionerate Rangpur",
@@ -717,7 +717,7 @@
     "url": "https://www.rangpurvat.gov.bd/",
     "base_url": "https://www.rangpurvat.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Roads and Highways Department",
@@ -725,7 +725,7 @@
     "url": "https://rhd.portal.gov.bd/",
     "base_url": "https://rhd.portal.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Bangladesh Water Development Board",
@@ -733,7 +733,7 @@
     "url": "https://www.bwdb.gov.bd/",
     "base_url": "https://www.bwdb.gov.bd",
     "selector": "div.content_notice li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Rural Power Company Limited",
@@ -741,7 +741,7 @@
     "url": "https://rpcl.gov.bd/",
     "base_url": "https://rpcl.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Sundarban Gas Company Limited",
@@ -749,7 +749,7 @@
     "url": "https://sgcl.org.bd/",
     "base_url": "https://sgcl.org.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Titas Gas Transmission and Distribution Company Limited",
@@ -757,7 +757,7 @@
     "url": "https://titasgas.gov.bd/",
     "base_url": "https://titasgas.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Technical and Madrasah Education Division",
@@ -765,7 +765,7 @@
     "url": "https://tmed.gov.bd/",
     "base_url": "https://tmed.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Audit, Intelligence & Investigation Directorate, VAT Dhaka",
@@ -773,7 +773,7 @@
     "url": "https://vatintelligence.gov.bd/",
     "base_url": "https://vatintelligence.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "BCS (Tax) Academy",
@@ -781,7 +781,7 @@
     "url": "https://bcstaxacademy.gov.bd/",
     "base_url": "https://bcstaxacademy.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Islamic Foundation Bangladesh",
@@ -789,7 +789,7 @@
     "url": "https://islamicfoundation.gov.bd/",
     "base_url": "https://islamicfoundation.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Ministry of Religious Affairs",
@@ -797,7 +797,7 @@
     "url": "https://mora.gov.bd/",
     "base_url": "https://mora.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Department of Military Lands & Cantonments",
@@ -805,7 +805,7 @@
     "url": "https://dmlc.gov.bd/",
     "base_url": "https://dmlc.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Bangladesh Copyright Office",
@@ -813,7 +813,7 @@
     "url": "https://copyrightoffice.gov.bd/",
     "base_url": "https://copyrightoffice.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Ministry of Cultural Affairs",
@@ -821,7 +821,7 @@
     "url": "https://moca.gov.bd/",
     "base_url": "https://moca.gov.bd",
     "selector": "div.scrolling_notices #latest_news li a, div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Directorate General of Drug Administration",
@@ -829,7 +829,7 @@
     "url": "https://dgda.gov.bd/",
     "base_url": "https://dgda.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "North-West Power Generation Company Limited",
@@ -837,7 +837,7 @@
     "url": "https://nwpgcl.gov.bd/",
     "base_url": "https://nwpgcl.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Press Information Department",
@@ -845,7 +845,7 @@
     "url": "https://pressinform.gov.bd/",
     "base_url": "https://pressinform.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Ministry of Commerce",
@@ -853,7 +853,7 @@
     "url": "https://mincom.gov.bd/",
     "base_url": "https://mincom.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Bangladesh Atomic Energy Commission",
@@ -861,7 +861,7 @@
     "url": "https://baec.gov.bd/",
     "base_url": "https://baec.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "National Academy for Planning and Development",
@@ -869,7 +869,7 @@
     "url": "https://napd.gov.bd/",
     "base_url": "https://napd.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Taxes Appellate Tribunal",
@@ -877,7 +877,7 @@
     "url": "https://tat.gov.bd/",
     "base_url": "https://tat.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Directorate of Primary Education (DPE)",
@@ -885,7 +885,7 @@
     "url": "https://www.dpe.gov.bd/",
     "base_url": "https://www.dpe.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Sustainable and Renewable Energy Development Authority",
@@ -893,7 +893,7 @@
     "url": "https://sreda.gov.bd/",
     "base_url": "https://sreda.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Narayanganj City Corporation",
@@ -901,7 +901,7 @@
     "url": "https://ncc.gov.bd/",
     "base_url": "https://ncc.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "National Telecommunication Monitoring Center",
@@ -909,7 +909,7 @@
     "url": "https://ntmc.gov.bd/",
     "base_url": "https://ntmc.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Department of Inspection for Factories and Establishments",
@@ -917,7 +917,7 @@
     "url": "https://dife.gov.bd/",
     "base_url": "https://dife.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Microcredit Regulatory Authority",
@@ -925,7 +925,7 @@
     "url": "https://mra.gov.bd/",
     "base_url": "https://mra.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Financial Institutions Division",
@@ -933,7 +933,7 @@
     "url": "https://fid.gov.bd/",
     "base_url": "https://fid.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Civil Aviation Authority of Bangladesh",
@@ -941,7 +941,7 @@
     "url": "https://caab.portal.gov.bd/",
     "base_url": "https://caab.portal.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Bangladesh Agricultural Research Council",
@@ -949,7 +949,7 @@
     "url": "https://barc.gov.bd/",
     "base_url": "https://barc.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Bangladesh Wheat and Maize Research Institute",
@@ -957,7 +957,7 @@
     "url": "https://bwmri.gov.bd/",
     "base_url": "https://bwmri.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Bangladesh Handloom Board",
@@ -965,7 +965,7 @@
     "url": "https://bhb.gov.bd/",
     "base_url": "https://bhb.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Land Administration Training Centre",
@@ -973,7 +973,7 @@
     "url": "https://latc.gov.bd/",
     "base_url": "https://latc.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Gas Transmission Company Limited",
@@ -981,7 +981,7 @@
     "url": "https://gtcl.gov.bd/",
     "base_url": "https://gtcl.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Department of Archives and Library",
@@ -989,7 +989,7 @@
     "url": "https://nanl.gov.bd/",
     "base_url": "https://nanl.gov.bd",
     "selector": "div.scrolling_notices #latest_news li a, div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Health Engineering Department",
@@ -997,7 +997,7 @@
     "url": "https://hed.gov.bd/",
     "base_url": "https://hed.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Ministry of Science and Technology",
@@ -1005,7 +1005,7 @@
     "url": "https://most.gov.bd/",
     "base_url": "https://most.gov.bd",
     "selector": "div.scrolling_notices #latest_news li a, div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Department of Patents, Designs and Trademarks",
@@ -1013,7 +1013,7 @@
     "url": "https://dpdt.gov.bd/",
     "base_url": "https://dpdt.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Ministry of Industries",
@@ -1021,7 +1021,7 @@
     "url": "https://moind.gov.bd/",
     "base_url": "https://moind.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Bangladesh Industrial Technical Assistance Center",
@@ -1029,7 +1029,7 @@
     "url": "https://bitac.gov.bd/",
     "base_url": "https://bitac.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Security Service Division",
@@ -1037,7 +1037,7 @@
     "url": "https://ssd.gov.bd/",
     "base_url": "https://ssd.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Bangladesh Livestock Research Institute",
@@ -1045,7 +1045,7 @@
     "url": "https://blri.gov.bd/",
     "base_url": "https://blri.gov.bd",
     "selector": "div.scrolling_notices #latest_news li a, div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Directorate of National Consumers Right Protection",
@@ -1053,7 +1053,7 @@
     "url": "https://dncrp.gov.bd/",
     "base_url": "https://dncrp.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Bangladesh National Museum",
@@ -1061,7 +1061,7 @@
     "url": "https://bangladeshmuseum.gov.bd/",
     "base_url": "https://bangladeshmuseum.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Bangladesh Television",
@@ -1069,7 +1069,7 @@
     "url": "https://btv.gov.bd/",
     "base_url": "https://btv.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Bakhrabad Gas Distribution Company Limited",
@@ -1077,7 +1077,7 @@
     "url": "https://bgdcl.gov.bd/",
     "base_url": "https://bgdcl.gov.bd",
     "selector": "div.scrolling_notices #latest_news li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Bureau of Non Formal Education",
@@ -1085,7 +1085,7 @@
     "url": "https://bnfe.gov.bd/",
     "base_url": "https://bnfe.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Department of Textiles",
@@ -1093,7 +1093,7 @@
     "url": "https://dot.gov.bd/",
     "base_url": "https://dot.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Ministry of Textiles & Jute",
@@ -1101,7 +1101,7 @@
     "url": "https://motj.gov.bd/",
     "base_url": "https://motj.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "National Human Rights Commission Bangladesh",
@@ -1109,7 +1109,7 @@
     "url": "https://nhrc.org.bd/",
     "base_url": "https://nhrc.org.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Office of the Chief Electric Inspector",
@@ -1117,7 +1117,7 @@
     "url": "https://ocei.gov.bd/",
     "base_url": "https://ocei.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Ministry of Liberation War Affairs",
@@ -1125,7 +1125,7 @@
     "url": "https://molwa.gov.bd/",
     "base_url": "https://molwa.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Padma Oil Company Limited",
@@ -1133,7 +1133,7 @@
     "url": "https://pocl.gov.bd/",
     "base_url": "https://pocl.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Directorate of Inspection and Audit",
@@ -1141,7 +1141,7 @@
     "url": "https://dia.gov.bd/",
     "base_url": "https://dia.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Bangladesh Forest Industries Development Corporation",
@@ -1149,7 +1149,7 @@
     "url": "https://bfidc.gov.bd/",
     "base_url": "https://bfidc.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "BRDB Integrated Rural Employment Support Project For The Poor Women",
@@ -1157,7 +1157,7 @@
     "url": "https://brdb.gov.bd/",
     "base_url": "https://brdb.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Bangladesh Karmachari Kallyan Board",
@@ -1165,7 +1165,7 @@
     "url": "https://bkkb.gov.bd/",
     "base_url": "https://bkkb.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "NGO Affairs Bureau",
@@ -1173,7 +1173,7 @@
     "url": "https://ngoab.gov.bd/",
     "base_url": "https://ngoab.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Bangladesh Shipping Corporation",
@@ -1181,7 +1181,7 @@
     "url": "https://bsc.portal.gov.bd/",
     "base_url": "https://bsc.portal.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Department of Labour",
@@ -1189,7 +1189,7 @@
     "url": "https://dol.gov.bd/",
     "base_url": "https://dol.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Statistics and Informatics Division",
@@ -1197,7 +1197,7 @@
     "url": "https://sid.gov.bd/",
     "base_url": "https://sid.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Palli Sanchay Bank",
@@ -1205,7 +1205,7 @@
     "url": "https://pallisanchaybank.gov.bd/",
     "base_url": "https://pallisanchaybank.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Trading Corporation of Bangladesh",
@@ -1213,7 +1213,7 @@
     "url": "https://tcb.gov.bd/",
     "base_url": "https://tcb.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Bangladesh House Building Finance Corporation",
@@ -1221,7 +1221,7 @@
     "url": "https://bhbfc.gov.bd/",
     "base_url": "https://bhbfc.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Directorate of Primary Education",
@@ -1229,7 +1229,7 @@
     "url": "https://www.dpe.gov.bd/",
     "base_url": "https://www.dpe.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Directorate of Internal Audit",
@@ -1237,7 +1237,7 @@
     "url": "https://doia.gov.bd/",
     "base_url": "https://doia.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Civil Surgeon Office Narayanganj",
@@ -1245,7 +1245,7 @@
     "url": "https://cs.narayanganj.gov.bd/",
     "base_url": "https://cs.narayanganj.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Bangladesh Standards and Testing Institution",
@@ -1253,7 +1253,7 @@
     "url": "https://bsti.gov.bd/",
     "base_url": "https://bsti.gov.bd",
     "selector": "div.scrolling_notices #latest_news li a, div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Housing and Building Research Institute",
@@ -1261,7 +1261,7 @@
     "url": "https://hbri.gov.bd/",
     "base_url": "https://hbri.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Sadharan Bima Corporation",
@@ -1269,7 +1269,7 @@
     "url": "https://sbc.gov.bd/",
     "base_url": "https://sbc.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Office of the Divisional Commissioner Rajshahi Division",
@@ -1277,7 +1277,7 @@
     "url": "https://rajshahidiv.gov.bd/",
     "base_url": "https://rajshahidiv.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Bangladesh Reference Institute for Chemical Measurements",
@@ -1285,7 +1285,7 @@
     "url": "https://bricm.gov.bd/",
     "base_url": "https://bricm.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "National Institute of Population Research and Training",
@@ -1293,7 +1293,7 @@
     "url": "https://niport.gov.bd/",
     "base_url": "https://niport.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Bangladesh Coast Guard",
@@ -1301,7 +1301,7 @@
     "url": "https://coastguard.gov.bd/",
     "base_url": "https://coastguard.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Bangladesh Atomic Energy Regulatory Authority",
@@ -1309,7 +1309,7 @@
     "url": "https://baera.gov.bd/",
     "base_url": "https://baera.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "National River Conservation Commission",
@@ -1317,7 +1317,7 @@
     "url": "https://nrcc.gov.bd/",
     "base_url": "https://nrcc.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Ministry of Public Administration",
@@ -1325,7 +1325,7 @@
     "url": "https://mopa.gov.bd/",
     "base_url": "https://mopa.gov.bd",
     "selector": "div.scrolling_notices #latest_news li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Directorate General of Medical Education",
@@ -1333,7 +1333,7 @@
     "url": "https://dgme.gov.bd/",
     "base_url": "https://dgme.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Civil Surgeon Office Sylhet",
@@ -1341,7 +1341,7 @@
     "url": "https://cs.sylhet.gov.bd/",
     "base_url": "https://cs.sylhet.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Civil Surgeon Office Habiganj",
@@ -1349,7 +1349,7 @@
     "url": "https://cs.habiganj.gov.bd/",
     "base_url": "https://cs.habiganj.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Bangladesh Small and Cottage Industries Corporation",
@@ -1357,7 +1357,7 @@
     "url": "https://bscic.gov.bd/",
     "base_url": "https://bscic.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Dhaka Transport Co-ordination Authority",
@@ -1365,7 +1365,7 @@
     "url": "https://dtca.gov.bd/",
     "base_url": "https://dtca.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Economic Relations Division",
@@ -1373,7 +1373,7 @@
     "url": "https://erd.gov.bd/",
     "base_url": "https://erd.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Coal Power Generation Company Bangladesh Limited",
@@ -1381,7 +1381,7 @@
     "url": "https://cpgcbl.gov.bd/",
     "base_url": "https://cpgcbl.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Bangladesh Institute of Nuclear Agriculture",
@@ -1389,7 +1389,7 @@
     "url": "https://bina.gov.bd/",
     "base_url": "https://bina.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Bangladesh Madrasah Teachers' Training Institute",
@@ -1397,7 +1397,7 @@
     "url": "https://bmtti.gov.bd/",
     "base_url": "https://bmtti.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Office of The Divisional Commissioner Rangpur",
@@ -1405,7 +1405,7 @@
     "url": "https://rangpurdiv.gov.bd/",
     "base_url": "https://rangpurdiv.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "National Institute of Biotechnology",
@@ -1413,7 +1413,7 @@
     "url": "https://nib.gov.bd/",
     "base_url": "https://nib.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Cotton Development Board",
@@ -1421,7 +1421,7 @@
     "url": "https://cdb.gov.bd/",
     "base_url": "https://cdb.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Bangladesh Sugarcrop Research Institute",
@@ -1429,7 +1429,7 @@
     "url": "https://bsri.gov.bd/",
     "base_url": "https://bsri.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Kabi Nazrul Institute",
@@ -1437,7 +1437,7 @@
     "url": "https://nazrulinstitute.gov.bd/",
     "base_url": "https://nazrulinstitute.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Karnaphuli Gas Distribution Company Limited",
@@ -1445,7 +1445,7 @@
     "url": "https://kgdcl.gov.bd/",
     "base_url": "https://kgdcl.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Office Of The Divisional Commissioner Barisal",
@@ -1453,7 +1453,7 @@
     "url": "https://www.barisaldiv.gov.bd/",
     "base_url": "https://www.barisaldiv.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Civil Surgeon Office Moulvibazar",
@@ -1461,7 +1461,7 @@
     "url": "https://cs.moulvibazar.gov.bd/",
     "base_url": "https://cs.moulvibazar.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Sunamganj Civil Surgeon Office",
@@ -1469,7 +1469,7 @@
     "url": "https://cs.sunamganj.gov.bd/",
     "base_url": "https://cs.sunamganj.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Department of Fisheries",
@@ -1477,7 +1477,7 @@
     "url": "https://fisheries.gov.bd/",
     "base_url": "https://fisheries.gov.bd",
     "selector": "div.scrolling_notices #latest_news li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Comilla Civil Surgeon Office",
@@ -1485,7 +1485,7 @@
     "url": "https://cs.comilla.gov.bd/",
     "base_url": "https://cs.comilla.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Directorate General of Food",
@@ -1493,7 +1493,7 @@
     "url": "https://dgfood.gov.bd/",
     "base_url": "https://dgfood.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Bangladesh Agricultural Research Institute",
@@ -1501,7 +1501,7 @@
     "url": "https://bari.gov.bd/",
     "base_url": "https://bari.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Rajbari Civil Surgeon Office",
@@ -1509,7 +1509,7 @@
     "url": "https://cs.rajbari.gov.bd/",
     "base_url": "https://cs.rajbari.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Dhaka WASA",
@@ -1517,7 +1517,7 @@
     "url": "https://dwasa.org.bd/",
     "base_url": "https://dwasa.org.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Bangladesh Tourism Board",
@@ -1525,7 +1525,7 @@
     "url": "https://tourismboard.gov.bd/",
     "base_url": "https://tourismboard.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Customs Bond Commissionerate",
@@ -1533,7 +1533,7 @@
     "url": "https://cbc.gov.bd/",
     "base_url": "https://cbc.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Health Economics Unit",
@@ -1541,7 +1541,7 @@
     "url": "https://heu.gov.bd/",
     "base_url": "https://heu.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Bandarban Hill District Council",
@@ -1549,7 +1549,7 @@
     "url": "https://bhdc.gov.bd/",
     "base_url": "https://bhdc.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Civil Surgeon Office Chittagong",
@@ -1557,7 +1557,7 @@
     "url": "https://cs.chittagong.gov.bd/",
     "base_url": "https://cs.chittagong.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Bangladesh Rice Research Institute",
@@ -1565,7 +1565,7 @@
     "url": "https://brri.gov.bd/",
     "base_url": "https://brri.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Ministry of Shipping",
@@ -1573,7 +1573,7 @@
     "url": "https://mos.gov.bd/",
     "base_url": "https://mos.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Bangladesh Civil Service Administration Academy",
@@ -1581,7 +1581,7 @@
     "url": "https://bcsadminacademy.gov.bd/",
     "base_url": "https://bcsadminacademy.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Ministry of Information and Broadcasting",
@@ -1589,7 +1589,7 @@
     "url": "https://moi.gov.bd/",
     "base_url": "https://moi.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Bangladesh Bureau of Educational Information and Statistics",
@@ -1597,7 +1597,7 @@
     "url": "https://banbeis.gov.bd/",
     "base_url": "https://banbeis.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Bangladesh Sugar and Food Industries Corporation",
@@ -1605,7 +1605,7 @@
     "url": "https://bsfic.gov.bd/",
     "base_url": "https://bsfic.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Wage Earners Welfare Board",
@@ -1613,7 +1613,7 @@
     "url": "https://wewb.gov.bd/",
     "base_url": "https://wewb.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Pashchimanchal Gas Company Limited",
@@ -1621,7 +1621,7 @@
     "url": "https://pgcl.org.bd/",
     "base_url": "https://pgcl.org.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Sylhet Division",
@@ -1629,7 +1629,7 @@
     "url": "https://sylhetdiv.gov.bd/",
     "base_url": "https://sylhetdiv.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Small Farmers Development Foundation",
@@ -1637,7 +1637,7 @@
     "url": "https://sfdf.gov.bd/",
     "base_url": "https://sfdf.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Taxes Zone Barisal",
@@ -1645,7 +1645,7 @@
     "url": "https://tax.barisal.gov.bd/",
     "base_url": "https://tax.barisal.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Ministry of Women and Children Affairs",
@@ -1653,7 +1653,7 @@
     "url": "https://mowca.gov.bd/",
     "base_url": "https://mowca.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Directorate of Technical Education",
@@ -1661,7 +1661,7 @@
     "url": "https://techedu.gov.bd/",
     "base_url": "https://techedu.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Bangladesh Competition Commission",
@@ -1669,7 +1669,7 @@
     "url": "https://bcc.gov.bd/",
     "base_url": "https://bcc.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Office of the General Manager, PLI, Western Circle, Rangpur",
@@ -1677,7 +1677,7 @@
     "url": "https://pliwc.bdpost.gov.bd/",
     "base_url": "https://pliwc.bdpost.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Rupantarita Prakritik Gas Company Limited",
@@ -1685,7 +1685,7 @@
     "url": "https://rpgcl.org.bd/",
     "base_url": "https://rpgcl.org.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Rajdhani Unnayan Kartipakkha",
@@ -1693,7 +1693,7 @@
     "url": "https://rajuk.gov.bd/",
     "base_url": "https://rajuk.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Customs Bond Commissionerate North Dhaka",
@@ -1701,7 +1701,7 @@
     "url": "https://www.dnbc.gov.bd/",
     "base_url": "https://www.dnbc.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Department of Women Affairs",
@@ -1709,7 +1709,7 @@
     "url": "https://dwa.gov.bd/",
     "base_url": "https://dwa.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Department of Explosives",
@@ -1717,7 +1717,7 @@
     "url": "https://explosives.gov.bd/",
     "base_url": "https://explosives.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Financial Reporting Council",
@@ -1725,7 +1725,7 @@
     "url": "https://frc.gov.bd/",
     "base_url": "https://frc.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "BIAM Foundation",
@@ -1733,7 +1733,7 @@
     "url": "https://biam.gov.bd/",
     "base_url": "https://biam.gov.bd",
     "selector": "div.scrolling_notices #latest_news li a, div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Customs, Excise & VAT Commissionerate, Cumilla",
@@ -1741,7 +1741,7 @@
     "url": "https://cevccumilla.gov.bd/",
     "base_url": "https://cevccumilla.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Bangladesh Telecommunication Regulatory Commission",
@@ -1749,7 +1749,7 @@
     "url": "https://btrc.gov.bd/",
     "base_url": "https://btrc.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Rural Development Academy",
@@ -1757,7 +1757,7 @@
     "url": "https://rda.gov.bd/",
     "base_url": "https://rda.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Ministry of Chittagong Hill Tracts Affairs",
@@ -1765,7 +1765,7 @@
     "url": "https://mochta.gov.bd/",
     "base_url": "https://mochta.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Press Institute Bangladesh",
@@ -1773,7 +1773,7 @@
     "url": "https://pib.gov.bd/",
     "base_url": "https://pib.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Sunamganj District Commissioner Office",
@@ -1781,7 +1781,7 @@
     "url": "https://sunamganj.gov.bd/",
     "base_url": "https://sunamganj.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Lakshmipur District Commissioner Office",
@@ -1789,7 +1789,7 @@
     "url": "https://lakshmipur.gov.bd/",
     "base_url": "https://lakshmipur.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Local Government Engineering Department",
@@ -1797,7 +1797,7 @@
     "url": "https://lged.gov.bd/",
     "base_url": "https://lged.gov.bd",
     "selector": "div.scrolling_notices #latest_news li a, div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Bangabandhu Sheikh Mujibur Rahman Novo Theatre",
@@ -1805,7 +1805,7 @@
     "url": "https://novotheatre.gov.bd/",
     "base_url": "https://novotheatre.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Kushtia Medical College Hospital",
@@ -1813,7 +1813,7 @@
     "url": "https://kumch.kushtia.gov.bd/",
     "base_url": "https://kumch.kushtia.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Ashuganj Power Station Company Limited",
@@ -1821,7 +1821,7 @@
     "url": "https://apscl.gov.bd/",
     "base_url": "https://apscl.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "B-R Powergen Ltd",
@@ -1829,7 +1829,7 @@
     "url": "https://brpowergen.gov.bd/",
     "base_url": "https://brpowergen.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "River Research Institute",
@@ -1837,7 +1837,7 @@
     "url": "https://rri.gov.bd/",
     "base_url": "https://rri.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Chittagong Port Authority",
@@ -1845,7 +1845,7 @@
     "url": "https://cpa.gov.bd/",
     "base_url": "https://cpa.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Rajshahi District Commissioner Office",
@@ -1853,7 +1853,7 @@
     "url": "https://www.rajshahi.gov.bd/",
     "base_url": "https://www.rajshahi.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Insurance Development and Regulatory Authority",
@@ -1861,7 +1861,7 @@
     "url": "https://idra.org.bd/",
     "base_url": "https://idra.org.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Comilla District Commissioner Office",
@@ -1869,7 +1869,7 @@
     "url": "https://comilla.gov.bd/",
     "base_url": "https://comilla.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Bangladesh Public Administration Training Centre",
@@ -1877,7 +1877,7 @@
     "url": "https://bpatc.gov.bd/",
     "base_url": "https://bpatc.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Probashi Kallyan Bank",
@@ -1885,7 +1885,7 @@
     "url": "https://pkb.gov.bd/",
     "base_url": "https://pkb.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Netrokona District Commissioner Office",
@@ -1893,7 +1893,7 @@
     "url": "https://netrokona.gov.bd/",
     "base_url": "https://netrokona.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Civil Surgeon Office Jamalpur",
@@ -1901,7 +1901,7 @@
     "url": "https://cs.jamalpur.gov.bd/",
     "base_url": "https://cs.jamalpur.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Department of Archaeology",
@@ -1909,7 +1909,7 @@
     "url": "https://archaeology.gov.bd/",
     "base_url": "https://archaeology.gov.bd",
     "selector": "div.scrolling_notices #latest_news li a, div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Secondary and Higher Education Division",
@@ -1917,7 +1917,7 @@
     "url": "https://shed.gov.bd/",
     "base_url": "https://shed.gov.bd",
     "selector": "div.scrolling_notices #latest_news li a, div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "National Skills Development Authority",
@@ -1925,7 +1925,7 @@
     "url": "https://nsda.gov.bd/",
     "base_url": "https://nsda.gov.bd",
     "selector": "div.scrolling_notices #latest_news li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Civil Surgeon Office Magura",
@@ -1933,7 +1933,7 @@
     "url": "https://cs.magura.gov.bd/",
     "base_url": "https://cs.magura.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Civil Surgeon Office Madaripur",
@@ -1941,7 +1941,7 @@
     "url": "https://cs.madaripur.gov.bd/",
     "base_url": "https://cs.madaripur.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Health Services Division",
@@ -1949,7 +1949,7 @@
     "url": "https://hsd.gov.bd/",
     "base_url": "https://hsd.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Ministry of Food",
@@ -1957,7 +1957,7 @@
     "url": "https://mofood.gov.bd/",
     "base_url": "https://mofood.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Customs, Excise & VAT Commissionerate, Sylhet",
@@ -1965,7 +1965,7 @@
     "url": "https://customs.sylhetdiv.gov.bd/",
     "base_url": "https://customs.sylhetdiv.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Civil Surgeon Office Naogaon",
@@ -1973,7 +1973,7 @@
     "url": "https://cs.naogaon.gov.bd/",
     "base_url": "https://cs.naogaon.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Bangladesh Accreditation Council",
@@ -1981,7 +1981,7 @@
     "url": "https://bac.gov.bd/",
     "base_url": "https://bac.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Mouza and plot based national digital land zoning project",
@@ -1989,7 +1989,7 @@
     "url": "https://landzoning.gov.bd/",
     "base_url": "https://landzoning.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Sarkari Karmachari Hospital",
@@ -1997,7 +1997,7 @@
     "url": "https://skh.gov.bd/",
     "base_url": "https://skh.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Tax Zone Mymensingh",
@@ -2005,7 +2005,7 @@
     "url": "https://tax.mymensingh.gov.bd/",
     "base_url": "https://tax.mymensingh.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Ministry of Civil Aviation and Tourism",
@@ -2013,7 +2013,7 @@
     "url": "https://mocat.gov.bd/",
     "base_url": "https://mocat.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Mymensingh Divisional Commissioner Office",
@@ -2021,7 +2021,7 @@
     "url": "https://mymensinghdiv.gov.bd/",
     "base_url": "https://mymensinghdiv.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Land Record and Survey Department",
@@ -2029,7 +2029,7 @@
     "url": "https://dlrs.gov.bd/",
     "base_url": "https://dlrs.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Civil Surgeon Office Gopalganj",
@@ -2037,7 +2037,7 @@
     "url": "https://cs.gopalganj.gov.bd/",
     "base_url": "https://cs.gopalganj.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Cox's Bazar",
@@ -2045,7 +2045,7 @@
     "url": "https://coxsbazar.gov.bd/",
     "base_url": "https://coxsbazar.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Civil Surgeon Office Bhola",
@@ -2053,7 +2053,7 @@
     "url": "https://cs.bhola.gov.bd/",
     "base_url": "https://cs.bhola.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Civil Surgeon Office Pabna",
@@ -2061,7 +2061,7 @@
     "url": "https://cs.pabna.gov.bd/",
     "base_url": "https://cs.pabna.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Civil Surgeon Office Satkhira",
@@ -2069,7 +2069,7 @@
     "url": "https://cs.satkhira.gov.bd/",
     "base_url": "https://cs.satkhira.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Bangladesh Petroleum Institute",
@@ -2077,7 +2077,7 @@
     "url": "https://bpi.gov.bd/",
     "base_url": "https://bpi.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Civil Surgeon Office Dhaka",
@@ -2085,7 +2085,7 @@
     "url": "https://cs.dhaka.gov.bd/",
     "base_url": "https://cs.dhaka.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Bangladesh National Scientific and Technical Documentation Centre",
@@ -2093,7 +2093,7 @@
     "url": "https://bansdoc.gov.bd/",
     "base_url": "https://bansdoc.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Custom Bond Commissionerate Chattogram",
@@ -2101,7 +2101,7 @@
     "url": "https://customsbond.chittagongdiv.gov.bd/",
     "base_url": "https://customsbond.chittagongdiv.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Civil Surgeon Office Bagerhat",
@@ -2109,7 +2109,7 @@
     "url": "https://cs.bagerhat.gov.bd/",
     "base_url": "https://cs.bagerhat.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Institute of Epidemiology, Disease Control and Research",
@@ -2117,7 +2117,7 @@
     "url": "https://iedcr.gov.bd/",
     "base_url": "https://iedcr.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Meghna Petroleum Limited",
@@ -2125,7 +2125,7 @@
     "url": "https://mpl.gov.bd/",
     "base_url": "https://mpl.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Civil Surgeon Office Narail",
@@ -2133,7 +2133,7 @@
     "url": "https://cs.narail.gov.bd/",
     "base_url": "https://cs.narail.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Department of Agricultural Extension",
@@ -2141,7 +2141,7 @@
     "url": "https://dae.gov.bd/",
     "base_url": "https://dae.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Civil Surgeon Office CS Jessore",
@@ -2149,7 +2149,7 @@
     "url": "https://cs.jessore.gov.bd/",
     "base_url": "https://cs.jessore.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Rural Development and Co-operative Division",
@@ -2157,7 +2157,7 @@
     "url": "https://rdcd.gov.bd/",
     "base_url": "https://rdcd.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Civil Surgeon Office Nilphamari",
@@ -2165,7 +2165,7 @@
     "url": "https://cs.nilphamari.gov.bd/",
     "base_url": "https://cs.nilphamari.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Implementation Monitoring and Evaluation Division",
@@ -2173,7 +2173,7 @@
     "url": "https://imed.gov.bd/",
     "base_url": "https://imed.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Border Guard Bangladesh",
@@ -2181,7 +2181,7 @@
     "url": "https://bgb.gov.bd/",
     "base_url": "https://bgb.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Civil Surgeon Office Barguna",
@@ -2189,7 +2189,7 @@
     "url": "https://cs.barguna.gov.bd/",
     "base_url": "https://cs.barguna.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "National Agriculture Training Academy",
@@ -2197,7 +2197,7 @@
     "url": "https://nata.gov.bd/",
     "base_url": "https://nata.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Civil Surgeon Office Patuakhali",
@@ -2205,7 +2205,7 @@
     "url": "https://cs.patuakhali.gov.bd/",
     "base_url": "https://cs.patuakhali.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Civil Surgeon Office Kishoreganj",
@@ -2213,7 +2213,7 @@
     "url": "https://cs.kishoreganj.gov.bd/",
     "base_url": "https://cs.kishoreganj.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Civil Surgeon Office Natore",
@@ -2221,7 +2221,7 @@
     "url": "https://cs.natore.gov.bd/",
     "base_url": "https://cs.natore.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Civil Surgeon Office Chapainawabganj",
@@ -2229,7 +2229,7 @@
     "url": "https://cs.chapainawabganj.gov.bd/",
     "base_url": "https://cs.chapainawabganj.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Civil Surgeon Office Narsingdi",
@@ -2237,7 +2237,7 @@
     "url": "https://cs.narsingdi.gov.bd/",
     "base_url": "https://cs.narsingdi.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Civil Surgeon Office Panchagarh",
@@ -2245,7 +2245,7 @@
     "url": "https://cs.panchagarh.gov.bd/",
     "base_url": "https://cs.panchagarh.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Civil Surgeon Office Rangpur",
@@ -2253,7 +2253,7 @@
     "url": "https://cs.rangpur.gov.bd/",
     "base_url": "https://cs.rangpur.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Bangladesh Petroleum Corporation",
@@ -2261,7 +2261,7 @@
     "url": "https://bpc.gov.bd/",
     "base_url": "https://bpc.gov.bd",
     "selector": "div.scrolling_notices #latest_news li a, div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "International Mother Language Institute",
@@ -2269,7 +2269,7 @@
     "url": "https://imli.gov.bd/",
     "base_url": "https://imli.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Civil Surgeon Office Chandpur",
@@ -2277,7 +2277,7 @@
     "url": "https://cs.chandpur.gov.bd/",
     "base_url": "https://cs.chandpur.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Civil Surgeon Office Manikganj",
@@ -2285,7 +2285,7 @@
     "url": "https://cs.manikganj.gov.bd/",
     "base_url": "https://cs.manikganj.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Education Engineering Department",
@@ -2293,7 +2293,7 @@
     "url": "https://eedmoe.gov.bd/",
     "base_url": "https://eedmoe.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Civil Surgeon Office Jhalakathi",
@@ -2301,7 +2301,7 @@
     "url": "https://cs.jhalakathi.gov.bd/",
     "base_url": "https://cs.jhalakathi.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Civil Surgeon Office Meherpur",
@@ -2309,7 +2309,7 @@
     "url": "https://cs.meherpur.gov.bd/",
     "base_url": "https://cs.meherpur.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Civil Surgeon Office Netrokona",
@@ -2317,7 +2317,7 @@
     "url": "https://cs.netrokona.gov.bd/",
     "base_url": "https://cs.netrokona.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Ministry of Disaster Management and Relief",
@@ -2325,7 +2325,7 @@
     "url": "https://modmr.gov.bd/",
     "base_url": "https://modmr.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Civil Surgeon Office Sherpur",
@@ -2333,7 +2333,7 @@
     "url": "https://cs.sherpur.gov.bd/",
     "base_url": "https://cs.sherpur.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Civil Surgeon Office Feni",
@@ -2341,7 +2341,7 @@
     "url": "https://cs.feni.gov.bd/",
     "base_url": "https://cs.feni.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Civil Surgeon Office Barisal",
@@ -2349,7 +2349,7 @@
     "url": "https://cs.barisal.gov.bd/",
     "base_url": "https://cs.barisal.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Dhaka Bus Rapid Transit Company Ltd",
@@ -2357,7 +2357,7 @@
     "url": "https://dhakabrt.gov.bd/",
     "base_url": "https://dhakabrt.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Ministry of Youth and Sports",
@@ -2365,7 +2365,7 @@
     "url": "https://moysports.gov.bd/",
     "base_url": "https://moysports.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Civil Surgeon Office Lakshmipur",
@@ -2373,7 +2373,7 @@
     "url": "https://cs.lakshmipur.gov.bd/",
     "base_url": "https://cs.lakshmipur.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Civil Surgeon Office Noakhali",
@@ -2381,7 +2381,7 @@
     "url": "https://cs.noakhali.gov.bd/",
     "base_url": "https://cs.noakhali.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Civil Surgeon Office Faridpur",
@@ -2389,7 +2389,7 @@
     "url": "https://cs.faridpur.gov.bd/",
     "base_url": "https://cs.faridpur.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Civil Surgeon Office Munshiganj",
@@ -2397,7 +2397,7 @@
     "url": "https://cs.munshiganj.gov.bd/",
     "base_url": "https://cs.munshiganj.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Civil Surgeon Office Chuadanga",
@@ -2405,7 +2405,7 @@
     "url": "https://cs.chuadanga.gov.bd/",
     "base_url": "https://cs.chuadanga.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Civil Surgeon Office Kushtia",
@@ -2413,7 +2413,7 @@
     "url": "https://cs.kushtia.gov.bd/",
     "base_url": "https://cs.kushtia.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Civil Surgeon Office Rajshahi",
@@ -2421,7 +2421,7 @@
     "url": "https://cs.rajshahi.gov.bd/",
     "base_url": "https://cs.rajshahi.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Civil Surgeon Office Gazipur",
@@ -2429,7 +2429,7 @@
     "url": "https://cs.gazipur.gov.bd/",
     "base_url": "https://cs.gazipur.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Civil Surgeon Office Jhenaidah",
@@ -2437,7 +2437,7 @@
     "url": "https://cs.jhenaidah.gov.bd/",
     "base_url": "https://cs.jhenaidah.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Civil Surgeon Office Shariatpur",
@@ -2445,7 +2445,7 @@
     "url": "https://cs.shariatpur.gov.bd/",
     "base_url": "https://cs.shariatpur.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Income Tax Intelligence and Investigation Unit",
@@ -2453,7 +2453,7 @@
     "url": "https://itiiu.portal.gov.bd/",
     "base_url": "https://itiiu.portal.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Taxes Zone 18 Dhaka",
@@ -2461,7 +2461,7 @@
     "url": "https://www.taxeszone18dhaka.gov.bd/",
     "base_url": "https://www.taxeszone18dhaka.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Civil Surgeon Office Sirajganj",
@@ -2469,7 +2469,7 @@
     "url": "https://cs.sirajganj.gov.bd/",
     "base_url": "https://cs.sirajganj.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Civil Surgeon Office Tangail",
@@ -2477,7 +2477,7 @@
     "url": "https://cs.tangail.gov.bd/",
     "base_url": "https://cs.tangail.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Taxes Zone 16 Dhaka",
@@ -2485,7 +2485,7 @@
     "url": "https://www.taxeszone16dhaka.gov.bd/",
     "base_url": "https://www.taxeszone16dhaka.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Civil Surgeon Office Lalmonirhat",
@@ -2493,7 +2493,7 @@
     "url": "https://cs.lalmonirhat.gov.bd/",
     "base_url": "https://cs.lalmonirhat.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Civil Surgeon Office Mymensingh",
@@ -2501,7 +2501,7 @@
     "url": "https://cs.mymensingh.gov.bd/",
     "base_url": "https://cs.mymensingh.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Customs, Excise & VAT Commissionerate Rajshahi",
@@ -2509,7 +2509,7 @@
     "url": "https://www.cevrajshahi.gov.bd/",
     "base_url": "https://www.cevrajshahi.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Civil Surgeon Office Pirojpur",
@@ -2517,7 +2517,7 @@
     "url": "https://cs.pirojpur.gov.bd/",
     "base_url": "https://cs.pirojpur.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Taxes Zone 19 Dhaka",
@@ -2525,7 +2525,7 @@
     "url": "https://taxeszone19.dhaka.gov.bd/",
     "base_url": "https://taxeszone19.dhaka.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Civil Surgeon Office Brahmanbaria",
@@ -2533,7 +2533,7 @@
     "url": "https://cs.brahmanbaria.gov.bd/",
     "base_url": "https://cs.brahmanbaria.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Kurmitola General Hospital",
@@ -2541,7 +2541,7 @@
     "url": "https://kgh.dhaka.gov.bd/",
     "base_url": "https://kgh.dhaka.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Taxes Zone 17 Dhaka",
@@ -2549,7 +2549,7 @@
     "url": "https://www.taxeszone17.gov.bd/",
     "base_url": "https://www.taxeszone17.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Taxes Zone 11 Dhaka",
@@ -2557,7 +2557,7 @@
     "url": "http://www.taxeszone11dhaka.gov.bd/",
     "base_url": "http://www.taxeszone11dhaka.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Agriculture Information Service",
@@ -2565,7 +2565,7 @@
     "url": "https://ais.gov.bd/",
     "base_url": "https://ais.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Medical Education and Family Welfare Division",
@@ -2573,7 +2573,7 @@
     "url": "https://mefwd.gov.bd/",
     "base_url": "https://mefwd.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Bangladesh Journalist Welfare Trust",
@@ -2581,7 +2581,7 @@
     "url": "https://bjwt.gov.bd/",
     "base_url": "https://bjwt.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "National Tubes Limited",
@@ -2589,7 +2589,7 @@
     "url": "https://ntl.gov.bd/",
     "base_url": "https://ntl.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Water Resources Planning Organization",
@@ -2597,7 +2597,7 @@
     "url": "http://warpo.gov.bd/",
     "base_url": "http://warpo.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Power Division",
@@ -2605,7 +2605,7 @@
     "url": "https://powerdivision.gov.bd/",
     "base_url": "https://powerdivision.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Energy and Mineral Resources Division",
@@ -2613,7 +2613,7 @@
     "url": "https://emrd.gov.bd/",
     "base_url": "https://emrd.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "National Primary Education Academy",
@@ -2621,7 +2621,7 @@
     "url": "http://nape.gov.bd/",
     "base_url": "http://nape.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Assistant Thana Education Officer",
@@ -2629,7 +2629,7 @@
     "url": "https://mopme.gov.bd/",
     "base_url": "https://mopme.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Civil Surgeon Office Joypurhat",
@@ -2637,7 +2637,7 @@
     "url": "https://cs.joypurhat.gov.bd/",
     "base_url": "https://cs.joypurhat.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Civil Surgeon Office Gaibandha",
@@ -2645,7 +2645,7 @@
     "url": "https://cs.gaibandha.gov.bd/",
     "base_url": "https://cs.gaibandha.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "The Security Printing Corporation Bangladesh Limited",
@@ -2653,7 +2653,7 @@
     "url": "https://spcbl.org.bd/",
     "base_url": "https://spcbl.org.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Civil Surgeon Office Dinajpur",
@@ -2661,7 +2661,7 @@
     "url": "https://cs.dinajpur.gov.bd/",
     "base_url": "https://cs.dinajpur.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Bangladesh Cinema and Television Institute",
@@ -2669,7 +2669,7 @@
     "url": "https://bcti.gov.bd/",
     "base_url": "https://bcti.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Bangladesh Blade Factory Ltd",
@@ -2677,7 +2677,7 @@
     "url": "https://bsec.gov.bd/",
     "base_url": "https://bsec.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Bangladesh National Cadet Corps",
@@ -2685,7 +2685,7 @@
     "url": "https://bncc.portal.gov.bd/",
     "base_url": "https://bncc.portal.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Military Engineer Services",
@@ -2693,7 +2693,7 @@
     "url": "https://mes.portal.gov.bd/",
     "base_url": "https://mes.portal.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Ministry of Housing and Public Works",
@@ -2701,7 +2701,7 @@
     "url": "https://mohpw.gov.bd/",
     "base_url": "https://mohpw.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Rajshahi Development Authority",
@@ -2709,7 +2709,7 @@
     "url": "http://rda.gov.bd/",
     "base_url": "http://rda.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Department of Government Transport",
@@ -2717,7 +2717,7 @@
     "url": "https://dgt.gov.bd/",
     "base_url": "https://dgt.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Prime Minister's Education Assistance Trust",
@@ -2725,7 +2725,7 @@
     "url": "https://pmeat.gov.bd/",
     "base_url": "https://pmeat.gov.bd",
     "selector": "div.scrolling_notices #latest_news li a, div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Bangladesh Parjatan Corporation",
@@ -2733,7 +2733,7 @@
     "url": "https://parjatan.gov.bd/",
     "base_url": "https://parjatan.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Information Commission Bangladesh",
@@ -2741,7 +2741,7 @@
     "url": "https://infocom.gov.bd/",
     "base_url": "https://infocom.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Department of Bangladesh Haor and Wetlands Development",
@@ -2749,7 +2749,7 @@
     "url": "https://dbhwd.gov.bd/",
     "base_url": "https://dbhwd.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Ministry of Water Resources",
@@ -2757,7 +2757,7 @@
     "url": "https://mowr.gov.bd/",
     "base_url": "https://mowr.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Office of the Postmaster General, Eastern, Chittagong",
@@ -2765,7 +2765,7 @@
     "url": "https://pmgctg.bdpost.gov.bd/",
     "base_url": "https://pmgctg.bdpost.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Patuakhali Medical College",
@@ -2773,7 +2773,7 @@
     "url": "https://pkmc.college.gov.bd/",
     "base_url": "https://pkmc.college.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "National Institute of Local Government",
@@ -2781,7 +2781,7 @@
     "url": "https://nilg.gov.bd/",
     "base_url": "https://nilg.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Postal Academy Rajshahi",
@@ -2789,7 +2789,7 @@
     "url": "https://academy.bdpost.gov.bd/",
     "base_url": "https://academy.bdpost.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Training Institute for Chemical Industries",
@@ -2797,7 +2797,7 @@
     "url": "https://tici.gov.bd/",
     "base_url": "https://tici.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Department of Public Health Engineering",
@@ -2805,7 +2805,7 @@
     "url": "https://dphe.gov.bd/",
     "base_url": "https://dphe.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Ministry of Social Welfare",
@@ -2813,7 +2813,7 @@
     "url": "https://msw.gov.bd/",
     "base_url": "https://msw.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Office of the Postmaster General, Eastern, Chittagong",
@@ -2821,7 +2821,7 @@
     "url": "https://pmgctg.bdpost.gov.bd/",
     "base_url": "https://pmgctg.bdpost.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Office of the Postmaster General, Southern, Khulna",
@@ -2829,7 +2829,7 @@
     "url": "https://post.khulnadiv.gov.bd/",
     "base_url": "https://post.khulnadiv.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "National Legal Aid Services Organization",
@@ -2837,7 +2837,7 @@
     "url": "https://nlaso.gov.bd/",
     "base_url": "https://nlaso.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Internal Resources Division",
@@ -2845,7 +2845,7 @@
     "url": "https://ird.gov.bd/",
     "base_url": "https://ird.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Transport & Equipment Maintenance Organization",
@@ -2853,7 +2853,7 @@
     "url": "https://temo.gov.bd/",
     "base_url": "https://temo.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Department of Cooperatives",
@@ -2861,7 +2861,7 @@
     "url": "https://coop.gov.bd/",
     "base_url": "https://coop.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Land Reforms Board",
@@ -2869,7 +2869,7 @@
     "url": "http://lrb.gov.bd/",
     "base_url": "http://lrb.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Bangladesh Food Safety Authority",
@@ -2877,7 +2877,7 @@
     "url": "http://bfsa.gov.bd/",
     "base_url": "http://bfsa.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Bangladesh Academy for Rural Development",
@@ -2885,7 +2885,7 @@
     "url": "http://www.bard.gov.bd/",
     "base_url": "http://www.bard.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Chattogram Water Supply and Sewerage Authority",
@@ -2893,7 +2893,7 @@
     "url": "http://ctg-wasa.org.bd/",
     "base_url": "http://ctg-wasa.org.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Bangladesh Krishi Bank",
@@ -2901,7 +2901,7 @@
     "url": "https://krishibank.gov.bd/",
     "base_url": "https://krishibank.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Legislative and Parliamentary Affairs Division",
@@ -2909,7 +2909,7 @@
     "url": "https://legislativediv.gov.bd/",
     "base_url": "https://legislativediv.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Palli Daridro Bimochon Foundation",
@@ -2917,7 +2917,7 @@
     "url": "https://pdbf.gov.bd/",
     "base_url": "https://pdbf.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Bangladesh Sericulture Development Board",
@@ -2925,7 +2925,7 @@
     "url": "https://bsb.gov.bd/",
     "base_url": "https://bsb.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Chittagong City Corporation",
@@ -2933,7 +2933,7 @@
     "url": "https://ccc.gov.bd/",
     "base_url": "https://ccc.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "National Housing Authority",
@@ -2941,7 +2941,7 @@
     "url": "https://nha.gov.bd/",
     "base_url": "https://nha.gov.bd",
     "selector": "div.scrolling_notices #latest_news li a, div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Customs, Excise & VAT Commissionerate, Dhaka (West)",
@@ -2949,7 +2949,7 @@
     "url": "https://vatdhakawest.gov.bd/",
     "base_url": "https://vatdhakawest.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Power Grid Bangladesh PLC",
@@ -2957,7 +2957,7 @@
     "url": "https://pgcb.gov.bd/",
     "base_url": "https://pgcb.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Power Grid Bangladesh PLC",
@@ -2965,7 +2965,7 @@
     "url": "https://pgcb.gov.bd/",
     "base_url": "https://pgcb.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Centre for Medical Education",
@@ -2973,7 +2973,7 @@
     "url": "http://www.cme.gov.bd/",
     "base_url": "http://www.cme.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Bangladesh Fisheries Development Corporation",
@@ -2981,7 +2981,7 @@
     "url": "https://bfdc.gov.bd/",
     "base_url": "https://bfdc.gov.bd",
     "selector": "div.scrolling_notices #latest_news li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Dhaka Mass Transit Company Limited",
@@ -2989,7 +2989,7 @@
     "url": "https://dmtcl.gov.bd/",
     "base_url": "https://dmtcl.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "National Electro- Medical Equipment Maintenance Workshop & Training Center",
@@ -2997,7 +2997,7 @@
     "url": "https://nememw.gov.bd/",
     "base_url": "https://nememw.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Pharmacy Council of Bangladesh",
@@ -3005,15 +3005,15 @@
     "url": "https://pcb.gov.bd/",
     "base_url": "https://pcb.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
-   }
+    "selenium_enabled": false
+   },
 {
     "id": "Ministry of Expatriates’ Welfare and Overseas",
     "name": "প্রবাসী কল্যাণ ও বৈদেশিক কর্মসংস্থান মন্ত্রণালয়",
     "url": "https://probashi.gov.bd/",
     "base_url": "https://probashi.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Dhaka Medical College Hospital",
@@ -3021,7 +3021,7 @@
     "url": "https://dmc.gov.bd/",
     "base_url": "https://dmc.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Dhaka Medical College",
@@ -3029,7 +3029,7 @@
     "url": "https://dmc.gov.bd/",
     "base_url": "https://dmc.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    },
 {
     "id": "Forest Dept",
@@ -3037,7 +3037,6 @@
     "url": "https://bforest.gov.bd/",
     "base_url": "https://bforest.gov.bd",
     "selector": "div.notice-board-bg li a",
-    "selenium_enabled": false,
+    "selenium_enabled": false
    }
 ]
-
