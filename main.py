@@ -1,3 +1,11 @@
+from flask import jsonify
+from helpers_postgres import clear_all_last_links
+
+@app.route('/clear-last-seen')
+def clear_last_seen_api():
+    clear_all_last_links()
+    return jsonify({"status": "success", "message": "✅ All last_seen data cleared."})
+
 # === Flask Server for Render Keep-Alive & Status ===
 import threading
 from flask import Flask
