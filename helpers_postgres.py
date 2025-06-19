@@ -44,13 +44,13 @@ CHAT_ID = os.getenv("CHAT_ID")
 bot = Bot(token=BOT_TOKEN)
 
 def send_telegram_message(message: str):
-    # Markdown বাদ দিয়ে সোজা টেক্সট পাঠানো হচ্ছে
     bot.send_message(chat_id=CHAT_ID, text=message)
 
 # Selenium WebDriver
-def get_webdriver() -> webdriver.Chrome:
+def get_webdriver(browser="chrome", headless=True) -> webdriver.Chrome:
     chrome_options = Options()
-    chrome_options.add_argument("--headless")
+    if headless:
+        chrome_options.add_argument("--headless")
     chrome_options.add_argument("--no-sandbox")
     chrome_options.add_argument("--disable-dev-shm-usage")
     return webdriver.Chrome(options=chrome_options)
