@@ -1,7 +1,7 @@
 import threading
 from flask import Flask, jsonify
 from datetime import datetime
-import pytz  # ✅ For timezone conversion
+import pytz  # For timezone conversion
 
 # === Flask App ===
 app = Flask(__name__)
@@ -22,7 +22,6 @@ def show_last_check():
 
 @app.route('/clear-last-seen')
 def clear_last_seen_api():
-    from helpers_postgres import clear_all_last_links
     clear_all_last_links()
     return jsonify({"status": "success", "message": "✅ All last_seen data cleared."})
 
@@ -31,13 +30,12 @@ def run_flask():
 
 threading.Thread(target=run_flask).start()
 
-# === Main Bot Logic ===
+# === Bot Core Code ===
 import json
 import os
 import time
 import requests
 import logging
-from apscheduler.schedulers.background import BackgroundScheduler
 from bs4 import BeautifulSoup
 from typing import List, Tuple, Dict, Any
 from urllib.parse import urljoin
@@ -46,16 +44,23 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
-from helpers_postgres import init_db, load_last_link, set_last_link, send_telegram_message, get_webdriver, close_webdriver
 
-# Suppress warnings
+from helpers_postgres import (
+    init_db, load_last_link, set_last_link,
+    send_telegram_message, get_webdriver, close_webdriver,
+    clear_all_last_links  # ✅ MUST INCLUDE THIS
+)
+
+# Suppress SSL warnings
 requests.packages.urllib3.disable_warnings(category=InsecureRequestWarning)
 
 init_db()
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-KEYWORDS = ["নিয়োগ", " নিয়োগ বিজ্ঞপ্তি", "চাকরি", "recruitment", "job", "নিয়োগে", "career", "opportunity"]
+KEYWORDS = [
+    "নিয়োগ", "চাকরি", "recruitment", "job", "career", "opportunity"
+]
 
 HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
@@ -66,15 +71,17 @@ def is_relevant(text: str) -> bool:
     return any(keyword in text_no_case for keyword in KEYWORDS)
 
 def extract_text_and_link(element: BeautifulSoup, base_url: str) -> Tuple[str, str]:
-    a_tag = element if element.name == 'a' else element.find("a")
     text, link = "", ""
+    a_tag = element if element.name == 'a' else element.find("a")
+
     if a_tag and a_tag.has_attr('href'):
         text = a_tag.get_text(strip=True)
         raw_link = a_tag.get("href")
         link = urljoin(base_url, raw_link) if raw_link and not raw_link.startswith(("http://", "https://", "javascript:")) else raw_link
     else:
         text = element.get_text(strip=True)
-    return text.strip(), link
+
+    return text.strip(), link if link else ""
 
 def fetch_site_data(site: Dict[str, Any]) -> List[Tuple[str, str]]:
     notices = []
@@ -175,7 +182,7 @@ def check_all_sites():
         for text, link in new_notices:
             msg = f"*{site_name}*\n\n{text}"
             if link:
-                msg += f"\n\n[ডাউনলোড/বিস্তারিত]({link})"
+                msg += f"\n\n[ডাউনলোড/বিসতারিত]({link})"
             send_telegram_message(msg)
             logging.info(f"Sent Telegram message for {site_name}: {text}")
 
@@ -183,14 +190,12 @@ def check_all_sites():
         set_last_link(site_id, latest_id)
         logging.info(f"Updated last seen ID for {site_name} to: {latest_id}")
 
-# === Scheduler ===
+from apscheduler.schedulers.background import BackgroundScheduler
 scheduler = BackgroundScheduler(timezone=pytz.timezone("Asia/Dhaka"))
 scheduler.add_job(check_all_sites, 'interval', minutes=40)
 scheduler.start()
 
-# Run once immediately
 check_all_sites()
 
-# Keep alive
 while True:
     time.sleep(60)
