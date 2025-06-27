@@ -59,7 +59,7 @@ init_db()
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 KEYWORDS = [
-    "নিয়োগ", "চাকরি", "recruitment", "job", "career", "opportunity", "ADVERTISEMENT", "Advertisement"
+    "নিয়োগ", "চাকরি", "বিজ্ঞপ্তি", "recruitment", "job", "career", "opportunity", advertisement"
 ]
 
 HEADERS = {
@@ -67,8 +67,12 @@ HEADERS = {
 }
 
 def is_relevant(text: str) -> bool:
-    text_no_case = text.lower() if any(c.isalpha() and c.isascii() for c in text) else text
-    return any(keyword in text_no_case for keyword in KEYWORDS)
+    try:
+        text_lc = text.strip().lower()
+        return any(keyword.lower() in text_lc for keyword in KEYWORDS)
+    except Exception as e:
+        logging.warning(f"Keyword check failed: {e}")
+        return False
 
 def extract_text_and_link(element: BeautifulSoup, base_url: str) -> Tuple[str, str]:
     text, link = "", ""
