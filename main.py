@@ -59,7 +59,7 @@ init_db()
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 KEYWORDS = [
-  "বিজ্ঞপ্তি", "নিয়োগ", "recruitment", "job", "career", "advertisement", "opportunity"
+  "নিয়োগ", "recruitment", "job", "career", "advertisement", "opportunity"
 ]
 
 HEADERS = {
