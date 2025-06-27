@@ -206,7 +206,7 @@ def check_all_sites():
 
 from apscheduler.schedulers.background import BackgroundScheduler
 scheduler = BackgroundScheduler(timezone=pytz.timezone("Asia/Dhaka"))
-scheduler.add_job(check_all_sites, 'interval', minutes=40)
+scheduler.add_job(check_all_sites, 'interval', minutes=180)
 scheduler.start()
 
 check_all_sites()
