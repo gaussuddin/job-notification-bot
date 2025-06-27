@@ -309,7 +309,7 @@
     "url": "https://mod.gov.bd/",
     "base_url": "https://customs.gov.bd/content.jsf?c=notice",
     "selector": "div.entry-body a",
-    "selenium_enabled": 
+    "selenium_enabled": false
    },
 {
     "id": "Dhaka Metropolitan Police",
