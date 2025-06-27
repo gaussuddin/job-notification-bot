@@ -253,7 +253,7 @@
     "url": "https://forest.bogra.gov.bd/",
     "base_url": "https://www.cmch.gov.bd/notices/job",
     "selector": "table tr td",
-    "selenium_enabled": True
+    "selenium_enabled": true
    },
 {
     "id": "BASB",
