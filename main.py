@@ -5,7 +5,7 @@ import pytz
 
 # === Flask App ===
 app = Flask(__name__)
-last_check_time = None  # Track last check time
+last_check_time = None
 
 @app.route('/')
 def home():
@@ -22,19 +22,15 @@ def show_last_check():
 
 @app.route('/clear-last-seen')
 def clear_last_seen_api():
-    from helpers_postgres import clear_all_last_links
-    try:
-        clear_all_last_links()
-        return jsonify({"status": "success", "message": "✅ All last_seen data cleared."})
-    except Exception as e:
-        return jsonify({"status": "error", "message": f"❌ Failed to clear data: {str(e)}"}), 500
+    clear_all_last_links()
+    return jsonify({"status": "success", "message": "✅ All last_seen data cleared."})
 
 def run_flask():
     app.run(host='0.0.0.0', port=10000)
 
 threading.Thread(target=run_flask).start()
 
-# === Bot Core ===
+# === Bot Core Code ===
 import json
 import os
 import time
@@ -48,9 +44,11 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
+
 from helpers_postgres import (
     init_db, load_last_link, set_last_link,
-    send_telegram_message, get_webdriver, close_webdriver
+    send_telegram_message, get_webdriver, close_webdriver,
+    clear_all_last_links
 )
 
 # Suppress SSL warnings
@@ -61,7 +59,7 @@ init_db()
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 KEYWORDS = [
-    "নিয়োগ", "চাকরি", "recruitment", "job", "career", "opportunity"
+    "নিয়োগ", "চাকরি", "recruitment", "job", "career", "opportunity"
 ]
 
 HEADERS = {
@@ -73,15 +71,17 @@ def is_relevant(text: str) -> bool:
     return any(keyword in text_no_case for keyword in KEYWORDS)
 
 def extract_text_and_link(element: BeautifulSoup, base_url: str) -> Tuple[str, str]:
+    text, link = "", ""
     a_tag = element if element.name == 'a' else element.find("a")
+
     if a_tag and a_tag.has_attr('href'):
         text = a_tag.get_text(strip=True)
         raw_link = a_tag.get("href")
         link = urljoin(base_url, raw_link) if raw_link and not raw_link.startswith(("http://", "https://", "javascript:")) else raw_link
     else:
         text = element.get_text(strip=True)
-        link = ""
-    return text.strip(), link
+
+    return text.strip(), link if link else ""
 
 def fetch_site_data(site: Dict[str, Any]) -> List[Tuple[str, str]]:
     notices = []
@@ -91,6 +91,7 @@ def fetch_site_data(site: Dict[str, Any]) -> List[Tuple[str, str]]:
     site_base_url = site.get("base_url", site_url)
     selenium_enabled = site.get("selenium_enabled", False)
     wait_time = site.get("wait_time", 15)
+    tab_selector = site.get("tab_selector")
 
     logging.info(f"Fetching data from {site_name} ({site_url}) using {'Selenium' if selenium_enabled else 'Requests'}")
     driver = None
@@ -98,8 +99,30 @@ def fetch_site_data(site: Dict[str, Any]) -> List[Tuple[str, str]]:
     try:
         if selenium_enabled:
             driver = get_webdriver()
+            if not driver:
+                logging.error(f"Could not initialize Selenium WebDriver for {site_name}. Skipping.")
+                return []
+
             driver.get(site_url)
-            WebDriverWait(driver, wait_time).until(EC.presence_of_element_located((By.CSS_SELECTOR, site_selector)))
+
+            if tab_selector:
+                try:
+                    WebDriverWait(driver, wait_time).until(
+                        EC.element_to_be_clickable((By.CSS_SELECTOR, tab_selector))
+                    ).click()
+                    time.sleep(2)
+                    logging.info(f"Clicked tab selector for {site_name}")
+                except Exception as e:
+                    logging.warning(f"Could not click tab for {site_name}: {e}")
+
+            try:
+                WebDriverWait(driver, wait_time).until(
+                    EC.presence_of_element_located((By.CSS_SELECTOR, site_selector))
+                )
+            except TimeoutException:
+                logging.warning(f"Timeout waiting for selector {site_selector} on {site_name}")
+                return []
+
             soup = BeautifulSoup(driver.page_source, "html.parser")
         else:
             response = requests.get(site_url, verify=False, timeout=20, headers=HEADERS)
@@ -116,8 +139,6 @@ def fetch_site_data(site: Dict[str, Any]) -> List[Tuple[str, str]]:
             if text and is_relevant(text):
                 notices.append((text, link))
 
-    except TimeoutException:
-        logging.warning(f"Timeout waiting for selector {site_selector} on {site_name}")
     except Exception as e:
         logging.error(f"Error processing {site_name}: {e}", exc_info=True)
     finally:
@@ -136,8 +157,12 @@ def check_all_sites():
         logging.error(f"Config file not found: {config_path}")
         return
 
-    with open(config_path, "r", encoding="utf-8") as f:
-        config = json.load(f)
+    try:
+        with open(config_path, "r", encoding="utf-8") as f:
+            config = json.load(f)
+    except Exception as e:
+        logging.error(f"Failed to load config.json: {e}")
+        return
 
     for site in config:
         site_id = site.get("id")
@@ -171,7 +196,7 @@ def check_all_sites():
         for text, link in new_notices:
             msg = f"*{site_name}*\n\n{text}"
             if link:
-                msg += f"\n\n[ডাউনলোড/বিস্তারিত]({link})"
+                msg += f"\n\n[ডাউনলোড/বিসতারিত]({link})"
             send_telegram_message(msg)
             logging.info(f"Sent Telegram message for {site_name}: {text}")
 
