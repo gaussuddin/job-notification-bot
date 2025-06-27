@@ -22,6 +22,7 @@ def show_last_check():
 
 @app.route('/clear-last-seen')
 def clear_last_seen_api():
+    from helpers_postgres import clear_all_last_links
     clear_all_last_links()
     return jsonify({"status": "success", "message": "✅ All last_seen data cleared."})
 
@@ -51,7 +52,6 @@ from helpers_postgres import (
     clear_all_last_links
 )
 
-# Suppress SSL warnings
 requests.packages.urllib3.disable_warnings(category=InsecureRequestWarning)
 
 init_db()
@@ -59,7 +59,7 @@ init_db()
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 KEYWORDS = [
-    "নিয়োগ", "চাকরি", "বিজ্ঞপ্তি", "recruitment", "job", "career", "opportunity", "advertisement"
+    "নিয়োগ", "চাকরি", "recruitment", "job", "career", "opportunity", "ADVERTISEMENT", "Advertisement"
 ]
 
 HEADERS = {
@@ -68,23 +68,23 @@ HEADERS = {
 
 def is_relevant(text: str) -> bool:
     try:
-        text_lc = text.strip().lower()
-        return any(keyword.lower() in text_lc for keyword in KEYWORDS)
-    except Exception as e:
-        logging.warning(f"Keyword check failed: {e}")
-        return False
+        normalized_text = text.lower().strip()
+    except Exception:
+        normalized_text = text.strip()
+    for keyword in KEYWORDS:
+        if keyword.lower() in normalized_text:
+            return True
+    return False
 
 def extract_text_and_link(element: BeautifulSoup, base_url: str) -> Tuple[str, str]:
     text, link = "", ""
     a_tag = element if element.name == 'a' else element.find("a")
-
     if a_tag and a_tag.has_attr('href'):
         text = a_tag.get_text(strip=True)
         raw_link = a_tag.get("href")
         link = urljoin(base_url, raw_link) if raw_link and not raw_link.startswith(("http://", "https://", "javascript:")) else raw_link
     else:
         text = element.get_text(strip=True)
-
     return text.strip(), link if link else ""
 
 def fetch_site_data(site: Dict[str, Any]) -> List[Tuple[str, str]]:
@@ -106,9 +106,7 @@ def fetch_site_data(site: Dict[str, Any]) -> List[Tuple[str, str]]:
             if not driver:
                 logging.error(f"Could not initialize Selenium WebDriver for {site_name}. Skipping.")
                 return []
-
             driver.get(site_url)
-
             if tab_selector:
                 try:
                     WebDriverWait(driver, wait_time).until(
@@ -118,7 +116,6 @@ def fetch_site_data(site: Dict[str, Any]) -> List[Tuple[str, str]]:
                     logging.info(f"Clicked tab selector for {site_name}")
                 except Exception as e:
                     logging.warning(f"Could not click tab for {site_name}: {e}")
-
             try:
                 WebDriverWait(driver, wait_time).until(
                     EC.presence_of_element_located((By.CSS_SELECTOR, site_selector))
@@ -126,7 +123,6 @@ def fetch_site_data(site: Dict[str, Any]) -> List[Tuple[str, str]]:
             except TimeoutException:
                 logging.warning(f"Timeout waiting for selector {site_selector} on {site_name}")
                 return []
-
             soup = BeautifulSoup(driver.page_source, "html.parser")
         else:
             response = requests.get(site_url, verify=False, timeout=20, headers=HEADERS)
