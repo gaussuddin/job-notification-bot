@@ -189,14 +189,17 @@ def check_all_sites():
         if found_last_seen:
             new_notices.reverse()
 
+        # ... আগের কোড অপরিবর্তিত থাকবে ...
+
         if not new_notices:
             logging.info(f"No new notices for {site_name}")
             continue
 
         for text, link in new_notices:
-            msg = f"*{site_name}*\n\n{text}"
+            # 🔁 Markdown বাদ দিয়ে সাধারণ মেসেজ পাঠানো
+            msg = f"{site_name}\n\n{text}"
             if link:
-                msg += f"\n\n[ডাউনলোড/বিসতারিত]({link})"
+                msg += f"\n\nডাউনলোড/বিস্তারিত: {link}"
             send_telegram_message(msg)
             logging.info(f"Sent Telegram message for {site_name}: {text}")
 
