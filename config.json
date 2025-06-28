@@ -88,6 +88,46 @@
     "selenium_enabled": false
    },
 {
+    "id": "Office of the Postmaster General, Metropolitan Circle, Dhaka",
+    "name": "পোস্টমাস্টার জেনারেল এর কার্যালয়, মেট্রোপলিটন সার্কেল, ঢাকা",
+    "url": "https://pmgmetro.bdpost.gov.bd/",
+    "base_url": "https://pmgmetro.bdpost.gov.bd/",
+    "selector": "div.notice-board-bg li a",
+    "selenium_enabled": false
+   },
+{
+    "id": "Post Chittagong Division",
+    "name": "পোস্টমাস্টার জেনারেল এর দপ্তর, পূর্বাঞ্চল, চট্টগ্রাম",
+    "url": "https://post.chittagongdiv.gov.bd/",
+    "base_url": "https://post.chittagongdiv.gov.bd/",
+    "selector": "div.notice-board-bg li a",
+    "selenium_enabled": false
+   },
+{
+    "id": "Office of the Postmaster General, Southern, Khulna",
+    "name": "পোস্টমাস্টার  জেনারেল এর কার্যালয়, দক্ষিনাঞ্চল, খুলনা",
+    "url": "https://pmgkhulna.bdpost.gov.bd/",
+    "base_url": "https://pmgkhulna.bdpost.gov.bd/",
+    "selector": "div.notice-board-bg li a",
+    "selenium_enabled": false
+   },
+{
+    "id": "Post Rajshahi Division",
+    "name": "ডাক বিভাগ রাজশাহী",
+    "url": "https://post.rajshahidiv.gov.bd/",
+    "base_url": "https://post.rajshahidiv.gov.bd/",
+    "selector": "div.notice-board-bg li a",
+    "selenium_enabled": false
+   },
+{
+    "id": "Post Dhaka",
+    "name": "ডাক বিভাগ ঢাকা",
+    "url": "https://post.dhaka.gov.bd/",
+    "base_url": "https://post.dhaka.gov.bd/",
+    "selector": "div.notice-board-bg li a",
+    "selenium_enabled": false
+   },
+{
     "id": "Bangladesh Forest Department Chattogram",
     "name": "বাংলাদেশ বন বিভাগ চট্টগ্রাম (Forest Department)",
     "url": "https://forest.chittagongdiv.gov.bd/",
@@ -2901,6 +2941,14 @@
     "url": "https://bimradbd.org/job-circular",
     "base_url": "https://bimradbd.org",
     "selector": "div.col-lg-12 table tr td",
+    "selenium_enabled": false
+   },
+{
+    "id": "Dhaka Division",
+    "name": "ঢাকা বিভাগ Dhaka Division",
+    "url": "http://www.dhakadiv.gov.bd/",
+    "base_url": "http://www.dhakadiv.gov.bd/",
+    "selector": "div.notice-board-bg li a",
     "selenium_enabled": false
    },
 {
