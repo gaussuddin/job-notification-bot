@@ -1,7 +1,29 @@
+# === Updated main.py with Unicode-normalized Bengali notice handling ===
+
 import threading
 from flask import Flask, jsonify
 from datetime import datetime
 import pytz
+import json
+import os
+import time
+import requests
+import logging
+import unicodedata
+from bs4 import BeautifulSoup
+from typing import List, Tuple, Dict, Any
+from urllib.parse import urljoin
+from urllib3.exceptions import InsecureRequestWarning
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.common.exceptions import TimeoutException
+
+from helpers_mysql import (
+    init_db, load_last_link, set_last_link,
+    send_telegram_message, get_webdriver, close_webdriver,
+    clear_all_last_links
+)
 
 # === Flask App ===
 app = Flask(__name__)
@@ -22,7 +44,6 @@ def show_last_check():
 
 @app.route('/clear-last-seen')
 def clear_last_seen_api():
-    from helpers_mysql import clear_all_last_links
     clear_all_last_links()
     return jsonify({"status": "success", "message": "✅ All last_seen data cleared."})
 
@@ -31,51 +52,32 @@ def run_flask():
 
 threading.Thread(target=run_flask).start()
 
-# === Bot Core Code ===
-import json
-import os
-import time
-import requests
-import logging
-from bs4 import BeautifulSoup
-from typing import List, Tuple, Dict, Any
-from urllib.parse import urljoin
-from urllib3.exceptions import InsecureRequestWarning
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.common.exceptions import TimeoutException
-
-from helpers_mysql import (
-    init_db, load_last_link, set_last_link,
-    send_telegram_message, get_webdriver, close_webdriver,
-    clear_all_last_links, escape_markdown
-)
-
 requests.packages.urllib3.disable_warnings(category=InsecureRequestWarning)
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 init_db()
 
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
-
+# === Keywords and Headers ===
 KEYWORDS = [
-  "চাকরি", "নিয়োগ", "recruitment", "job", "career", "advertisement", "opportunity"
+    "চাকরি", "নিয়োগ", "recruitment", "job", "career", "advertisement", "opportunity"
 ]
 
 HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
 }
 
-def is_relevant(text: str) -> bool:
+# === Normalization and Filtering ===
+def normalize_text(text: str) -> str:
     try:
-        normalized_text = text.lower().strip()
+        return unicodedata.normalize("NFKC", text).strip()
     except Exception:
-        normalized_text = text.strip()
-    for keyword in KEYWORDS:
-        if keyword.lower() in normalized_text:
-            return True
-    return False
+        return text.strip()
 
+def is_relevant(text: str) -> bool:
+    normalized_text = normalize_text(text).lower()
+    return any(keyword.lower() in normalized_text for keyword in KEYWORDS)
+
+# === Extractor ===
 def extract_text_and_link(element: BeautifulSoup, base_url: str) -> Tuple[str, str]:
     text, link = "", ""
     a_tag = element if element.name == 'a' else element.find("a")
@@ -85,8 +87,9 @@ def extract_text_and_link(element: BeautifulSoup, base_url: str) -> Tuple[str, s
         link = urljoin(base_url, raw_link) if raw_link and not raw_link.startswith(("http://", "https://", "javascript:")) else raw_link
     else:
         text = element.get_text(strip=True)
-    return text.strip(), link if link else ""
+    return normalize_text(text), link if link else ""
 
+# === Scraper ===
 def fetch_site_data(site: Dict[str, Any]) -> List[Tuple[str, str]]:
     notices = []
     site_name = site.get("name", "Unknown Site")
@@ -103,9 +106,6 @@ def fetch_site_data(site: Dict[str, Any]) -> List[Tuple[str, str]]:
     try:
         if selenium_enabled:
             driver = get_webdriver()
-            if not driver:
-                logging.error(f"Could not initialize Selenium WebDriver for {site_name}. Skipping.")
-                return []
             driver.get(site_url)
             if tab_selector:
                 try:
@@ -113,20 +113,15 @@ def fetch_site_data(site: Dict[str, Any]) -> List[Tuple[str, str]]:
                         EC.element_to_be_clickable((By.CSS_SELECTOR, tab_selector))
                     ).click()
                     time.sleep(2)
-                    logging.info(f"Clicked tab selector for {site_name}")
                 except Exception as e:
                     logging.warning(f"Could not click tab for {site_name}: {e}")
-            try:
-                WebDriverWait(driver, wait_time).until(
-                    EC.presence_of_element_located((By.CSS_SELECTOR, site_selector))
-                )
-            except TimeoutException:
-                logging.warning(f"Timeout waiting for selector {site_selector} on {site_name}")
-                return []
+            WebDriverWait(driver, wait_time).until(
+                EC.presence_of_element_located((By.CSS_SELECTOR, site_selector))
+            )
             soup = BeautifulSoup(driver.page_source, "html.parser")
         else:
             response = requests.get(site_url, verify=False, timeout=20, headers=HEADERS)
-            response.raise_for_status()
+            response.encoding = response.apparent_encoding
             soup = BeautifulSoup(response.text, "html.parser")
 
         elements = soup.select(site_selector)
@@ -147,10 +142,10 @@ def fetch_site_data(site: Dict[str, Any]) -> List[Tuple[str, str]]:
 
     return notices
 
+# === Runner ===
 def check_all_sites():
     global last_check_time
     last_check_time = datetime.now(pytz.utc)
-    print(f"\n🕒 Checking all sites at {last_check_time.strftime('%Y-%m-%d %H:%M:%S')} UTC")
 
     config_path = "config.json"
     if not os.path.exists(config_path):
@@ -194,16 +189,17 @@ def check_all_sites():
             continue
 
         for text, link in new_notices:
-            msg = f"*{escape_markdown(site_name)}*\n\n{escape_markdown(text)}"
+            msg = f"*{site_name}*\n\n{text}"
             if link:
-                msg += f"\n\n[ডাউনলোড/বিস্তারিত]({escape_markdown(link)})"
-            send_telegram_message(msg, markdown=True)
+                msg += f"\n\n[ডাউনলোড/বিস্তারিত]({link})"
+            send_telegram_message(msg)
             logging.info(f"Sent Telegram message for {site_name}: {text}")
 
         latest_id = notices[0][1] if notices[0][1] else notices[0][0]
         set_last_link(site_id, latest_id)
         logging.info(f"Updated last seen ID for {site_name} to: {latest_id}")
 
+# === Schedule Bot ===
 from apscheduler.schedulers.background import BackgroundScheduler
 scheduler = BackgroundScheduler(timezone=pytz.timezone("Asia/Dhaka"))
 scheduler.add_job(check_all_sites, 'interval', minutes=40)
