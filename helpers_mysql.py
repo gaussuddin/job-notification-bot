@@ -1,10 +1,10 @@
-# ✅ Updated helpers_mysql.py
 import os
 import pymysql
 import re
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from telegram import Bot
+from telegram.constants import ParseMode
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -77,7 +77,8 @@ def escape_markdown(text: str) -> str:
 
 def send_telegram_message(message: str, markdown: bool = False):
     if markdown:
-        bot.send_message(chat_id=CHAT_ID, text=message, parse_mode="MarkdownV2")
+        escaped_msg = escape_markdown(message)
+        bot.send_message(chat_id=CHAT_ID, text=escaped_msg, parse_mode=ParseMode.MARKDOWN_V2)
     else:
         bot.send_message(chat_id=CHAT_ID, text=message)
 
