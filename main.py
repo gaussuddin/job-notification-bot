@@ -49,7 +49,7 @@ from selenium.common.exceptions import TimeoutException
 from helpers_mysql import (
     init_db, load_last_link, set_last_link,
     send_telegram_message, get_webdriver, close_webdriver,
-    clear_all_last_links
+    clear_all_last_links, escape_markdown
 )
 
 requests.packages.urllib3.disable_warnings(category=InsecureRequestWarning)
@@ -59,7 +59,7 @@ init_db()
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 KEYWORDS = [
-  "নিয়োগ", "recruitment", "job", "career", "advertisement", "opportunity"
+  "নিয়োগ", "recruitment", "job", "career", "advertisement", "opportunity"
 ]
 
 HEADERS = {
@@ -189,18 +189,15 @@ def check_all_sites():
         if found_last_seen:
             new_notices.reverse()
 
-        # ... আগের কোড অপরিবর্তিত থাকবে ...
-
         if not new_notices:
             logging.info(f"No new notices for {site_name}")
             continue
 
         for text, link in new_notices:
-            # 🔁 Markdown বাদ দিয়ে সাধারণ মেসেজ পাঠানো
-            msg = f"{site_name}\n\n{text}"
+            msg = f"*{escape_markdown(site_name)}*\n\n{escape_markdown(text)}"
             if link:
-                msg += f"\n\nডাউনলোড/বিস্তারিত: {link}"
-            send_telegram_message(msg)
+                msg += f"\n\n[ডাউনলোড/বিস্তারিত]({escape_markdown(link)})"
+            send_telegram_message(msg, markdown=True)
             logging.info(f"Sent Telegram message for {site_name}: {text}")
 
         latest_id = notices[0][1] if notices[0][1] else notices[0][0]
