@@ -77,7 +77,7 @@ def escape_markdown(text: str) -> str:
 def send_telegram_message(message: str, markdown: bool = False):
     if markdown:
         escaped_msg = escape_markdown(message)
-        bot.send_message(chat_id=CHAT_ID, text=escaped_msg, parse_mode=ParseMode.MARKDOWN_V2)
+        bot.send_message(chat_id=CHAT_ID, text=escaped_msg, parse_mode="MarkdownV2")
     else:
         bot.send_message(chat_id=CHAT_ID, text=message)
 
