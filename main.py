@@ -22,7 +22,7 @@ def show_last_check():
 
 @app.route('/clear-last-seen')
 def clear_last_seen_api():
-    from helpers_postgres import clear_all_last_links
+    from helpers_mysql import clear_all_last_links
     clear_all_last_links()
     return jsonify({"status": "success", "message": "✅ All last_seen data cleared."})
 
@@ -46,7 +46,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
 
-from helpers_postgres import (
+from helpers_mysql import (
     init_db, load_last_link, set_last_link,
     send_telegram_message, get_webdriver, close_webdriver,
     clear_all_last_links
