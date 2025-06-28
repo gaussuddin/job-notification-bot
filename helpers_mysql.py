@@ -69,7 +69,8 @@ if not BOT_TOKEN or not CHAT_ID:
 bot = Bot(token=BOT_TOKEN)
 
 def send_telegram_message(message: str):
-    bot.send_message(chat_id=CHAT_ID, text=message, parse_mode="Markdown")
+    """Send a plain Telegram message without Markdown to avoid formatting issues."""
+    bot.send_message(chat_id=CHAT_ID, text=message)
 
 # === Selenium WebDriver ===
 def get_webdriver(headless=True) -> webdriver.Chrome:
