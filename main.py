@@ -59,7 +59,7 @@ init_db()
 
 # === Keywords and Headers ===
 KEYWORDS = [
-    "চাকরি", "নিয়োগ", "recruitment", "job", "career", "advertisement", "opportunity"
+   "চাকরি", "নিয়োগ", "চাকরির", "recruitment", "job", "career", "opportunity", "advertisement"
 ]
 
 HEADERS = {
