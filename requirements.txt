@@ -1,8 +1,11 @@
+Flask
 requests
 beautifulsoup4
-python-telegram-bot==13.15
-selenium
-webdriver-manager
-flask
-psycopg2-binary
+python-dotenv
 pytz
+pymysql
+psycopg2-binary
+selenium
+urllib3
+python-telegram-bot==13.15
+APScheduler
