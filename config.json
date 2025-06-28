@@ -3190,5 +3190,13 @@
     "base_url": "https://www.police.gov.bd/en/notice-publish-board",
     "selector": "table tr td",
     "selenium_enabled": false
+   },
+{
+    "id": "Ansar VDP",
+    "name": "বাংলাদেশ আনসার ও গ্রাম প্রতিরক্ষা বাহিনী (Ansar VDP)",
+    "url": "https://ansarvdp.gov.bd/",
+    "base_url": "https://ansarvdp.gov.bd",
+    "selector": "div.notice-board-bg li a",
+    "selenium_enabled": false
    }
 ]
