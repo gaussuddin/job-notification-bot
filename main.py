@@ -49,7 +49,7 @@ from selenium.common.exceptions import TimeoutException
 from helpers_mysql import (
     init_db, load_last_link, set_last_link,
     send_telegram_message, get_webdriver, close_webdriver,
-    clear_all_last_links, escape_markdown
+    clear_all_last_links
 )
 
 requests.packages.urllib3.disable_warnings(category=InsecureRequestWarning)
@@ -194,18 +194,10 @@ def check_all_sites():
             continue
 
         for text, link in new_notices:
-            escaped_site = escape_markdown(site_name)
-            escaped_text = escape_markdown(text)
+            msg = f"{site_name}\n\n{text}"
             if link:
-                safe_link = link.replace(")", "\\)").replace("(", "\\(")
-                msg = f"{escaped_site}\n\n{escaped_text}\n\n🔗{safe_link}"
-                msg = msg.replace("\n\n🔗", "🔗")  # prevent extra newlines if needed
-                msg = f"{escaped_site}\n\n{escaped_text}\n\n🔗{link}"
-                send_telegram_message(f"{escaped_site}\n\n{escaped_text} \ud83d\udd17{link}", markdown=True)
-            else:
-                msg = f"{escaped_site}\n\n{escaped_text}"
-                send_telegram_message(msg, markdown=True)
-
+                msg += f"\n\nডাউনলোড/বিস্তারিত: {link}"
+            send_telegram_message(msg)
             logging.info(f"Sent Telegram message for {site_name}: {text}")
 
         latest_id = notices[0][1] if notices[0][1] else notices[0][0]
