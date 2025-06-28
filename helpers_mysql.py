@@ -1,5 +1,7 @@
+# ✅ Updated helpers_mysql.py
 import os
 import pymysql
+import re
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from telegram import Bot
@@ -68,9 +70,16 @@ if not BOT_TOKEN or not CHAT_ID:
 
 bot = Bot(token=BOT_TOKEN)
 
-def send_telegram_message(message: str):
-    """Send a plain Telegram message without Markdown to avoid formatting issues."""
-    bot.send_message(chat_id=CHAT_ID, text=message)
+# === MarkdownV2 Escape Function ===
+def escape_markdown(text: str) -> str:
+    escape_chars = r'_*[]()~`>#+-=|{}.!'
+    return re.sub(r'([%s])' % re.escape(escape_chars), r'\\\1', text)
+
+def send_telegram_message(message: str, markdown: bool = False):
+    if markdown:
+        bot.send_message(chat_id=CHAT_ID, text=message, parse_mode="MarkdownV2")
+    else:
+        bot.send_message(chat_id=CHAT_ID, text=message)
 
 # === Selenium WebDriver ===
 def get_webdriver(headless=True) -> webdriver.Chrome:
