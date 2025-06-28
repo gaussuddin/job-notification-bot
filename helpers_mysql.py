@@ -4,7 +4,6 @@ import re
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from telegram import Bot
-from telegram.constants import ParseMode
 from dotenv import load_dotenv
 
 load_dotenv()
