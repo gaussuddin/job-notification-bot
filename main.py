@@ -197,11 +197,15 @@ def check_all_sites():
             escaped_site = escape_markdown(site_name)
             escaped_text = escape_markdown(text)
             if link:
-                safe_link = link.replace(")", "\\)")
-                msg = f"{escaped_site}\n\n{escaped_text}\n\n[ডাউনলোড/বিস্তারিত]({safe_link})"
+                safe_link = link.replace(")", "\\)").replace("(", "\\(")
+                msg = f"{escaped_site}\n\n{escaped_text}\n\n🔗{safe_link}"
+                msg = msg.replace("\n\n🔗", "🔗")  # prevent extra newlines if needed
+                msg = f"{escaped_site}\n\n{escaped_text}\n\n🔗{link}"
+                send_telegram_message(f"{escaped_site}\n\n{escaped_text} \ud83d\udd17{link}", markdown=True)
             else:
                 msg = f"{escaped_site}\n\n{escaped_text}"
-            send_telegram_message(msg, markdown=True)
+                send_telegram_message(msg, markdown=True)
+
             logging.info(f"Sent Telegram message for {site_name}: {text}")
 
         latest_id = notices[0][1] if notices[0][1] else notices[0][0]
