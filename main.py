@@ -1,3 +1,4 @@
+# === Updated main.py with MarkdownV2 link for Telegram messages ===
 import threading
 from flask import Flask, jsonify
 from datetime import datetime
@@ -48,8 +49,7 @@ from selenium.common.exceptions import TimeoutException
 
 from helpers_mysql import (
     init_db, load_last_link, set_last_link,
-    send_telegram_message, get_webdriver, close_webdriver,
-    clear_all_last_links
+    send_telegram_message, get_webdriver, close_webdriver
 )
 
 requests.packages.urllib3.disable_warnings(category=InsecureRequestWarning)
@@ -59,7 +59,7 @@ init_db()
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 KEYWORDS = [
-  "নিয়োগ", "চাকরি", "recruitment", "job", "career", "advertisement", "opportunity"
+  "নিয়োগ", "চাকরি", "recruitment", "job", "career", "advertisement", "opportunity"
 ]
 
 HEADERS = {
@@ -194,10 +194,12 @@ def check_all_sites():
             continue
 
         for text, link in new_notices:
-            msg = f"{site_name}\n\n{text}"
             if link:
-                msg += f"\n\nডাউনলোড/বিস্তারিত: {link}"
-            send_telegram_message(msg)
+                msg = f"{site_name}\n\n{text}\n\n[ডাউনলোড/বিস্তারিত]({link})"
+                send_telegram_message(msg, markdown=True)
+            else:
+                msg = f"{site_name}\n\n{text}"
+                send_telegram_message(msg)
             logging.info(f"Sent Telegram message for {site_name}: {text}")
 
         latest_id = notices[0][1] if notices[0][1] else notices[0][0]
