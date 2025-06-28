@@ -1,3 +1,4 @@
+# ✅ Updated helpers_mysql.py
 import os
 import pymysql
 import re
@@ -71,25 +72,12 @@ bot = Bot(token=BOT_TOKEN)
 
 # === MarkdownV2 Escape Function ===
 def escape_markdown(text: str) -> str:
-    escape_chars = r'\_*[]()~`>#+-=|{}.!'
+    escape_chars = r'_*[]()~>#+-=|{}.!'
     return re.sub(r'([%s])' % re.escape(escape_chars), r'\\\1', text)
 
-# === Telegram Message Sender ===
 def send_telegram_message(message: str, markdown: bool = False):
     if markdown:
-        parts = message.split("🔗")
-        escaped_msg = escape_markdown(parts[0]).strip()
-        if len(parts) > 1:
-            link = parts[1].strip()
-            # Ensure MarkdownV2-safe link
-            link = link.replace(")", "\\)").replace("(", "\\(")
-            escaped_msg += f"\n\n[ডাউনলোড/বিস্তারিত]({link})"
-        bot.send_message(
-            chat_id=CHAT_ID,
-            text=escaped_msg,
-            parse_mode="MarkdownV2",
-            disable_web_page_preview=True
-        )
+        bot.send_message(chat_id=CHAT_ID, text=message, parse_mode="MarkdownV2")
     else:
         bot.send_message(chat_id=CHAT_ID, text=message)
 
